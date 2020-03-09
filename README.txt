@@ -1,5 +1,5 @@
 For full documentation, please visit:
-https://docs.google.com/document/d/1Q2lBR_aAEmWLzrzlpNJ5aHiGZbh0ww2kO3ZIcjGlP98
+https://ui.vrtcal.com/sdk_documentation_1_0_0/IOSSDK.php
 
 Directory Structure:
 Vrtcal_Mobile_SDK_iOS_#.#.#

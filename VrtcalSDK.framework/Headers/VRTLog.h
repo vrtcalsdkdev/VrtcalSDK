@@ -32,12 +32,6 @@ typedef NS_ENUM(NSInteger, VRTLogLevel) {
 
 @interface VRTLog : NSObject
 
-/**
- * This is the minimum level a message has to be sent with for the SDK to log it.
- * Thus, VRTLogLevelInfo results in all messages being logged, and VRTLogLevelNone results in no messages being logged.
- */
-@property (nonatomic, assign) VRTLogLevel logLevel;
-
 + (instancetype)singleton;
 
 + (void)log:(nonnull NSString *)message
@@ -61,6 +55,11 @@ typedef NS_ENUM(NSInteger, VRTLogLevel) {
  * Gets the contents of the log file.
  */
 - (NSString*) getLogFileAsString;
+
+/**
+ * Converts VRTLogLevel to String
+ */
++ (NSString *)logLevelDescription:(VRTLogLevel)logLevel;
 
 @end
 

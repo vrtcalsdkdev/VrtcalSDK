@@ -20,11 +20,14 @@
 #import "VRTAbstractCustomEvent.h"
 #import "VRTCustomEventConfig.h"
 
-#import "VRTLog.h"
 #import "VRTError.h"
+#import "VRTLog.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @interface VrtcalSDK : NSObject
+
+#pragma mark - Publisher-facing interface
+
 /**
  * Initializes the Vrtcal SDK. It is recommended that you call this method
  * in applicationDidFinishLaunchingWithOptions. 
@@ -32,20 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param appId App ID
  * @param sdkDelegate SDK delegate, to be notified of SDK initialization status
  */
-+ (void)initializeSdkWithAppId:(NSUInteger)appId sdkDelegate:(id <VrtcalSdkDelegate>)sdkDelegate;
-
-/**
- * Do not use this method unless you are a partner and have been instructed to
- * use it.
- *
- * @param serverUrl Server URL
- */
-+ (void)setServerUrl:(NSURL *)serverUrl;
-
-/**
- * Returns the version number of the SDK
- */
-+ (NSString*)sdkVersion;
++ (void)initializeSdkWithAppId:(NSUInteger)appId sdkDelegate:(nullable id <VrtcalSdkDelegate>)sdkDelegate;
 
 /**
  * Allows the publisher to indicate to VRTCAL that the user has the PayPal app installed.
@@ -61,11 +51,29 @@ NS_ASSUME_NONNULL_BEGIN
  */
 +(void) setUserHasVenmoApp:(BOOL)hasApp;
 
+
+#pragma mark - Debug interface
 /**
-* Forces a specific test ad when the ad unit is in test/unverified app mode.
-* NOTE: Test ad IDs can be found at the top of returned creatives in the following form:
-* <!--DEBUG TEST AD: zid_61.json_320x50_adonly-->
-*/
+ * Returns the version number of the SDK
+ */
++ (NSString*)sdkVersion;
+
+/**
+ * A random unique identifier generated when the SDK initializes.
+ */
+@property (class, readonly, nullable) NSString *sessionId;
+
+/**
+ * Sets the URL that the Vrtcal SDK will connect to.
+ * @param serverUrl Server URL
+ */
++ (void)setServerUrl:(NSURL *)serverUrl;
+
+/**
+ * Forces a specific test ad when the ad unit is in test/unverified app mode.
+ * NOTE: Test ad IDs can be found at the top of returned creatives in the following form:
+ * <!--DEBUG TEST AD: zid_61.json_320x50_adonly-->
+ */
 @property (class, nullable) NSString *debugSpecificTestAd;
 
 @end
