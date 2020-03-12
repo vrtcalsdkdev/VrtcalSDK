@@ -1,5 +1,5 @@
 //
-//  VRTBannerCustomEventAlwaysFails.h
+//  VRTBannerCustomEventAlwaysSucceeds.h
 //  VrtcalSDKInternalTestApp
 //
 //  Created by Scott McCoy on 5/9/19.

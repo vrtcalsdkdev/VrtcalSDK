@@ -1,5 +1,5 @@
 //
-//  VRTBannerCustomEventAlwaysFails.h
+//  VRTInterstitialCustomEventAlwaysSucceeds.h
 //  VrtcalSDKInternalTestApp
 //
 //  Created by Scott McCoy on 5/9/19.
@@ -8,5 +8,5 @@
 
 #import <VrtcalSDK/VrtcalSDK.h>
 
-@interface VRTBannerCustomEventFacebook : VRTAbstractBannerCustomEvent
+@interface VRTInterstitialCustomEventAlwaysSucceeds : VRTAbstractInterstitialCustomEvent
 @end

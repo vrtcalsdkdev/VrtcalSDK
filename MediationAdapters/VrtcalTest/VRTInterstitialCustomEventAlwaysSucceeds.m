@@ -1,5 +1,5 @@
 //
-//  VRTInterstitialCustomEventAlwaysFails.m
+//  VRTInterstitialCustomEventAlwaysSucceeds.m
 //  VrtcalSDKInternalTestApp
 //
 //  Created by Scott McCoy on 5/9/19.

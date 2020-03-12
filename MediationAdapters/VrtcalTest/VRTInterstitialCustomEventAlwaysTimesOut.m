@@ -1,5 +1,5 @@
 //
-//  VRTBannerCustomEventAlwaysFails.m
+//  VRTInterstitialCustomEventAlwaysTimesOut.m
 //  VrtcalSDKInternalTestApp
 //
 //  Created by Scott McCoy on 5/9/19.

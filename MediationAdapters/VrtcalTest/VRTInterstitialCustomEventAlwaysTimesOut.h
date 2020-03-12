@@ -1,5 +1,5 @@
 //
-//  VRTBannerCustomEventAlwaysFails.h
+//  VRTInterstitialCustomEventAlwaysTimesOut.h
 //  VrtcalSDKInternalTestApp
 //
 //  Created by Scott McCoy on 5/9/19.
@@ -8,5 +8,5 @@
 
 #import <VrtcalSDK/VrtcalSDK.h>
 
-@interface VRTInterstitialCustomEventMoPub : VRTAbstractInterstitialCustomEvent
+@interface VRTInterstitialCustomEventAlwaysTimesOut : VRTAbstractInterstitialCustomEvent
 @end

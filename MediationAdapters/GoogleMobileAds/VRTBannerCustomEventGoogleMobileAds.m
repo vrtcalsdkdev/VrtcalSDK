@@ -1,6 +1,5 @@
 //
-//  VRTBannerCustomEventAlwaysFails.m
-//  VrtcalSDKInternalTestApp
+//  VRTBannerCustomEventGoogleMobileAds.m
 //
 //  Created by Scott McCoy on 5/9/19.
 //  Copyright © 2019 VRTCAL. All rights reserved.
