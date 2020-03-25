@@ -11,6 +11,5 @@ Vrtcal_Mobile_SDK_iOS_#.#.#
 |-- MediationAdapters
 |---- VRT_is_Primary         Mediation adapters where VrtcalSDK is doing the mediation
 |---- VRT_is_Secondary       Mediation adapters where VrtcalSDK is being mediated
-|-- strip_unused_archs.sh    This can be added as a Run Script Phase to strip unused architecture slices from VrtcalSDK.framework
 
 

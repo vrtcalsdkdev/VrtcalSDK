@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface VRTAbstractBannerCustomEvent : VRTAbstractCustomEvent
 
 - (void)loadBannerAd;
-- (UIView*)getView;
+- (nullable UIView*)getView;
 
 @end
 
