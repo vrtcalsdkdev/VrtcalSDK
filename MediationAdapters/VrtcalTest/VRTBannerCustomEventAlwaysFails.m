@@ -13,7 +13,7 @@
 
 - (void)loadBannerAd {
     VRTError *error = [VRTError errorWithCode:@"DUMMY_ERROR_CODE" message:@"VRTBannerCustomEventAlwaysFails"];
-    [self.customEventLoadDelegate adFailedToLoadWithError:error];
+    [self.customEventLoadDelegate customEventFailedToLoadWithError:error];
 }
 
 @end

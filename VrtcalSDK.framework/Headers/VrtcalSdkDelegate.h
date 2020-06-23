@@ -2,7 +2,6 @@
 //  VrtcalSdkDelegate.h
 //  VrtcalSDK
 //
-//  Created by Sung-Ho Tsai (VRTCAL) on 9/21/18.
 //  Copyright © 2018 VRTCAL. All rights reserved.
 //
 
@@ -20,6 +19,13 @@ NS_ASSUME_NONNULL_BEGIN
  * SDK successfully initialized.
  */
 - (void)sdkInitialized;
+
+/**
+ * SDK initialization failed.
+ */
+- (void)sdkInitializationFailedWithError:(NSError*)error;
+
+
 
 @end
 

@@ -7,5 +7,6 @@
 
 #import <VrtcalSDK/VrtcalSDK.h>
 
+//Google Mobile Ads Interstitial Adapter, Vrtcal as Primary
 @interface VRTInterstitialCustomEventGoogleMobileAds : VRTAbstractInterstitialCustomEvent
 @end

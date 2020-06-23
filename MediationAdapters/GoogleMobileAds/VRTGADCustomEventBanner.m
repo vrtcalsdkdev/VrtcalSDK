@@ -4,12 +4,10 @@
 //Dependencies
 #import <VrtcalSDK/VrtcalSDK.h>
 
+//Google Mobile Ads Banner Adapter, Vrtcal as Secondary
 @interface VRTGADCustomEventBanner () <VRTBannerDelegate>
-
 @property (strong, nonatomic) VRTBanner *vrtBanner;
-
 @end
-
 
 @implementation VRTGADCustomEventBanner
 
@@ -43,8 +41,7 @@
 }
 
 #pragma mark - VRTBanner
-
--(void)vrtBannerAdLoaded:(VRTBanner *)vrtBanner {
+- (void)vrtBannerAdLoaded:(nonnull VRTBanner *)vrtBanner withAdSize:(CGSize)adSize {
     [self.delegate customEventBanner:self didReceiveAd:vrtBanner];
 }
 
@@ -54,11 +51,47 @@
 
 -(void)vrtBannerAdClicked:(VRTBanner *)vrtBanner {
     [self.delegate customEventBannerWasClicked:self];
+}
+
+- (void)vrtBannerWillPresentModal:(nonnull VRTBanner *)vrtBanner ofType:(VRTModalType)modalType {
     [self.delegate customEventBannerWillPresentModal:self];
+}
+
+- (void)vrtBannerDidPresentModal:(nonnull VRTBanner *)vrtBanner ofType:(VRTModalType)modalType {
+    
+}
+
+- (void)vrtBannerWillDismissModal:(nonnull VRTBanner *)vrtBanner ofType:(VRTModalType)modalType {
+    [self.delegate customEventBannerWillDismissModal:self];
+}
+
+- (void)vrtBannerDidDismissModal:(nonnull VRTBanner *)vrtBanner ofType:(VRTModalType)modalType {
+    [self.delegate customEventBannerDidDismissModal:self];
+}
+
+- (void)vrtBannerAdWillLeaveApplication:(nonnull VRTBanner *)vrtBanner {
+    [self.delegate customEventBannerWillLeaveApplication:self];
 }
 
 -(UIViewController*)vrtViewControllerForModalPresentation{
     return self.delegate.viewControllerForPresentingModalView;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @end

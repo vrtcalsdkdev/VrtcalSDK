@@ -41,7 +41,7 @@
  */
 - (void)adViewDidClick:(FBAdView *)adView {
     VRTLogWhereAmI();
-    [self.customEventShowDelegate adClicked];
+    [self.customEventShowDelegate customEventClicked];
 }
 
 /**
@@ -62,7 +62,7 @@
  */
 - (void)adViewDidLoad:(FBAdView *)adView {
     VRTLogWhereAmI();
-    [self.customEventLoadDelegate adLoaded];
+    [self.customEventLoadDelegate customEventLoaded];
 }
 
 
@@ -74,7 +74,7 @@
  */
 - (void)adView:(FBAdView *)adView didFailWithError:(NSError *)error {
     VRTLogWhereAmI();
-    [self.customEventLoadDelegate adFailedToLoadWithError:error];
+    [self.customEventLoadDelegate customEventFailedToLoadWithError:error];
 }
 
 /**

@@ -2,7 +2,6 @@
 //  VrtcalInterstitial.h
 //  VrtcalSDK
 //
-//  Created by Sung-Ho Tsai (VRTCAL) on 10/2/18.
 //  Copyright © 2018 VRTCAL. All rights reserved.
 //
 

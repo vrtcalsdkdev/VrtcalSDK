@@ -433,9 +433,7 @@ debugVRTMraid("Beginning to add mraid.js");
     /* useCustomClose - true if ad creative supplies its own designs for the close area, false if SDK */
     /* default image should be displayed for the close area */
     mraid.useCustomClose = function(useCustomClose) {
-        if (useCustomClose == true || useCustomClose == false) {
-            mraid.expandProperties.useCustomClose = useCustomClose;
-        }
+        //Ignored in MRAID 3.0
     };
 
     /* Fire specific event with arguments */

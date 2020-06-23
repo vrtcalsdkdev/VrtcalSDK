@@ -2,13 +2,13 @@
 //  VRTInterstitialDelegate.h
 //  VrtcalSDK
 //
-//  Created by Sung-Ho Tsai (VRTCAL) on 10/2/18.
 //  Copyright © 2018 VRTCAL. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
 @class VRTInterstitial;
+@class UIViewController;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -30,12 +30,21 @@ NS_ASSUME_NONNULL_BEGIN
  */
 -(void)vrtInterstitialAdFailedToLoad:(VRTInterstitial *)vrtInterstitial error:(NSError *)error;
 
+
+/**
+ * Show has been invoked and the interstitial animation will begin.
+ *
+ * @param vrtInterstitial Interstitial object used to load ad
+*/
+-(void)vrtInterstitialAdWillShow:(VRTInterstitial *)vrtInterstitial;
+
+
 /**
  * Show has been invoked and the interstitial animation is complete.
  *
  * @param vrtInterstitial Interstitial object used to load ad
  */
--(void)vrtInterstitialAdShown:(VRTInterstitial *)vrtInterstitial;
+-(void)vrtInterstitialAdDidShow:(VRTInterstitial *)vrtInterstitial;
 
 /**
  * Could not show interstitial ad, either due to a failure to load, already showing or other error.
@@ -53,11 +62,27 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)vrtInterstitialAdClicked:(VRTInterstitial *)vrtInterstitial;
 
 /**
+ * The application will be backgrounded to launch the browser. The user must have interacted with the ad.
+ *
+ * @param vrtInterstitial Interstitial object used to load ad
+ */
+-(void)vrtInterstitialAdWillLeaveApplication:(VRTInterstitial *)vrtInterstitial;
+
+
+/**
+ * Close button tapped and interstitial animation begun.
+ *
+ * @param vrtInterstitial Interstitial object used to load ad
+ */
+-(void)vrtInterstitialAdWillDismiss:(VRTInterstitial *)vrtInterstitial;
+
+
+/**
  * Close button tapped and interstitial animation complete.
  *
  * @param vrtInterstitial Interstitial object used to load ad
  */
--(void)vrtInterstitialAdDismissed:(VRTInterstitial *)vrtInterstitial;
+-(void)vrtInterstitialAdDidDismiss:(VRTInterstitial *)vrtInterstitial;
 
 /**
  * Must be implemented

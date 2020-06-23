@@ -4,6 +4,7 @@
 //Dependencies
 #import <VrtcalSDK/VrtcalSDK.h>
 
+//Google Mobile Ads Interstitial Adapter, Vrtcal as Secondary
 @interface VRTGADCustomEventInterstitial () <VRTInterstitialDelegate>
 
 @property (nonatomic, weak) UIViewController *rootViewController;
@@ -52,30 +53,40 @@
 
 #pragma mark - VRTInterstitialDelegate
 
-- (void)vrtInterstitialAdClicked:(nonnull VRTInterstitial *)vrtInterstitial {
-    [self.delegate customEventInterstitialWasClicked:self];
-    [self.delegate customEventInterstitialWillLeaveApplication:self];
-}
-
-- (void)vrtInterstitialAdDismissed:(nonnull VRTInterstitial *)vrtInterstitial {
-    [self.delegate customEventInterstitialWillDismiss:self];
-    [self.delegate customEventInterstitialDidDismiss:self];
+- (void)vrtInterstitialAdLoaded:(nonnull VRTInterstitial *)vrtInterstitial {
+    [self.delegate customEventInterstitialDidReceiveAd:self];
 }
 
 - (void)vrtInterstitialAdFailedToLoad:(nonnull VRTInterstitial *)vrtInterstitial error:(nonnull NSError *)error {
     [self.delegate customEventInterstitial:self didFailAd:error];
 }
 
+- (void)vrtInterstitialAdWillShow:(nonnull VRTInterstitial *)vrtInterstitial {
+    [self.delegate customEventInterstitialWillPresent:self];
+}
+
+- (void)vrtInterstitialAdDidShow:(nonnull VRTInterstitial *)vrtInterstitial {
+    [self.delegate customEventInterstitialWillPresent:self];
+}
+
 - (void)vrtInterstitialAdFailedToShow:(nonnull VRTInterstitial *)vrtInterstitial error:(nonnull NSError *)error {
     [self.delegate customEventInterstitial:self didFailAd:error];
 }
 
-- (void)vrtInterstitialAdLoaded:(nonnull VRTInterstitial *)vrtInterstitial {
-    [self.delegate customEventInterstitialDidReceiveAd:self];
+- (void)vrtInterstitialAdClicked:(nonnull VRTInterstitial *)vrtInterstitial {
+    [self.delegate customEventInterstitialWasClicked:self];
 }
 
-- (void)vrtInterstitialAdShown:(nonnull VRTInterstitial *)vrtInterstitial {
-    [self.delegate customEventInterstitialWillPresent:self];
+- (void)vrtInterstitialAdWillLeaveApplication:(nonnull VRTInterstitial *)vrtInterstitial {
+    [self.delegate customEventInterstitialWillLeaveApplication:self];
+}
+
+- (void)vrtInterstitialAdWillDismiss:(nonnull VRTInterstitial *)vrtInterstitial {
+    [self.delegate customEventInterstitialWillDismiss:self];
+}
+
+- (void)vrtInterstitialAdDidDismiss:(nonnull VRTInterstitial *)vrtInterstitial {
+    [self.delegate customEventInterstitialDidDismiss:self];
 }
 
 - (nonnull UIViewController *)vrtViewControllerForModalPresentation {

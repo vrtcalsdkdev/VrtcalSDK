@@ -42,7 +42,7 @@
  */
 - (void)interstitialAdDidClick:(FBInterstitialAd *)interstitialAd {
     VRTLogWhereAmI();
-    [self.customEventShowDelegate adClicked];
+    [self.customEventShowDelegate customEventClicked];
 }
 
 /**
@@ -53,7 +53,7 @@
  */
 - (void)interstitialAdDidClose:(FBInterstitialAd *)interstitialAd {
     VRTLogWhereAmI();
-    [self.customEventShowDelegate adDismissed];
+    [self.customEventShowDelegate customEventDidDismissModal:VRTModalTypeInterstitial];
 }
 
 /**
@@ -63,6 +63,7 @@
  */
 - (void)interstitialAdWillClose:(FBInterstitialAd *)interstitialAd {
     VRTLogWhereAmI();
+    [self.customEventShowDelegate customEventWillDismissModal:VRTModalTypeInterstitial];
 }
 
 
@@ -73,7 +74,7 @@
  */
 - (void)interstitialAdDidLoad:(FBInterstitialAd *)interstitialAd {
     VRTLogWhereAmI();
-    [self.customEventLoadDelegate adLoaded];
+    [self.customEventLoadDelegate customEventLoaded];
 }
 
 /**
@@ -86,7 +87,7 @@
     VRTLogWhereAmI();
     //Facebook puts error messages in their own format.
     VRTError *vrtError = [VRTError errorWithCode:VRTErrorCodeCustomEvent format:@"%@", error.userInfo];
-    [self.customEventLoadDelegate adFailedToLoadWithError:vrtError];
+    [self.customEventLoadDelegate customEventFailedToLoadWithError:vrtError];
 }
 
 /**
@@ -96,7 +97,7 @@
  */
 - (void)interstitialAdWillLogImpression:(FBInterstitialAd *)interstitialAd {
     VRTLogWhereAmI();
-    [self.customEventShowDelegate adShown];
+    [self.customEventShowDelegate customEventShown];
 }
 
 

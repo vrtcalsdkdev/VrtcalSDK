@@ -6,6 +6,6 @@
 //
 
 #import <VrtcalSDK/VrtcalSDK.h>
-
+//Google Mobile Ads Banner Adapter, Vrtcal as Primary
 @interface VRTBannerCustomEventGoogleMobileAds : VRTAbstractBannerCustomEvent
 @end

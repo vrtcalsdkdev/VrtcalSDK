@@ -13,7 +13,7 @@
 
 - (void)loadInterstitialAd {
     VRTError *error = [VRTError errorWithCode:@"DUMMY_ERROR_CODE" message:@"VRTInterstitialCustomEventAlwaysFails"];
-    [self.customEventLoadDelegate adFailedToLoadWithError:error];
+    [self.customEventLoadDelegate customEventFailedToLoadWithError:error];
 }
 
 

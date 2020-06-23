@@ -35,7 +35,6 @@
  */
 -(void)interstitialDidReceiveAd:(IMInterstitial*)interstitial {
     VRTLogWhereAmI();
-    [self.customEventLoadDelegate adLoaded];
 }
 
 /**
@@ -43,6 +42,7 @@
  */
 -(void)interstitialDidFinishLoading:(IMInterstitial*)interstitial {
     VRTLogWhereAmI();
+    [self.customEventLoadDelegate customEventLoaded];
 }
 
 /**
@@ -50,7 +50,7 @@
  */
 -(void)interstitial:(IMInterstitial*)interstitial didFailToLoadWithError:(IMRequestStatus *)error {
     VRTLogWhereAmI();
-    [self.customEventLoadDelegate adFailedToLoadWithError:error];
+    [self.customEventLoadDelegate customEventFailedToLoadWithError:error];
 }
 
 /**
@@ -58,6 +58,7 @@
  */
 -(void)interstitialWillPresent:(IMInterstitial*)interstitial {
     VRTLogWhereAmI();
+    [self.customEventShowDelegate customEventWillPresentModal:VRTModalTypeInterstitial];
 }
 
 /**
@@ -65,7 +66,8 @@
  */
 -(void)interstitialDidPresent:(IMInterstitial*)interstitial {
     VRTLogWhereAmI();
-    [self.customEventShowDelegate adShown];
+    [self.customEventShowDelegate customEventShown];
+    [self.customEventShowDelegate customEventDidPresentModal:VRTModalTypeInterstitial];
 }
 
 /**
@@ -73,6 +75,7 @@
  */
 -(void)interstitial:(IMInterstitial*)interstitial didFailToPresentWithError:(IMRequestStatus*)error {
     VRTLogWhereAmI();
+    
 }
 
 /**
@@ -80,6 +83,7 @@
  */
 -(void)interstitialWillDismiss:(IMInterstitial*)interstitial {
     VRTLogWhereAmI();
+    [self.customEventShowDelegate customEventWillDismissModal:VRTModalTypeInterstitial];
 }
 
 /**
@@ -87,7 +91,7 @@
  */
 -(void)interstitialDidDismiss:(IMInterstitial*)interstitial {
     VRTLogWhereAmI();
-    [self.customEventShowDelegate adDismissed];
+    [self.customEventShowDelegate customEventDidDismissModal:VRTModalTypeInterstitial];
 }
 
 /**
@@ -95,7 +99,7 @@
  */
 -(void)interstitial:(IMInterstitial*)interstitial didInteractWithParams:(NSDictionary*)params {
     VRTLogWhereAmI();
-    [self.customEventShowDelegate adClicked];
+    [self.customEventShowDelegate customEventClicked];
 }
 
 /**
@@ -110,6 +114,7 @@
  */
 -(void)userWillLeaveApplicationFromInterstitial:(IMInterstitial*)interstitial {
     VRTLogWhereAmI();
+    [self.customEventShowDelegate customEventWillLeaveApplication];
 }
 
 

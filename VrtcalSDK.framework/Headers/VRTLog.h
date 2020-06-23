@@ -2,7 +2,6 @@
 //  VRTLog.h
 //  VrtcalSDK
 //
-//  Created by Sung-Ho Tsai (VRTCAL) on 9/22/18.
 //  Copyright © 2018 VRTCAL. All rights reserved.
 //
 

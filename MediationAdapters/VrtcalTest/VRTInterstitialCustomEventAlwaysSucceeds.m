@@ -17,7 +17,7 @@
 @implementation VRTInterstitialCustomEventAlwaysSucceeds
 
 - (void) loadInterstitialAd {
-    [self.customEventLoadDelegate adLoaded];
+    [self.customEventLoadDelegate customEventLoaded];
 }
 
 

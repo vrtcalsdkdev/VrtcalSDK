@@ -2,7 +2,6 @@
 //  VrtcalCustomEventConfig.h
 //  VrtcalSDK
 //
-//  Created by Sung-Ho Tsai (VRTCAL) on 9/25/18.
 //  Copyright © 2018 VRTCAL. All rights reserved.
 //
 
@@ -10,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "VRTAdType.h"
 #import "VRTZoneType.h"
+#import "VRTAbstractCustomEvent.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -25,13 +25,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property NSString *creative;
 @property CGSize adSize;
 @property VRTAdType adType; //Options: Banner, Interstitial
-@property VRTZoneType zoneType; //Options: Unknown, Display, VAST
+@property VRTZoneType zoneType; //Options: Display, VAST
 @property NSTimeInterval refreshInterval;
 @property NSDictionary *localExtras;
 
 @property NSArray<NSURL*> *arrUrlAdRequested;
 @property NSArray<NSURL*> *arrUrlAdReceived;
 @property NSArray<NSURL*> *arrUrlAdImpressed;
+
+@property (weak) VRTAbstractCustomEvent *customEvent;
 
 @end
 

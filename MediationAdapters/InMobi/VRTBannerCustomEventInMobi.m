@@ -37,7 +37,7 @@
  */
 -(void)bannerDidFinishLoading:(IMBanner*)banner {
     VRTLogWhereAmI();
-    [self.customEventLoadDelegate adLoaded];
+    [self.customEventLoadDelegate customEventLoaded];
 }
 
 
@@ -46,7 +46,7 @@
  */
 -(void)banner:(IMBanner*)banner didFailToLoadWithError:(IMRequestStatus*)error {
     VRTLogWhereAmI();
-    [self.customEventLoadDelegate adFailedToLoadWithError:error];
+    [self.customEventLoadDelegate customEventFailedToLoadWithError:error];
 }
 
 /**
@@ -54,7 +54,7 @@
  */
 -(void)banner:(IMBanner*)banner didInteractWithParams:(NSDictionary*)params {
     VRTLogWhereAmI();
-    [self.customEventShowDelegate adClicked];
+    [self.customEventShowDelegate customEventClicked];
 }
 
 /**
@@ -62,6 +62,7 @@
  */
 -(void)userWillLeaveApplicationFromBanner:(IMBanner*)banner {
     VRTLogWhereAmI();
+    [self.customEventShowDelegate customEventWillLeaveApplication];
 }
 
 /**
@@ -69,7 +70,7 @@
  */
 -(void)bannerWillPresentScreen:(IMBanner*)banner {
     VRTLogWhereAmI();
-    [self.customEventShowDelegate adClicked];
+    [self.customEventShowDelegate customEventWillPresentModal:VRTModalTypeUnknown];
 }
 
 /**
@@ -77,6 +78,7 @@
  */
 -(void)bannerDidPresentScreen:(IMBanner*)banner {
     VRTLogWhereAmI();
+    [self.customEventShowDelegate customEventWillPresentModal:VRTModalTypeUnknown];
 }
 
 /**
@@ -84,6 +86,7 @@
  */
 -(void)bannerWillDismissScreen:(IMBanner*)banner {
     VRTLogWhereAmI();
+    [self.customEventShowDelegate customEventWillDismissModal:VRTModalTypeUnknown];
 }
 
 /**
@@ -91,7 +94,7 @@
  */
 -(void)bannerDidDismissScreen:(IMBanner*)banner {
     VRTLogWhereAmI();
-    [self.customEventShowDelegate adDismissed];
+    [self.customEventShowDelegate customEventDidDismissModal:VRTModalTypeUnknown];
 }
 
 /**

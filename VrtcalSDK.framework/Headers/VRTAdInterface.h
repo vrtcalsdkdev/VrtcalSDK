@@ -2,7 +2,6 @@
 //  VRTAdInterface.h
 //  VrtcalSDK
 //
-//  Created by Scott McCoy on 3/8/19.
 //  Copyright © 2019 VRTCAL. All rights reserved.
 //
 

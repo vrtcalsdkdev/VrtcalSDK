@@ -2,7 +2,6 @@
 //  VRTError.h
 //  VrtcalSDK
 //
-//  Created by Scott McCoy on 2/14/19.
 //  Copyright © 2019 VRTCAL. All rights reserved.
 //
 

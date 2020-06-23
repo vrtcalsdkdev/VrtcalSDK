@@ -2,11 +2,11 @@
 //  VRTCustomEventShowDelegate.h
 //  VrtcalSDK
 //
-//  Created by Sung-Ho Tsai (VRTCAL) on 9/25/18.
 //  Copyright © 2018 VRTCAL. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import "VRTModalType.h"
 @class UIView;
 
 NS_ASSUME_NONNULL_BEGIN
@@ -14,13 +14,14 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol VRTCustomEventShowDelegate <NSObject>
 
 @required
-- (void)adShown;
-- (void)adClicked;
-- (void)adReimplant:(UIView*)view;
-
-@optional
-- (void)adDismissed;
-
+- (void)customEventShown;
+- (void)customEventClicked;
+- (void)customEventWillLeaveApplication;
+- (void)customEventWillPresentModal:(VRTModalType)modalType;
+- (void)customEventDidPresentModal:(VRTModalType)modalType;
+- (void)customEventWillDismissModal:(VRTModalType)modalType;
+- (void)customEventDidDismissModal:(VRTModalType)modalType;
+- (void)customEventAddSubviewBackIntoBannerAfterResizeOrOnePartExpand:(UIView*)view;
 @end
 
 

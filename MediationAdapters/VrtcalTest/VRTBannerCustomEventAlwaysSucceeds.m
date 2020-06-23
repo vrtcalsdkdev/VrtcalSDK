@@ -12,7 +12,7 @@
 @implementation VRTBannerCustomEventAlwaysSucceeds
 
 - (void) loadBannerAd {
-    [self.customEventLoadDelegate adLoaded];
+    [self.customEventLoadDelegate customEventLoaded];
 }
 
 - (UIView*) getView {

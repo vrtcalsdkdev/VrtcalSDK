@@ -2,7 +2,6 @@
 //  VRTCustomEventLoadDelegate.h
 //  VrtcalSDK
 //
-//  Created by Sung-Ho Tsai (VRTCAL) on 9/25/18.
 //  Copyright © 2018 VRTCAL. All rights reserved.
 //
 
@@ -13,8 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol VRTCustomEventLoadDelegate <NSObject>
 
-- (void)adLoaded;
-- (void)adFailedToLoadWithError:(NSError*)error;
+- (void)customEventLoaded;
+- (void)customEventFailedToLoadWithError:(NSError*)error;
 
 @end
 
