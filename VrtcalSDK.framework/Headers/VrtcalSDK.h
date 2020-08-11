@@ -58,7 +58,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString*)sdkVersion;
 
 /**
- * A random unique identifier generated when the SDK initializes.
+ * A random unique identifier generated when the SDK initializes for the first time.
  */
 @property (class, readonly, nullable) NSString *sessionId;
 

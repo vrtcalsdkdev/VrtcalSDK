@@ -85,6 +85,14 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)vrtInterstitialAdDidDismiss:(VRTInterstitial *)vrtInterstitial;
 
 /**
+ * The interstitial has completed playing a video.
+ *
+ * @param vrtInterstitial Interstitial object used to load ad
+ */
+-(void)vrtInterstitialVideoCompleted:(VRTInterstitial *)vrtInterstitial;
+
+
+/**
  * Must be implemented
  */
 -(UIViewController*)vrtViewControllerForModalPresentation;

@@ -15,8 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface VRTInterstitial : NSObject <VRTAdInterface>
 
-@property (weak, nonatomic, nullable) id <VRTInterstitialDelegate> adDelegate;
-@property (strong, nonatomic, nullable) NSDictionary *localExtras;
+@property (weak, nullable) id <VRTInterstitialDelegate> adDelegate;
+@property (nullable) NSDictionary *localExtras;
 
 - (void)loadAd:(NSUInteger)zoneId;
 - (void)showAd;

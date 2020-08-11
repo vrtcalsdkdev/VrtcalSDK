@@ -1,22 +1,44 @@
+//MoPub Interstitial Adapter, Vrtcal as Secondary
+
+//Header
 #import "VRTMPInterstitialCustomEvent.h"
 
-//MoPub Interstitial Adapter, Vrtcal as Secondary
-@interface VRTMPInterstitialCustomEvent()
+@interface VRTMPInterstitialCustomEvent() <VRTInterstitialDelegate>
 @property (weak) UIViewController *viewControllerForModalPresentation;
+@property VRTInterstitial *vrtInterstitial;
+@property BOOL vrtcalAdLoaded;
 @end
 
-@implementation VRTMPInterstitialCustomEvent
 
-- (void)requestInterstitialWithCustomEventInfo:(NSDictionary *)info {
-    [self requestInterstitialWithCustomEventInfo:info adMarkup:nil];
+//Ignore "Auto property synthesis will not synthesize property" warnings for delegate, hasAdAvailable and localExtras.
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wobjc-protocol-property-synthesis"
+@implementation VRTMPInterstitialCustomEvent
+#pragma clang diagnostic pop
+
+- (BOOL)isRewardExpected {
+    return NO;
 }
 
-- (void)requestInterstitialWithCustomEventInfo:(NSDictionary *)info adMarkup:(NSString *)adMarkup {
+- (BOOL)hasAdAvailable {
+    return self.vrtcalAdLoaded;
+}
+
+- (BOOL)enableAutomaticImpressionAndClickTracking {
+    return YES;
+}
+
+
+- (void)requestAdWithAdapterInfo:(NSDictionary *)info {
+    [self requestAdWithAdapterInfo:info adMarkup:nil];
+}
+
+- (void)requestAdWithAdapterInfo:(NSDictionary *)info adMarkup:(NSString *)adMarkup {
     NSString *strZoneId = info[@"zid"];
     int zoneId = [strZoneId intValue];
     if (zoneId <= 0) {
-        NSError *error = [VRTError errorWithCode:VRTErrorCodeInvalidParam format:@"Unusable zoneId of %i. Vrtcal ads require an Zone ID (unsigned int) to serve ads", zoneId];
-        [self.delegate interstitialCustomEvent:self didFailToLoadAdWithError:error];
+        NSError *error = [VRTError errorWithCode:VRTErrorCodeInvalidParam format:@"Unusable zoneId of %i. Vrtcal ads require a Zone ID (unsigned int) to serve ads", zoneId];
+        [self.delegate fullscreenAdAdapter:self didFailToLoadAdWithError:error];
         return;
     }
     
@@ -25,50 +47,60 @@
     [self.vrtInterstitial loadAd:zoneId];
 }
 
-- (void)showInterstitialFromRootViewController:(UIViewController *)rootViewController {
+- (void)presentAdFromViewController:(UIViewController *)rootViewController {
     self.viewControllerForModalPresentation = rootViewController;
     [self.vrtInterstitial showAd];
 }
 
--(BOOL)enableAutomaticImpressionAndClickTracking {
-    return YES;
+- (void)handleDidInvalidateAd {
+    //Though Vrtcal has internal caching, it doesn't respond to this event.
 }
+
+
+- (void)handleDidPlayAd {
+    //Vrtcal does not currently handle this event.
+}
+
+
+
 
 #pragma mark - VRTInterstitialDelegate
 - (void)vrtInterstitialAdLoaded:(nonnull VRTInterstitial *)vrtInterstitial {
-    [self.delegate interstitialCustomEvent:self didLoadAd:vrtInterstitial];
+    self.vrtcalAdLoaded = YES;
+    [self.delegate fullscreenAdAdapterDidLoadAd:self];
 }
 
 - (void)vrtInterstitialAdFailedToLoad:(nonnull VRTInterstitial *)vrtInterstitial error:(nonnull NSError *)error {
-    [self.delegate interstitialCustomEvent:self didFailToLoadAdWithError:error];
+    self.vrtcalAdLoaded = NO;
+    [self.delegate fullscreenAdAdapter:self didFailToLoadAdWithError:error];
 }
 
 - (void)vrtInterstitialAdWillShow:(nonnull VRTInterstitial *)vrtInterstitial {
-    [self.delegate interstitialCustomEventWillAppear:self];
+    [self.delegate fullscreenAdAdapterAdWillAppear:self];
 }
 
 - (void)vrtInterstitialAdDidShow:(nonnull VRTInterstitial *)vrtInterstitial {
-    [self.delegate interstitialCustomEventDidAppear:self];
+    [self.delegate fullscreenAdAdapterAdDidAppear:self];
 }
 
 - (void)vrtInterstitialAdFailedToShow:(nonnull VRTInterstitial *)vrtInterstitial error:(nonnull NSError *)error {
-    [self.delegate interstitialCustomEvent:self didFailToLoadAdWithError:error];
+    [self.delegate fullscreenAdAdapter:self didFailToShowAdWithError:error];
 }
 
 - (void)vrtInterstitialAdClicked:(nonnull VRTInterstitial *)vrtInterstitial {
-    [self.delegate interstitialCustomEventDidReceiveTapEvent:self];
+    [self.delegate fullscreenAdAdapterDidReceiveTap:self];
 }
 
 -(void)vrtInterstitialAdWillLeaveApplication:(nonnull VRTInterstitial*)vrtInterstitial {
-    [self.delegate interstitialCustomEventWillLeaveApplication:self];
+    [self.delegate fullscreenAdAdapterWillLeaveApplication:self];
 }
 
 - (void)vrtInterstitialAdWillDismiss:(nonnull VRTInterstitial *)vrtInterstitial {
-    [self.delegate interstitialCustomEventWillDisappear:self];
+    [self.delegate fullscreenAdAdapterAdWillDisappear:self];
 }
 
 - (void)vrtInterstitialAdDidDismiss:(nonnull VRTInterstitial *)vrtInterstitial {
-    [self.delegate interstitialCustomEventDidDisappear:self];
+    [self.delegate fullscreenAdAdapterAdDidDisappear:self];
 }
 
 
@@ -76,20 +108,9 @@
     return self.viewControllerForModalPresentation;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- (void)vrtInterstitialVideoCompleted:(nonnull VRTInterstitial *)vrtInterstitial {
+    //MoPub does not offer an analog to this event
+}
 
 
 

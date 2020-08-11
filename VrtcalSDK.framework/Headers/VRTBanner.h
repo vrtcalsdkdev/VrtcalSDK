@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
  * Banner ad delegate, used to listen to banner events, such as ad loaded,
  * ad failed events
  */
-@property (weak, nonatomic, nullable) id <VRTBannerDelegate> adDelegate;
+@property (weak, nullable) id <VRTBannerDelegate> adDelegate;
 
 /**
  * Data structure used to pass runtime values programmatically to custom
@@ -32,7 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
  * be accessible in custom event.  This property is only needed for
  * publishers who implement their own custom events.
  */
-@property (strong, nonatomic, nullable) NSDictionary *localExtras;
+@property (nullable) NSDictionary *localExtras;
 
 /**
  * Asynchronously loads a banner ad. Any outcome is communicated via adDelegate.

@@ -6,7 +6,7 @@
 
 //Google Mobile Ads Banner Adapter, Vrtcal as Secondary
 @interface VRTGADCustomEventBanner () <VRTBannerDelegate>
-@property (strong, nonatomic) VRTBanner *vrtBanner;
+@property VRTBanner *vrtBanner;
 @end
 
 @implementation VRTGADCustomEventBanner
@@ -76,6 +76,11 @@
 -(UIViewController*)vrtViewControllerForModalPresentation{
     return self.delegate.viewControllerForPresentingModalView;
 }
+
+- (void)vrtBannerVideoCompleted:(nonnull VRTBanner *)vrtBanner {
+    //Google Mobile Ads doesn't have an analog to this event.
+}
+
 
 
 

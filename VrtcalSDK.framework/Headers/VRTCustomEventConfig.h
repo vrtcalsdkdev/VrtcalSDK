@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "VRTAdType.h"
+#import "VRTDevicePlacement.h"
 #import "VRTZoneType.h"
 #import "VRTAbstractCustomEvent.h"
 
@@ -24,8 +24,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property NSDictionary *thirdPartyCustomEventData;
 @property NSString *creative;
 @property CGSize adSize;
-@property VRTAdType adType; //Options: Banner, Interstitial
+@property VRTDevicePlacement devicePlacement; //Options: Banner, Interstitial
 @property VRTZoneType zoneType; //Options: Display, VAST
+@property BOOL showCloseButtonOnVideoInterstitial;
 @property NSTimeInterval refreshInterval;
 @property NSDictionary *localExtras;
 

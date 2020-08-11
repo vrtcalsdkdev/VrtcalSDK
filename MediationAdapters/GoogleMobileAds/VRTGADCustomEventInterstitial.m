@@ -7,8 +7,8 @@
 //Google Mobile Ads Interstitial Adapter, Vrtcal as Secondary
 @interface VRTGADCustomEventInterstitial () <VRTInterstitialDelegate>
 
-@property (nonatomic, weak) UIViewController *rootViewController;
-@property (nonatomic, strong) VRTInterstitial *vrtInterstitial;
+@property (weak) UIViewController *rootViewController;
+@property VRTInterstitial *vrtInterstitial;
 
 @end
 
@@ -92,5 +92,10 @@
 - (nonnull UIViewController *)vrtViewControllerForModalPresentation {
     return self.rootViewController;
 }
+
+- (void)vrtInterstitialVideoCompleted:(nonnull VRTInterstitial *)vrtInterstitial {
+    //Google Mobile Ads doesn't have an analog to this event.
+}
+
 
 @end

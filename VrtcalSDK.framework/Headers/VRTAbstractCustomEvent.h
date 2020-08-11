@@ -21,8 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property VRTCustomEventConfig *customEventConfig;
 @property (weak) id viewControllerDelegate;
-@property (weak, nonatomic) id <VRTCustomEventLoadDelegate> customEventLoadDelegate;
-@property (weak, nonatomic) id <VRTCustomEventShowDelegate> customEventShowDelegate;
+@property (weak) id <VRTCustomEventLoadDelegate> customEventLoadDelegate;
+@property (weak) id <VRTCustomEventShowDelegate> customEventShowDelegate;
 
 -(instancetype) init NS_UNAVAILABLE;
 -(instancetype) initWithCustomEventConfig:(VRTCustomEventConfig*)customEventConfig viewControllerDelegate:(id)viewControllerDelegate NS_DESIGNATED_INITIALIZER;
