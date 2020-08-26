@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)customEventWillDismissModal:(VRTModalType)modalType;
 - (void)customEventDidDismissModal:(VRTModalType)modalType;
 - (void)customEventAddSubviewBackIntoBannerAfterResizeOrOnePartExpand:(UIView*)view;
+- (void)customEventVideoStarted;
 - (void)customEventVideoCompleted;
 @end
 

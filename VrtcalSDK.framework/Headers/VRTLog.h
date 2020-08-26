@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSInteger, VRTLogLevel) {
     VRTLogLevelInfo     = 0,    //Debug messages, intended to be read by SDK devs and support team
     VRTLogLevelWarn     = 1,    //Pub-facing messages intended to help diagnose minor issues (lack of fill, misconfiguration)
-    VRTLogLevelError    = 2,    //Pub-facing messages intedned to help diagnose major issues
+    VRTLogLevelError    = 2,    //Pub-facing messages intended to help diagnose major issues
     VRTLogLevelNone     = 3     //Used to squelch all logging messages
 };
 

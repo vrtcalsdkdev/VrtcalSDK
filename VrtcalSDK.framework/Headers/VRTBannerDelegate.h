@@ -82,6 +82,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 -(void)vrtBannerAdWillLeaveApplication:(VRTBanner *)vrtBanner;
 
+
+/**
+ * The banner has started playing a video.
+ *
+ * @param vrtBanner Banner object used to load ad
+ */
+-(void)vrtBannerVideoStarted:(VRTBanner *)vrtBanner;
+
 /**
  * The banner has completed playing a video.
  *
