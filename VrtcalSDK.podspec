@@ -1,0 +1,17 @@
+Pod::Spec.new do |s|
+    s.name         = "VrtcalSDK"
+    s.version      = "2.0.0.6"
+    s.summary      = "Monetize your iOS apps with VrtcalSDK"
+    s.homepage     = "http://vrtcal.com"
+    s.license = { :type => 'Copyright', :text => <<-LICENSE
+                   Copyright 2020 Vrtcal Markets, Inc.
+                  LICENSE
+                }
+    s.author       = { "Scott McCoy" => "scott.mccoy@vrtcal.com" }
+    s.source       = { :git => "https://github.com/vrtcalsdkdev/VrtcalSDK.git", :tag => "#{s.version}" }
+    s.public_header_files = "VrtcalSDK.framework/Headers/*.h"
+    s.source_files = "VrtcalSDK.framework/Headers/*.h"
+    s.vendored_frameworks = "VrtcalSDK.framework"
+    s.platform = :ios
+    s.ios.deployment_target  = '9.0'
+end
