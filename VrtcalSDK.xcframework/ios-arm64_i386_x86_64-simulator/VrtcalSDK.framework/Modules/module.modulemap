@@ -1,0 +1,6 @@
+framework module VrtcalSDK {
+  umbrella header "VrtcalSDK.h"
+
+  export *
+  module * { export * }
+}

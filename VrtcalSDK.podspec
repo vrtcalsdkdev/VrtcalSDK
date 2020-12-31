@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "VrtcalSDK"
-    s.version      = "2.0.0.6"
+    s.version      = "2.0.0.8"
     s.summary      = "Monetize your iOS apps with VrtcalSDK"
     s.homepage     = "http://vrtcal.com"
     s.license = { :type => 'Copyright', :text => <<-LICENSE
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/vrtcalsdkdev/VrtcalSDK.git", :tag => "#{s.version}" }
     s.public_header_files = "VrtcalSDK.framework/Headers/*.h"
     s.source_files = "VrtcalSDK.framework/Headers/*.h"
-    s.vendored_frameworks = "VrtcalSDK.framework"
+    s.vendored_frameworks = "VrtcalSDK.xcframework"
     s.platform = :ios
     s.ios.deployment_target  = '9.0'
 end
