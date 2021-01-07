@@ -9,8 +9,6 @@ Pod::Spec.new do |s|
                 }
     s.author       = { "Scott McCoy" => "scott.mccoy@vrtcal.com" }
     s.source       = { :git => "https://github.com/vrtcalsdkdev/VrtcalSDK.git", :tag => "#{s.version}" }
-    s.public_header_files = "VrtcalSDK.framework/Headers/*.h"
-    s.source_files = "VrtcalSDK.framework/Headers/*.h"
     s.vendored_frameworks = "VrtcalSDK.xcframework"
     s.platform = :ios
     s.ios.deployment_target  = '9.0'
