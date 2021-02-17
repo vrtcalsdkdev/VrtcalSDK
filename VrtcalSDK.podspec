@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "VrtcalSDK"
-    s.version      = "2.0.1.1"
+    s.version      = "2.0.1.2"
     s.summary      = "Monetize your iOS apps with VrtcalSDK"
     s.homepage     = "http://vrtcal.com"
     s.license = { :type => 'Copyright', :text => <<-LICENSE
