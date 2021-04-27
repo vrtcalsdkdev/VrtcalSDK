@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property NSTimeInterval passbackTimeout;
 @property NSString *className;
 @property NSDictionary *thirdPartyCustomEventData;
+@property NSDictionary *storeProductViewControllerParamsDict;
 @property NSString *creative;
 @property CGSize adSize;
 @property VRTDevicePlacement devicePlacement; //Options: Banner, Interstitial

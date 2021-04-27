@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/VRTCustomEventConfig.h</key>
 		<data>
-		FYDUAqEGOJPb1mwChfgb5gdXAd0=
+		mPOQYWIox5TB1sRtmgigX/LvbSs=
 		</data>
 		<key>Headers/VRTCustomEventLoadDelegate.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/VRTModalType.h</key>
 		<data>
-		qG5nSvHkmTjperufEcIYj2PpaRk=
+		vO3jAWeRCYOubTLGVMqunMtQ/4E=
 		</data>
 		<key>Headers/VRTZoneType.h</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		03noWHAR64vu8DqjWs+UqAwKU3w=
+		9nWBMmFUWTrAWupHucM4/j9yNFc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -97,6 +97,10 @@
 	<dict>
 		<key>Headers/VRTAbstractBannerCustomEvent.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Ju115J4j1C84bXS7Uvb8PcxXM8g=
+			</data>
 			<key>hash2</key>
 			<data>
 			tLnqMZhffm8+PgJIO0tVQS4GIOmrU0Ux9X+sw7wswrg=
@@ -104,6 +108,10 @@
 		</dict>
 		<key>Headers/VRTAbstractCustomEvent.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			VPk+qjigCSZeulmFyMo84o1XBgY=
+			</data>
 			<key>hash2</key>
 			<data>
 			jeyI7wiMK3VMALno//6jZIIW5XblmkrYk07qg6k+Qfk=
@@ -111,6 +119,10 @@
 		</dict>
 		<key>Headers/VRTAbstractInterstitialCustomEvent.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			HrS78iw1zAbDVRjJhQLePlpqbuw=
+			</data>
 			<key>hash2</key>
 			<data>
 			4ejTc/CrNQc9QEGal5d7SbMk6dG9MRVyl4C65f2wvDU=
@@ -118,6 +130,10 @@
 		</dict>
 		<key>Headers/VRTAdInterface.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			0mAPciHVsQO17gUOtSVhkSKBZRY=
+			</data>
 			<key>hash2</key>
 			<data>
 			wq+5PXhxUy1NZ/VwJ/Bwdfng6Xh/2qLa2zwLydndjrs=
@@ -125,6 +141,10 @@
 		</dict>
 		<key>Headers/VRTBanner.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			udhecQsXXGNwEYR3P1OMdUWtgu0=
+			</data>
 			<key>hash2</key>
 			<data>
 			Ab2GJYhRXR0g+mTyoPog0DUJZeJ5LaN4bpaBTimB2ig=
@@ -132,6 +152,10 @@
 		</dict>
 		<key>Headers/VRTBannerDelegate.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			VATgSHalacv7pwJe9SUC95OQl50=
+			</data>
 			<key>hash2</key>
 			<data>
 			LsbkW9e2pwNLkNou90Q4DqgJcSSpv2TSwWaN/XQkSng=
@@ -139,13 +163,21 @@
 		</dict>
 		<key>Headers/VRTCustomEventConfig.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			mPOQYWIox5TB1sRtmgigX/LvbSs=
+			</data>
 			<key>hash2</key>
 			<data>
-			h3ojdQ3+rrI3orf9rlRwmrTVih1hUDNzznmLRzZ1JoI=
+			LAuFz4cqhyPHoROb9BoSd0j9D9dExHMUAieMrcwaNrk=
 			</data>
 		</dict>
 		<key>Headers/VRTCustomEventLoadDelegate.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			c417GvEpk//1DDHeXsJ2F5gUoH8=
+			</data>
 			<key>hash2</key>
 			<data>
 			tkQraI6SLU4ytodfISgY37s/FOR2RzetrU2V5sJa6io=
@@ -153,6 +185,10 @@
 		</dict>
 		<key>Headers/VRTCustomEventShowDelegate.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			2Q2frgggOOzWLaNEMh9ROt8Skfg=
+			</data>
 			<key>hash2</key>
 			<data>
 			kym9hAehllovAM4M4dA3XNSpdYGQDVNnajK5YcuzGCs=
@@ -160,6 +196,10 @@
 		</dict>
 		<key>Headers/VRTDevicePlacement.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			pWucvPC88yiZtTDVOuoFoCRo26Q=
+			</data>
 			<key>hash2</key>
 			<data>
 			ZpHbYbfxeROHbJrrXIltjjHz+gMR0sk73u5FLE980SI=
@@ -167,6 +207,10 @@
 		</dict>
 		<key>Headers/VRTError.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			cs13Yfmv7rMFW+IJdOsl4xJub3g=
+			</data>
 			<key>hash2</key>
 			<data>
 			KWJbePvH7pgwKGEpGKyY7LncS12zHV5UCpZCkEyiyWo=
@@ -174,6 +218,10 @@
 		</dict>
 		<key>Headers/VRTInterstitial.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			CHNCuobwQcVfAMa5jICkT/G/Jpk=
+			</data>
 			<key>hash2</key>
 			<data>
 			e/vek+Cv2E3sCzrT3cvTzBrJ1dh0+NzHTVoiY/2vUu0=
@@ -181,6 +229,10 @@
 		</dict>
 		<key>Headers/VRTInterstitialDelegate.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			rMvmU+R/3qv54fayTLi2J+bq01k=
+			</data>
 			<key>hash2</key>
 			<data>
 			bHuup09UAGl+fO8dL5eozDlMoVD1nD907Hul0P/yLBE=
@@ -188,6 +240,10 @@
 		</dict>
 		<key>Headers/VRTLog.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			7Tnd0TYLD+n3lTqrqlsLo41he+I=
+			</data>
 			<key>hash2</key>
 			<data>
 			LV54WcKzdLCVc8T3kYORW+oBb4ZkmxV5CiquQqjmW5Q=
@@ -195,13 +251,21 @@
 		</dict>
 		<key>Headers/VRTModalType.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			vO3jAWeRCYOubTLGVMqunMtQ/4E=
+			</data>
 			<key>hash2</key>
 			<data>
-			3J6rohmBqABlAyzdwnN6yAWrTaAdKacGLHq4PD6HA/A=
+			fhPSCMwzrQ7oSGgA8OaRDN82xfbTuUgc4s9jBdXYNEY=
 			</data>
 		</dict>
 		<key>Headers/VRTZoneType.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ydfwuUwA5PZ1qGnUmbaeHYKG5Kw=
+			</data>
 			<key>hash2</key>
 			<data>
 			M5VLn8OBtwuNLUkyWOhWB19WhTtx7lVmqfCPNSEt2Tg=
@@ -209,6 +273,10 @@
 		</dict>
 		<key>Headers/VrtcalSDK.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			1UGn/C+yjKUmhlVYvr4MO7W/Dak=
+			</data>
 			<key>hash2</key>
 			<data>
 			Kb8PZIZynzsDfEaEQOcOhOL0/7XNJzUCkVGn7R9pARg=
@@ -216,6 +284,10 @@
 		</dict>
 		<key>Headers/VrtcalSdkDelegate.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			kyD2fNyRYcxogQZjB7nYv7LcXkI=
+			</data>
 			<key>hash2</key>
 			<data>
 			OLAWljr7CET8JIaR1e2WWkDTc5yEzc7sIMVOEIt+MHQ=
@@ -223,6 +295,10 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			B4lUxVFhNZCMtI6xtWMcdkgGU84=
+			</data>
 			<key>hash2</key>
 			<data>
 			C1BpHUsspb3jxA4CzinZfNq0f96S5j1kpkw9zLFDNm4=
@@ -230,6 +306,10 @@
 		</dict>
 		<key>VRT_closeButton.png</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			VzktbbT4Cjyl27lgxvHv4Y+aVFM=
+			</data>
 			<key>hash2</key>
 			<data>
 			dJBk1iWlCn4rkemmLRrs739fnlHDLMYU1oKxmHOztk0=
@@ -237,6 +317,10 @@
 		</dict>
 		<key>mraid.js</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			uEdrX1RiSzvzWCY7ZJMtNYJWpEo=
+			</data>
 			<key>hash2</key>
 			<data>
 			gq8+MJzjxPTsX8OomDxs+B/b9+/EQMNRLRYyZJNp+Rw=

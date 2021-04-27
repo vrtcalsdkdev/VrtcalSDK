@@ -14,5 +14,6 @@ typedef NS_ENUM(NSInteger, VRTModalType) {
     VRTModalTypeInterstitial = 0,
     VRTModalTypeMraidExpand = 1,
     VRTModalTypeMraidResize = 2,
-    VRTModalTypeMraidVideo = 3
+    VRTModalTypeMraidVideo = 3,
+    VRTModalTypeStoreKit = 4
 };
