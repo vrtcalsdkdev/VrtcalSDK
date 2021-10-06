@@ -5,23 +5,13 @@ function sendMessageToLogHandler(message) {
 }
 
 function debugVRTMraid(message) {
-    //Uncomment to assist in debugging this file
     sendMessageToLogHandler("VRT mraid.js debugging: " + message);
 }
-
-//Overwrite console.log with sendMessageToLogHandler
-console.log = sendMessageToLogHandler;
-
 
 debugVRTMraid("Beginning to add mraid.js");
 
 (function() {
     debugVRTMraid("Adding mraid.js functions...");
-
-    if (!(/iphone|ipad|ipod/i).test(window.navigator.userAgent)) {
-        console.log("Useragent indicates that this is not iOS. Aborting. Useragent is: [" + window.navigator.userAgent + "]");
-        return;
-    }
 
     var mraid = window.mraid = {};
     mraid.eventListeners = {};
