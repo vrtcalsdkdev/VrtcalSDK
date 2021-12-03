@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property NSString *adEngine;
 @property NSTimeInterval loadCustomEventTimeout;
 @property BOOL isPassback;
+@property BOOL omidEnabled;
 @property NSTimeInterval passbackTimeout;
 @property NSString *className;
 @property NSDictionary *thirdPartyCustomEventData;

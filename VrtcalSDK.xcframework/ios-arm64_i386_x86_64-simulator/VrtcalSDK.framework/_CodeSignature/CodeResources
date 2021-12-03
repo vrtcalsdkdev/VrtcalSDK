@@ -6,7 +6,7 @@
 	<dict>
 		<key>Backup_Info.plist</key>
 		<data>
-		DOMR0ik9PGZBAlheGiLRCDrah30=
+		OqLVcn24vCt03b0JFB8uAi/522o=
 		</data>
 		<key>Headers/VRTAbstractBannerCustomEvent.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/VRTCustomEventConfig.h</key>
 		<data>
-		mPOQYWIox5TB1sRtmgigX/LvbSs=
+		qD6U7Ut+o3n16S5PG6WiuHJUMnI=
 		</data>
 		<key>Headers/VRTCustomEventLoadDelegate.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DOMR0ik9PGZBAlheGiLRCDrah30=
+		OqLVcn24vCt03b0JFB8uAi/522o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -96,6 +96,10 @@
 		<data>
 		IGAzQ9NSGa9hKTIxiol6Yp4BOAs=
 		</data>
+		<key>omsdk-v1.js</key>
+		<data>
+		jgLkcClUGvewmk9r2spe6iygcGM=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -103,11 +107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DOMR0ik9PGZBAlheGiLRCDrah30=
+			OqLVcn24vCt03b0JFB8uAi/522o=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gka901tEuDTOvFF170ADpQzJ4mE7l1FTVFDsQnv+Gtk=
+			X6h1WiBIvuNrJZ6rpZhzwYm0vWKRWX7W+vfdy+Jno7U=
 			</data>
 		</dict>
 		<key>Headers/VRTAbstractBannerCustomEvent.h</key>
@@ -180,11 +184,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mPOQYWIox5TB1sRtmgigX/LvbSs=
+			qD6U7Ut+o3n16S5PG6WiuHJUMnI=
 			</data>
 			<key>hash2</key>
 			<data>
-			LAuFz4cqhyPHoROb9BoSd0j9D9dExHMUAieMrcwaNrk=
+			c5+WpvNN3Gb93sQolebFYfr2C9fJEl3hCKDGlUrq530=
 			</data>
 		</dict>
 		<key>Headers/VRTCustomEventLoadDelegate.h</key>
@@ -339,6 +343,17 @@
 			<key>hash2</key>
 			<data>
 			wFA3tnL8p5/aVv6cPsGuqnx1CWdziJb1MdtAbQ+1sxY=
+			</data>
+		</dict>
+		<key>omsdk-v1.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jgLkcClUGvewmk9r2spe6iygcGM=
+			</data>
+			<key>hash2</key>
+			<data>
+			38kcP/ClUyV8G1f4zDKvyWfikJDAQ775pWDe4e2q3D4=
 			</data>
 		</dict>
 	</dict>
