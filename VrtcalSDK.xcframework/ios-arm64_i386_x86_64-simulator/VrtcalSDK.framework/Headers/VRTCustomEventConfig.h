@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property NSString *creative;
 @property CGSize adSize;
 @property VRTDevicePlacement devicePlacement; //Options: Banner, Interstitial
-@property VRTZoneType zoneType; //Options: Display, VAST
+@property VRTZoneType zoneType; //Options: Display, VAST, DAAST
 @property BOOL showCloseButtonOnVideoInterstitial;
 @property NSTimeInterval refreshInterval;
 @property NSDictionary *localExtras;

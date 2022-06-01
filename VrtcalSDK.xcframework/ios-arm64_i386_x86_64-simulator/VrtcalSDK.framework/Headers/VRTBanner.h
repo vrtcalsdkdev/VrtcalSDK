@@ -41,6 +41,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)loadAd:(NSUInteger)zoneId;
 
+/**
+ * Used for DAAST ads. Should be called after did vrtBannerAdLoaded to begin playback.
+ */
+- (void)playDAAST;
+
 @end
 
 

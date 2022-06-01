@@ -9,5 +9,6 @@
 
 typedef enum {
     VRTZoneTypeDisplay,
-    VRTZoneTypeVAST
+    VRTZoneTypeVAST,
+    VRTZoneTypeDAAST
 } VRTZoneType;
