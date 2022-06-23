@@ -35,6 +35,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable) NSDictionary *localExtras;
 
 /**
+ * Sends "digital_audio" instead of "banner" for "device_placement" when set.
+ */
+@property (nonatomic) BOOL isDaast;
+
+/**
  * Asynchronously loads a banner ad. Any outcome is communicated via adDelegate.
  *
  * @param zoneId Zone ID

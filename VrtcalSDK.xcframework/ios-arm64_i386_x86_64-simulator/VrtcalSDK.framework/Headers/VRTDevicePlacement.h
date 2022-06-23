@@ -8,4 +8,5 @@
 typedef enum {
     VRTDevicePlacementBanner,
     VRTDevicePlacementInterstitial,
+    VRTDevicePlacementDAAST
 } VRTDevicePlacement;

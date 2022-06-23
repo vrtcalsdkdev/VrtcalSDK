@@ -36,21 +36,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)initializeSdkWithAppId:(NSUInteger)appId sdkDelegate:(nullable id <VrtcalSdkDelegate>)sdkDelegate;
 
-/**
- * Allows the publisher to indicate to VRTCAL that the user has the PayPal app installed.
- * Use `[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"paypal://dummyurl"]]` to determine this.
- * Please refer to Apple's documentation for details: https://developer.apple.com/documentation/uikit/uiapplication/1622952-canopenurl?language=objc
- */
-+(void) setUserHasPayPalApp:(BOOL)hasApp;
-
-/**
- * Allows the publisher to indicate to VRTCAL that the user has the Venmo app installed.
- * Use `[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"venmo://dummyurl"]]` to determine this.
- * Please refer to Apple's documentation for details: https://developer.apple.com/documentation/uikit/uiapplication/1622952-canopenurl?language=objc
- */
-+(void) setUserHasVenmoApp:(BOOL)hasApp;
-
-
 #pragma mark - Debug interface
 /**
  * Returns the version number of the SDK

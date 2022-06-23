@@ -6,7 +6,7 @@
 	<dict>
 		<key>Backup_Info.plist</key>
 		<data>
-		qk3l5llHwF2fTkJ0lQaw5Nj3LtU=
+		v8LkRylVD7waregEl6RUsLZzvRg=
 		</data>
 		<key>Headers/VRTAbstractBannerCustomEvent.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/VRTBanner.h</key>
 		<data>
-		4IiQdNVv98xRRsE/mU8/F1ZFXU4=
+		mOGgnpF4aVcasHWgr9rdFXEo50Q=
 		</data>
 		<key>Headers/VRTBannerDelegate.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/VRTCustomEventConfig.h</key>
 		<data>
-		8+VUGV1B3jXRsIIhQHYFxwt65ew=
+		JRl/zSWYilEjOuSv878DOvDzltA=
 		</data>
 		<key>Headers/VRTCustomEventLoadDelegate.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/VRTDevicePlacement.h</key>
 		<data>
-		pWucvPC88yiZtTDVOuoFoCRo26Q=
+		2dEG1oxKSgRgD/kUnPvfKjim620=
 		</data>
 		<key>Headers/VRTError.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/VrtcalSDK.h</key>
 		<data>
-		1UGn/C+yjKUmhlVYvr4MO7W/Dak=
+		amb6NPIfBdXOfswubvRy0wGiWUc=
 		</data>
 		<key>Headers/VrtcalSdkDelegate.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qk3l5llHwF2fTkJ0lQaw5Nj3LtU=
+		v8LkRylVD7waregEl6RUsLZzvRg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,11 +107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qk3l5llHwF2fTkJ0lQaw5Nj3LtU=
+			v8LkRylVD7waregEl6RUsLZzvRg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z3mjfOV4wIroXczSxSyunAQVlH0eDHCJU9D3K/SKaDQ=
+			0M2s285ubGMKZG7a6vMq/kxPghYoFaZTk4zzUiV7bYs=
 			</data>
 		</dict>
 		<key>Headers/VRTAbstractBannerCustomEvent.h</key>
@@ -162,11 +162,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4IiQdNVv98xRRsE/mU8/F1ZFXU4=
+			mOGgnpF4aVcasHWgr9rdFXEo50Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			XvcIl4no9Qp7Q5xVpwOINIvcb24bHlMRQVyVQJsFQ7Q=
+			JSjUbcXHm5So5RcYsUrhiffK9bM/8d6A6lbbLq7soTk=
 			</data>
 		</dict>
 		<key>Headers/VRTBannerDelegate.h</key>
@@ -184,11 +184,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8+VUGV1B3jXRsIIhQHYFxwt65ew=
+			JRl/zSWYilEjOuSv878DOvDzltA=
 			</data>
 			<key>hash2</key>
 			<data>
-			9rsPcpQOrP/+XVDTuqvKA3OSfIyrTCXTta35hRd1Nn8=
+			TFMXfPwTcZ30BQHqcwWZpQMvXYIt/EMj1H8Muh20zXE=
 			</data>
 		</dict>
 		<key>Headers/VRTCustomEventLoadDelegate.h</key>
@@ -217,11 +217,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pWucvPC88yiZtTDVOuoFoCRo26Q=
+			2dEG1oxKSgRgD/kUnPvfKjim620=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZpHbYbfxeROHbJrrXIltjjHz+gMR0sk73u5FLE980SI=
+			RqLoN4oYMdOu9CTkYX5nWFHVVr9bI/o//t4OZs/9PTY=
 			</data>
 		</dict>
 		<key>Headers/VRTError.h</key>
@@ -294,11 +294,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1UGn/C+yjKUmhlVYvr4MO7W/Dak=
+			amb6NPIfBdXOfswubvRy0wGiWUc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kb8PZIZynzsDfEaEQOcOhOL0/7XNJzUCkVGn7R9pARg=
+			pPrSswkOve7cJX8X8Y9F68ks0pfErYAJrrwjSaE4Hmw=
 			</data>
 		</dict>
 		<key>Headers/VrtcalSdkDelegate.h</key>
