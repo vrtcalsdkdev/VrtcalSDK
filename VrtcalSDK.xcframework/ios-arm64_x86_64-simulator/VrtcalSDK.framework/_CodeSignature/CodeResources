@@ -6,7 +6,7 @@
 	<dict>
 		<key>Backup_Info.plist</key>
 		<data>
-		vANzn+wrAIwABF6mvz17E8gir70=
+		1idIRjtx8O4D6LItKdK96BxDAYg=
 		</data>
 		<key>Headers/VRTAbstractBannerCustomEvent.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/VrtcalSDK.h</key>
 		<data>
-		amb6NPIfBdXOfswubvRy0wGiWUc=
+		/JoLe9dBQCVyPySYTMTI5tq7MRc=
 		</data>
 		<key>Headers/VrtcalSdkDelegate.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vANzn+wrAIwABF6mvz17E8gir70=
+		1idIRjtx8O4D6LItKdK96BxDAYg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,11 +107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vANzn+wrAIwABF6mvz17E8gir70=
+			1idIRjtx8O4D6LItKdK96BxDAYg=
 			</data>
 			<key>hash2</key>
 			<data>
-			l3S2fsgGi8B3xcw5pN807VQpnyivhs01IEIWqKScA50=
+			hmsUXUXEbCR097bl+sQQ3A/sxLJUKdM6wCq59np+jCk=
 			</data>
 		</dict>
 		<key>Headers/VRTAbstractBannerCustomEvent.h</key>
@@ -294,11 +294,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			amb6NPIfBdXOfswubvRy0wGiWUc=
+			/JoLe9dBQCVyPySYTMTI5tq7MRc=
 			</data>
 			<key>hash2</key>
 			<data>
-			pPrSswkOve7cJX8X8Y9F68ks0pfErYAJrrwjSaE4Hmw=
+			4nnBY/6bzBZTdSZaeoqdRmWRFpim8/Qc6yopBQ5JIlU=
 			</data>
 		</dict>
 		<key>Headers/VrtcalSdkDelegate.h</key>

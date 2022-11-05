@@ -60,5 +60,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (class, nullable) NSString *debugSpecificTestAd;
 
+
+/**
+ LiveRamp Support
+ */
++ (void)setPiiData: (nullable NSString*) piiData;
++ (void)setPiiDataTypes: (nullable NSString*) piiDataType;
+
 @end
 NS_ASSUME_NONNULL_END
