@@ -57,6 +57,13 @@
       },
       {
         "kind": "Import",
+        "name": "VrtcalSDK.VrtcalSDK_Protected",
+        "printedName": "VrtcalSDK.VrtcalSDK_Protected",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -8560,28 +8567,28 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementManager.swift",
       "kind": "StringLiteral",
-      "offset": 349,
+      "offset": 386,
       "length": 20,
       "value": "\"com.vrtcal.omid_js\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementManager.swift",
       "kind": "StringLiteral",
-      "offset": 412,
+      "offset": 449,
       "length": 24,
       "value": "\"com.vrtcal.omid_js_url\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementManager.swift",
       "kind": "StringLiteral",
-      "offset": 474,
+      "offset": 511,
       "length": 58,
       "value": "\"https:\/\/ui.vrtcal.com\/om\/omsdk-plus-session-client-v1.js\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementManager.swift",
       "kind": "StringLiteral",
-      "offset": 567,
+      "offset": 604,
       "length": 13,
       "value": "\"omsdk-v1.js\""
     },

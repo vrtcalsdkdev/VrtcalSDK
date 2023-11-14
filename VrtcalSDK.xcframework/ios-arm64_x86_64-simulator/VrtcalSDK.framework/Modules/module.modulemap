@@ -1,8 +1,13 @@
 framework module VrtcalSDK {
-  umbrella header "VrtcalSDK.h"
-  export *
+    umbrella header "VrtcalSDK.h"
 
-  module * { export * }
+    export *
+    module * { export * }
+
+    explicit module VrtcalSDK_Protected {
+        header "VrtcalSDK_Protected.h"
+        export *
+    }
 }
 
 module VrtcalSDK.Swift {

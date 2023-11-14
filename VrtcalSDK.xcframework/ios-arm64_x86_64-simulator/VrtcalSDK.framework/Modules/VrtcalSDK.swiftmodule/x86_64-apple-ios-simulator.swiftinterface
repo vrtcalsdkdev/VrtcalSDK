@@ -17,6 +17,7 @@ import StoreKit
 import Swift
 import UIKit
 @_exported import VrtcalSDK
+import VrtcalSDK.VrtcalSDK_Protected
 import WebKit
 import _Concurrency
 import _StringProcessing
