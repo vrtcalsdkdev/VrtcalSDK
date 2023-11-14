@@ -2199,7 +2199,7 @@ relocations:
   - { offsetInCU: 0x54A, offset: 0xBB08C, size: 0x8, addend: 0x0, symName: '_$s9VrtcalSDK14VRTMemoryUsageCACycfcTo', symObjAddr: 0x3F0, symBinAddr: 0x643E0, symSize: 0x40 }
   - { offsetInCU: 0x585, offset: 0xBB0C7, size: 0x8, addend: 0x0, symName: '_$s9VrtcalSDK14VRTMemoryUsageCfD', symObjAddr: 0x430, symBinAddr: 0x64420, symSize: 0x2B }
   - { offsetInCU: 0x62F, offset: 0xBB171, size: 0x8, addend: 0x0, symName: '_$s9VrtcalSDK14VRTMemoryUsageCMa', symObjAddr: 0x3D0, symBinAddr: 0x643C0, symSize: 0x20 }
-  - { offsetInCU: 0x4F, offset: 0xBB60A, size: 0x8, addend: 0x0, symName: '_$s9VrtcalSDK18VRTLocationManagerC9singletonACvpZ', symObjAddr: 0xFCA0, symBinAddr: 0xB9748, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0xBB60A, size: 0x8, addend: 0x0, symName: '_$s9VrtcalSDK18VRTLocationManagerC9singletonACvpZ', symObjAddr: 0xFC90, symBinAddr: 0xB9748, symSize: 0x0 }
   - { offsetInCU: 0xCF, offset: 0xBB68A, size: 0x8, addend: 0x0, symName: '_$s9VrtcalSDK18VRTLocationManagerC37isLocationCollectionAllowedByAdServerSbvg', symObjAddr: 0x1E0, symBinAddr: 0x64620, symSize: 0x30 }
   - { offsetInCU: 0x11A, offset: 0xBB6D5, size: 0x8, addend: 0x0, symName: '_$s9VrtcalSDK18VRTLocationManagerC37isLocationCollectionAllowedByAdServerSbvs', symObjAddr: 0x210, symBinAddr: 0x64650, symSize: 0x40 }
   - { offsetInCU: 0x174, offset: 0xBB72F, size: 0x8, addend: 0x0, symName: '_$s9VrtcalSDK18VRTLocationManagerC37isLocationCollectionAllowedByAdServerSbvM', symObjAddr: 0x250, symBinAddr: 0x64690, symSize: 0x40 }
