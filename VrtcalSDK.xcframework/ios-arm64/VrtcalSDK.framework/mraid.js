@@ -5,7 +5,7 @@ function sendMessageToLogHandler(message) {
 }
 
 function debugVRTMraid(message) {
-    sendMessageToLogHandler("VRT mraid.js debugging: " + message);
+    sendMessageToLogHandler(message);
 }
 
 debugVRTMraid("Beginning to add mraid.js");
@@ -339,14 +339,14 @@ debugVRTMraid("Beginning to add mraid.js");
             return;
         }
 
-        //Get max size
+        // Get max size
         var maxSize = mraid.getMaxSize();
         if (!maxSize || !maxSize.width || !maxSize.height) {
             mraid.onError("Unable to use maxSize of [" + JSON.stringify(maxSize) + "]", "setResizeProperties");
             return;
         }
 
-        //Width
+        // Width
         if (properties.width == null || typeof properties.width === 'undefined' || isNaN(properties.width)) {
             mraid.onError("width param of [" + properties.width + "] is unusable.", "setResizeProperties");
             return;
@@ -357,7 +357,7 @@ debugVRTMraid("Beginning to add mraid.js");
             return;
         }
 
-        //Height
+        // Height
         if (properties.height == null || typeof properties.height === 'undefined' || isNaN(properties.height)) {
             mraid.onError("height param of [" + properties.height + "] is unusable.", "setResizeProperties");
             return;
@@ -368,7 +368,7 @@ debugVRTMraid("Beginning to add mraid.js");
             return;
         }
 
-        //Offset
+        // Offset
         if (properties.offsetX == null || typeof properties.offsetX === 'undefined' || isNaN(properties.offsetX)) {
             mraid.onError("offsetX param of [" + properties.offsetX + "] is unusable.", "setResizeProperties");
             return;
@@ -379,7 +379,7 @@ debugVRTMraid("Beginning to add mraid.js");
             return;
         }
 
-        //Allow Offscreen
+        // Allow Offscreen
         if (typeof(properties.allowOffscreen) !== "boolean") {
             mraid.onError("allowOffscreen param of [" + properties.allowOffscreen + "] is unusable.", "setResizeProperties");
             return;
@@ -423,7 +423,7 @@ debugVRTMraid("Beginning to add mraid.js");
     /* useCustomClose - true if ad creative supplies its own designs for the close area, false if SDK */
     /* default image should be displayed for the close area */
     mraid.useCustomClose = function(useCustomClose) {
-        //Ignored in MRAID 3.0
+        // Ignored in MRAID 3.0
     };
 
     /* Fire specific event with arguments */
@@ -512,7 +512,7 @@ debugVRTMraid("Beginning to add mraid.js");
     };
 
     mraid.onExposureChange = function(exposurePercentage, occlusionRectangles) {
-        //debugVRTMraid("mraid.onExposureChange(" + exposurePercentage + ", " + JSON.stringify(occlusionRectangles) + ")");
+        // debugVRTMraid("mraid.onExposureChange(" + exposurePercentage + ", " + JSON.stringify(occlusionRectangles) + ")");
         mraid.fireEvent("exposureChange", exposurePercentage, occlusionRectangles);
     };
  

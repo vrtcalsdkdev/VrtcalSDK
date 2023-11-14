@@ -1,0 +1,271 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VrtcalSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AdSupport
+import AppTrackingTransparency
+import CommonCrypto
+import CoreLocation
+import CoreMotion
+import CoreTelephony
+import Darwin
+import Foundation
+import JavaScriptCore
+import ObjectiveC
+import StoreKit
+import Swift
+import UIKit
+@_exported import VrtcalSDK
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import Darwin.POSIX.sys.utsname
+public enum JsonSerializationHelperError : Swift.Error {
+  case couldNotEncodeToData
+  case jsonSerializationError(any Swift.Error)
+  case notStringAnyDict
+}
+public enum JsonSerializationHelper {
+  public static func stringAnyDict(string: Swift.String) -> Swift.Result<[Swift.String : Any], VrtcalSDK.JsonSerializationHelperError>
+  public static func stringAnyDict(data: Foundation.Data) -> Swift.Result<[Swift.String : Any], VrtcalSDK.JsonSerializationHelperError>
+}
+public enum VRTErrorCode : Swift.String {
+  case customEvent
+  case internalSdk
+  case invalidAdContent
+  case invalidState
+  case invalidParam
+  case noFill
+  case serverError
+  case timedOut
+  case throttled
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VRTError : Swift.Error {
+  public let vrtErrorCode: VrtcalSDK.VRTErrorCode
+  public let message: Swift.String
+  public init(vrtErrorCode: VrtcalSDK.VRTErrorCode, message: Swift.String)
+}
+extension VrtcalSDK.VRTError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension VrtcalSDK.VRTError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public var failureReason: Swift.String? {
+    get
+  }
+  public var recoverySuggestion: Swift.String? {
+    get
+  }
+  public var helpAnchor: Swift.String? {
+    get
+  }
+}
+extension VrtcalSDK.VRTError {
+  public init(vrtErrorCode: VrtcalSDK.VRTErrorCode, error: (any Swift.Error)?)
+  public init(customEventError: (any Swift.Error)?)
+  public static let customEventViewControllerNil: VrtcalSDK.VRTError
+}
+extension Foundation.Data {
+  public var prettyPrintedJSONString: Swift.String {
+    get
+  }
+}
+public struct VRTCustomEventConfig {
+  public var thirdPartyCustomEventData: [Swift.String : Any]
+  public var adSize: CoreFoundation.CGSize
+}
+extension VrtcalSDK.VRTCustomEventConfig {
+  public func thirdPartyAppId(customEventLoadDelegate: (any VrtcalSDK.VRTCustomEventLoadDelegate)?) -> Swift.String?
+  public func thirdPartyAdUnitId(customEventLoadDelegate: (any VrtcalSDK.VRTCustomEventLoadDelegate)?) -> Swift.String?
+  public func thirdPartyWidth(customEventLoadDelegate: (any VrtcalSDK.VRTCustomEventLoadDelegate)?) -> Swift.Int?
+  public func thirdPartyHeight(customEventLoadDelegate: (any VrtcalSDK.VRTCustomEventLoadDelegate)?) -> Swift.Int?
+}
+extension VrtcalSDK.VRTCustomEventConfig : Swift.Equatable {
+  public static func == (lhs: VrtcalSDK.VRTCustomEventConfig, rhs: VrtcalSDK.VRTCustomEventConfig) -> Swift.Bool
+}
+extension CoreLocation.CLAuthorizationStatus : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+open class VRTAbstractCustomEvent {
+  final public let customEventConfig: VrtcalSDK.VRTCustomEventConfig
+  weak public var viewControllerDelegate: (any VrtcalSDK.ViewControllerDelegate)?
+  weak public var customEventLoadDelegate: (any VrtcalSDK.VRTCustomEventLoadDelegate)?
+  weak public var customEventShowDelegate: (any VrtcalSDK.VRTCustomEventShowDelegate)?
+  required public init(customEventConfig: VrtcalSDK.VRTCustomEventConfig, viewControllerDelegate: (any VrtcalSDK.ViewControllerDelegate)?)
+  @objc deinit
+}
+public func VRTLogInfo(_ message: Swift.String = "", file: Swift.StaticString = #file, line: Swift.UInt = #line, column: Swift.UInt = #column, function: Swift.StaticString = #function)
+public func VRTLogWarn(_ message: Swift.String = "", file: Swift.StaticString = #file, line: Swift.UInt = #line, column: Swift.UInt = #column, function: Swift.StaticString = #function)
+public func VRTLogError(_ message: Swift.String = "", file: Swift.StaticString = #file, line: Swift.UInt = #line, column: Swift.UInt = #column, function: Swift.StaticString = #function)
+public func VRTLogAlways(_ message: Swift.String = "", file: Swift.StaticString = #file, line: Swift.UInt = #line, column: Swift.UInt = #column, function: Swift.StaticString = #function)
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class VRTLog : ObjectiveC.NSObject {
+  public static let singleton: VrtcalSDK.VRTLog
+  public var writeToFile: Swift.Bool
+  public func getFileAsString() -> Swift.String
+  public func clearFile()
+  @objc deinit
+}
+extension Swift.Result where Success == () {
+  public static func success() -> Swift.Result<Success, Failure>
+}
+extension Swift.Result {
+  public func getError() -> Failure?
+}
+extension Swift.Result where Failure == VrtcalSDK.VRTError {
+  public func getSuccess(failureHandler: (VrtcalSDK.VRTError) -> ()) -> Success?
+}
+@_inheritsConvenienceInitializers @objc public class VRTInterstitial : ObjectiveC.NSObject {
+  @objc weak public var adDelegate: (any VrtcalSDK.VRTInterstitialDelegate)?
+  @objc override dynamic public init()
+  @objc public func loadAd(_ zoneId: Swift.Int)
+  @objc public func showAd()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class VRTNativeDomainModel : ObjectiveC.NSObject {
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers open class VRTAbstractBannerCustomEvent : VrtcalSDK.VRTAbstractCustomEvent {
+  open func loadBannerAd()
+  open func getView() -> UIKit.UIView?
+  required public init(customEventConfig: VrtcalSDK.VRTCustomEventConfig, viewControllerDelegate: (any VrtcalSDK.ViewControllerDelegate)?)
+  @objc deinit
+}
+@objc public protocol ViewControllerDelegate {
+  @objc func vrtViewControllerForModalPresentation() -> UIKit.UIViewController?
+}
+@_inheritsConvenienceInitializers open class VRTAbstractInterstitialCustomEvent : VrtcalSDK.VRTAbstractCustomEvent {
+  open func loadInterstitialAd()
+  open func showInterstitialAd()
+  required public init(customEventConfig: VrtcalSDK.VRTCustomEventConfig, viewControllerDelegate: (any VrtcalSDK.ViewControllerDelegate)?)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class VrtcalSDK : ObjectiveC.NSObject {
+  public class var sessionId: Swift.String? {
+    get
+  }
+  public class var debugSpecificTestAd: Swift.String? {
+    get
+    set(debugSpecificTestAd)
+  }
+  @objc public class func initializeSdk(withAppId appId: Swift.Int, sdkDelegate: (any VrtcalSDK.VrtcalSdkDelegate)?)
+  @objc public class func setServerUrl(_ serverUrl: Foundation.URL)
+  @objc public class func sdkVersion() -> Swift.String
+  @objc public class func setPiiData(_ piiData: Swift.String?)
+  @objc public class func setPiiDataTypes(_ piiDataTypes: Swift.String?)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class VRTBanner : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) weak public var adDelegate: (any VrtcalSDK.VRTBannerDelegate)?
+  @_Concurrency.MainActor(unsafe) public var isDaast: Swift.Bool {
+    get
+    set(isDaast)
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc @_Concurrency.MainActor(unsafe) public func loadAd(_ zoneId: Swift.Int)
+  @objc @_Concurrency.MainActor(unsafe) public func playDAAST()
+  @objc deinit
+}
+@objc public protocol VRTNativeDelegate {
+  @objc func vrtNativeAdLoaded(vrtNative: VrtcalSDK.VRTNative, vrtNativeDomainModel: VrtcalSDK.VRTNativeDomainModel)
+  @objc func vrtNativeAdFailedToLoad(vrtNative: VrtcalSDK.VRTNative, error: any Swift.Error)
+}
+@objc public protocol VRTBannerDelegate2 : VrtcalSDK.ViewControllerDelegate {
+}
+@_inheritsConvenienceInitializers @objc public class VRTNative : ObjectiveC.NSObject {
+  @objc public var adDelegate: (any VrtcalSDK.VRTNativeDelegate)?
+  @objc public func loadAd(_ zoneId: Swift.Int)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol VRTBannerDelegate : VrtcalSDK.ViewControllerDelegate {
+  @objc func vrtBannerAdLoaded(_ vrtBanner: VrtcalSDK.VRTBanner, withAdSize adSize: CoreFoundation.CGSize)
+  @objc func vrtBannerAdFailedToLoad(_ vrtBanner: VrtcalSDK.VRTBanner, error: any Swift.Error)
+  @objc func vrtBannerAdClicked(_ vrtBanner: VrtcalSDK.VRTBanner)
+  @objc func vrtBannerWillPresentModal(_ vrtBanner: VrtcalSDK.VRTBanner, of modalType: VrtcalSDK.VRTModalType)
+  @objc func vrtBannerDidPresentModal(_ vrtBanner: VrtcalSDK.VRTBanner, of modalType: VrtcalSDK.VRTModalType)
+  @objc func vrtBannerWillDismissModal(_ vrtBanner: VrtcalSDK.VRTBanner, of modalType: VrtcalSDK.VRTModalType)
+  @objc func vrtBannerDidDismissModal(_ vrtBanner: VrtcalSDK.VRTBanner, of modalType: VrtcalSDK.VRTModalType)
+  @objc func vrtBannerAdWillLeaveApplication(_ vrtBanner: VrtcalSDK.VRTBanner)
+  @objc func vrtBannerVideoStarted(_ vrtBanner: VrtcalSDK.VRTBanner)
+  @objc func vrtBannerVideoCompleted(_ vrtBanner: VrtcalSDK.VRTBanner)
+}
+@objc public enum VRTModalType : Swift.Int {
+  case unknown = -1
+  case interstitial = 0
+  case mraidExpand = 1
+  case mraidResize = 2
+  case mraidVideo = 3
+  case storeKit = 4
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol VRTCustomEventLoadDelegate : AnyObject {
+  func customEventLoaded()
+  func customEventFailedToLoad(vrtError: VrtcalSDK.VRTError)
+}
+public protocol VRTCustomEventShowDelegate : AnyObject {
+  func customEventShown()
+  func customEventFailedToShow(vrtError: VrtcalSDK.VRTError)
+  func customEventClicked()
+  func customEventWillLeaveApplication()
+  func customEventWillPresentModal(_ modalType: VrtcalSDK.VRTModalType)
+  func customEventDidPresentModal(_ modalType: VrtcalSDK.VRTModalType)
+  func customEventWillDismissModal(_ modalType: VrtcalSDK.VRTModalType)
+  func customEventDidDismissModal(_ modalType: VrtcalSDK.VRTModalType)
+  func customEventAddSubviewBackIntoBanner(afterResizeOrOnePartExpand view: UIKit.UIView)
+  func customEventVideoStarted()
+  func customEventVideoCompleted()
+}
+@objc public protocol VrtcalSdkDelegate {
+  @objc func sdkInitialized()
+  @objc func sdkInitializationFailedWithError(_ error: any Swift.Error)
+}
+public enum CodableHelperError : Swift.Error, Swift.CustomStringConvertible, Swift.Equatable {
+  case encodingError(errorString: Swift.String)
+  case decodingError(errorString: Swift.String, jsonString: Swift.String)
+  public var description: Swift.String {
+    get
+  }
+  public static func == (a: VrtcalSDK.CodableHelperError, b: VrtcalSDK.CodableHelperError) -> Swift.Bool
+}
+@objc public protocol VRTInterstitialDelegate : VrtcalSDK.ViewControllerDelegate {
+  @objc func vrtInterstitialAdLoaded(_ vrtInterstitial: VrtcalSDK.VRTInterstitial)
+  @objc func vrtInterstitialAdFailed(toLoad vrtInterstitial: VrtcalSDK.VRTInterstitial, error: any Swift.Error)
+  @objc func vrtInterstitialAdWillShow(_ vrtInterstitial: VrtcalSDK.VRTInterstitial)
+  @objc func vrtInterstitialAdDidShow(_ vrtInterstitial: VrtcalSDK.VRTInterstitial)
+  @objc func vrtInterstitialAdFailed(toShow vrtInterstitial: VrtcalSDK.VRTInterstitial, error: any Swift.Error)
+  @objc func vrtInterstitialAdClicked(_ vrtInterstitial: VrtcalSDK.VRTInterstitial)
+  @objc func vrtInterstitialAdWillLeaveApplication(_ vrtInterstitial: VrtcalSDK.VRTInterstitial)
+  @objc func vrtInterstitialAdWillDismiss(_ vrtInterstitial: VrtcalSDK.VRTInterstitial)
+  @objc func vrtInterstitialAdDidDismiss(_ vrtInterstitial: VrtcalSDK.VRTInterstitial)
+  @objc func vrtInterstitialVideoStarted(_ vrtInterstitial: VrtcalSDK.VRTInterstitial)
+  @objc func vrtInterstitialVideoCompleted(_ vrtInterstitial: VrtcalSDK.VRTInterstitial)
+}
+extension VrtcalSDK.VRTErrorCode : Swift.Equatable {}
+extension VrtcalSDK.VRTErrorCode : Swift.Hashable {}
+extension VrtcalSDK.VRTErrorCode : Swift.RawRepresentable {}
+extension VrtcalSDK.VRTModalType : Swift.Equatable {}
+extension VrtcalSDK.VRTModalType : Swift.Hashable {}
+extension VrtcalSDK.VRTModalType : Swift.RawRepresentable {}

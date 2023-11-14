@@ -6,87 +6,63 @@
 	<dict>
 		<key>Backup_Info.plist</key>
 		<data>
-		5hMSAt2zHUKlKIRM2ZX/oLVEHZE=
+		bnuFksJ2+NVW7TRmCMG4DS+B5JQ=
 		</data>
-		<key>Headers/VRTAbstractBannerCustomEvent.h</key>
+		<key>Headers/VrtcalSDK-Swift.h</key>
 		<data>
-		Ju115J4j1C84bXS7Uvb8PcxXM8g=
-		</data>
-		<key>Headers/VRTAbstractCustomEvent.h</key>
-		<data>
-		VPk+qjigCSZeulmFyMo84o1XBgY=
-		</data>
-		<key>Headers/VRTAbstractInterstitialCustomEvent.h</key>
-		<data>
-		HrS78iw1zAbDVRjJhQLePlpqbuw=
-		</data>
-		<key>Headers/VRTAdInterface.h</key>
-		<data>
-		0mAPciHVsQO17gUOtSVhkSKBZRY=
-		</data>
-		<key>Headers/VRTBanner.h</key>
-		<data>
-		mOGgnpF4aVcasHWgr9rdFXEo50Q=
-		</data>
-		<key>Headers/VRTBannerDelegate.h</key>
-		<data>
-		VATgSHalacv7pwJe9SUC95OQl50=
-		</data>
-		<key>Headers/VRTCustomEventConfig.h</key>
-		<data>
-		JRl/zSWYilEjOuSv878DOvDzltA=
-		</data>
-		<key>Headers/VRTCustomEventLoadDelegate.h</key>
-		<data>
-		c417GvEpk//1DDHeXsJ2F5gUoH8=
-		</data>
-		<key>Headers/VRTCustomEventShowDelegate.h</key>
-		<data>
-		2Q2frgggOOzWLaNEMh9ROt8Skfg=
-		</data>
-		<key>Headers/VRTDevicePlacement.h</key>
-		<data>
-		2dEG1oxKSgRgD/kUnPvfKjim620=
-		</data>
-		<key>Headers/VRTError.h</key>
-		<data>
-		cs13Yfmv7rMFW+IJdOsl4xJub3g=
-		</data>
-		<key>Headers/VRTInterstitial.h</key>
-		<data>
-		CHNCuobwQcVfAMa5jICkT/G/Jpk=
-		</data>
-		<key>Headers/VRTInterstitialDelegate.h</key>
-		<data>
-		rMvmU+R/3qv54fayTLi2J+bq01k=
-		</data>
-		<key>Headers/VRTLog.h</key>
-		<data>
-		7Tnd0TYLD+n3lTqrqlsLo41he+I=
-		</data>
-		<key>Headers/VRTModalType.h</key>
-		<data>
-		vO3jAWeRCYOubTLGVMqunMtQ/4E=
-		</data>
-		<key>Headers/VRTZoneType.h</key>
-		<data>
-		i+6GBxTFCKcvHGADf+0jZE8H+hw=
+		B9YGPkMsJTlFsz+OHA0v2pfQ1gY=
 		</data>
 		<key>Headers/VrtcalSDK.h</key>
 		<data>
-		/JoLe9dBQCVyPySYTMTI5tq7MRc=
-		</data>
-		<key>Headers/VrtcalSdkDelegate.h</key>
-		<data>
-		kyD2fNyRYcxogQZjB7nYv7LcXkI=
+		BndZE6xTonAP1yi4c0CCedfFITU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5hMSAt2zHUKlKIRM2ZX/oLVEHZE=
+		bnuFksJ2+NVW7TRmCMG4DS+B5JQ=
+		</data>
+		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		Lsb2JyrujvT4lUEyMdVBwYGeh9g=
+		</data>
+		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		Slm7W1rkNxaTLkN04qSDZdsjlzo=
+		</data>
+		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		OgyzJgHtyxZp5HPFjQektrmr3hU=
+		</data>
+		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		Slm7W1rkNxaTLkN04qSDZdsjlzo=
+		</data>
+		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		13pUTfAgquTMmppOc6/ge21iBk8=
+		</data>
+		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		Lsb2JyrujvT4lUEyMdVBwYGeh9g=
+		</data>
+		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		bPtOjf+mc1jr1O74bBUnYY/TtMM=
+		</data>
+		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		h7t8KweAAeVQNZVkVrQHfxTja9E=
+		</data>
+		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		bPtOjf+mc1jr1O74bBUnYY/TtMM=
+		</data>
+		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		Dyw51MG83qf1stbu5tUel+ID1NQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		B4lUxVFhNZCMtI6xtWMcdkgGU84=
+		e5Waaf0jOEf6BOB8D/L8M54XJsk=
 		</data>
 		<key>VRT_closeButton.png</key>
 		<data>
@@ -94,7 +70,7 @@
 		</data>
 		<key>mraid.js</key>
 		<data>
-		IGAzQ9NSGa9hKTIxiol6Yp4BOAs=
+		D/parKj91iVtMkBA1dO/OIIRcXc=
 		</data>
 		<key>omsdk-v1.js</key>
 		<data>
@@ -105,230 +81,104 @@
 	<dict>
 		<key>Backup_Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5hMSAt2zHUKlKIRM2ZX/oLVEHZE=
-			</data>
 			<key>hash2</key>
 			<data>
-			uTM/CAMqjcy7ayO3+SnmDboL3whfEVpee4S/gkRDd5o=
+			ZSWSueTz61aOxgmneP9S0KuxW+vNUjdSXDTaZU3tHa8=
 			</data>
 		</dict>
-		<key>Headers/VRTAbstractBannerCustomEvent.h</key>
+		<key>Headers/VrtcalSDK-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ju115J4j1C84bXS7Uvb8PcxXM8g=
-			</data>
 			<key>hash2</key>
 			<data>
-			tLnqMZhffm8+PgJIO0tVQS4GIOmrU0Ux9X+sw7wswrg=
-			</data>
-		</dict>
-		<key>Headers/VRTAbstractCustomEvent.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VPk+qjigCSZeulmFyMo84o1XBgY=
-			</data>
-			<key>hash2</key>
-			<data>
-			jeyI7wiMK3VMALno//6jZIIW5XblmkrYk07qg6k+Qfk=
-			</data>
-		</dict>
-		<key>Headers/VRTAbstractInterstitialCustomEvent.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HrS78iw1zAbDVRjJhQLePlpqbuw=
-			</data>
-			<key>hash2</key>
-			<data>
-			4ejTc/CrNQc9QEGal5d7SbMk6dG9MRVyl4C65f2wvDU=
-			</data>
-		</dict>
-		<key>Headers/VRTAdInterface.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0mAPciHVsQO17gUOtSVhkSKBZRY=
-			</data>
-			<key>hash2</key>
-			<data>
-			wq+5PXhxUy1NZ/VwJ/Bwdfng6Xh/2qLa2zwLydndjrs=
-			</data>
-		</dict>
-		<key>Headers/VRTBanner.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mOGgnpF4aVcasHWgr9rdFXEo50Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			JSjUbcXHm5So5RcYsUrhiffK9bM/8d6A6lbbLq7soTk=
-			</data>
-		</dict>
-		<key>Headers/VRTBannerDelegate.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VATgSHalacv7pwJe9SUC95OQl50=
-			</data>
-			<key>hash2</key>
-			<data>
-			LsbkW9e2pwNLkNou90Q4DqgJcSSpv2TSwWaN/XQkSng=
-			</data>
-		</dict>
-		<key>Headers/VRTCustomEventConfig.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JRl/zSWYilEjOuSv878DOvDzltA=
-			</data>
-			<key>hash2</key>
-			<data>
-			TFMXfPwTcZ30BQHqcwWZpQMvXYIt/EMj1H8Muh20zXE=
-			</data>
-		</dict>
-		<key>Headers/VRTCustomEventLoadDelegate.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			c417GvEpk//1DDHeXsJ2F5gUoH8=
-			</data>
-			<key>hash2</key>
-			<data>
-			tkQraI6SLU4ytodfISgY37s/FOR2RzetrU2V5sJa6io=
-			</data>
-		</dict>
-		<key>Headers/VRTCustomEventShowDelegate.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2Q2frgggOOzWLaNEMh9ROt8Skfg=
-			</data>
-			<key>hash2</key>
-			<data>
-			kym9hAehllovAM4M4dA3XNSpdYGQDVNnajK5YcuzGCs=
-			</data>
-		</dict>
-		<key>Headers/VRTDevicePlacement.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2dEG1oxKSgRgD/kUnPvfKjim620=
-			</data>
-			<key>hash2</key>
-			<data>
-			RqLoN4oYMdOu9CTkYX5nWFHVVr9bI/o//t4OZs/9PTY=
-			</data>
-		</dict>
-		<key>Headers/VRTError.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cs13Yfmv7rMFW+IJdOsl4xJub3g=
-			</data>
-			<key>hash2</key>
-			<data>
-			KWJbePvH7pgwKGEpGKyY7LncS12zHV5UCpZCkEyiyWo=
-			</data>
-		</dict>
-		<key>Headers/VRTInterstitial.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CHNCuobwQcVfAMa5jICkT/G/Jpk=
-			</data>
-			<key>hash2</key>
-			<data>
-			e/vek+Cv2E3sCzrT3cvTzBrJ1dh0+NzHTVoiY/2vUu0=
-			</data>
-		</dict>
-		<key>Headers/VRTInterstitialDelegate.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rMvmU+R/3qv54fayTLi2J+bq01k=
-			</data>
-			<key>hash2</key>
-			<data>
-			bHuup09UAGl+fO8dL5eozDlMoVD1nD907Hul0P/yLBE=
-			</data>
-		</dict>
-		<key>Headers/VRTLog.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7Tnd0TYLD+n3lTqrqlsLo41he+I=
-			</data>
-			<key>hash2</key>
-			<data>
-			LV54WcKzdLCVc8T3kYORW+oBb4ZkmxV5CiquQqjmW5Q=
-			</data>
-		</dict>
-		<key>Headers/VRTModalType.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vO3jAWeRCYOubTLGVMqunMtQ/4E=
-			</data>
-			<key>hash2</key>
-			<data>
-			fhPSCMwzrQ7oSGgA8OaRDN82xfbTuUgc4s9jBdXYNEY=
-			</data>
-		</dict>
-		<key>Headers/VRTZoneType.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			i+6GBxTFCKcvHGADf+0jZE8H+hw=
-			</data>
-			<key>hash2</key>
-			<data>
-			sUd74g2U1ZarSEk3vMr+4hmV6U6rjNkk4NrxXxtBA7I=
+			QZgYYzrtLONsWYIjQ0tEpPyuWCwDqgobbgUa+N33k9Y=
 			</data>
 		</dict>
 		<key>Headers/VrtcalSDK.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/JoLe9dBQCVyPySYTMTI5tq7MRc=
-			</data>
 			<key>hash2</key>
 			<data>
-			4nnBY/6bzBZTdSZaeoqdRmWRFpim8/Qc6yopBQ5JIlU=
+			EjfHtGoMwXe5cRrQREmQvgRw9A6eGiIGZtIQtgKix+0=
 			</data>
 		</dict>
-		<key>Headers/VrtcalSdkDelegate.h</key>
+		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kyD2fNyRYcxogQZjB7nYv7LcXkI=
-			</data>
 			<key>hash2</key>
 			<data>
-			OLAWljr7CET8JIaR1e2WWkDTc5yEzc7sIMVOEIt+MHQ=
+			DS8C8WubEKXPGJ59gQ46rk1TyTYBQSHJoKfWIQhYqbI=
+			</data>
+		</dict>
+		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RuoXDZyr5buWsK2ySRaGxrktdw4NDPOgcH+gxLDx66k=
+			</data>
+		</dict>
+		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1e2mRlUf7ZrVljVwRweEzRxmWrbhvLgMvxVZL+4HiIc=
+			</data>
+		</dict>
+		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RuoXDZyr5buWsK2ySRaGxrktdw4NDPOgcH+gxLDx66k=
+			</data>
+		</dict>
+		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ykLtsJjR3TTtI8lZbnydNlH63bXB4uJad5Dqof1jsVw=
+			</data>
+		</dict>
+		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DS8C8WubEKXPGJ59gQ46rk1TyTYBQSHJoKfWIQhYqbI=
+			</data>
+		</dict>
+		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QTYW38P/jau3zZTsO71moLeEeUx2t2Uc+7iCsmqLS68=
+			</data>
+		</dict>
+		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NHQCjsUDOBGDwNTGhymaj+XsJfvXJkPCUz4AZ/yY6cE=
+			</data>
+		</dict>
+		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QTYW38P/jau3zZTsO71moLeEeUx2t2Uc+7iCsmqLS68=
+			</data>
+		</dict>
+		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XgLatq6fhXwb1RZYGTUepzw4kqXhpAVCfM8Fhkj7em4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			B4lUxVFhNZCMtI6xtWMcdkgGU84=
-			</data>
 			<key>hash2</key>
 			<data>
-			C1BpHUsspb3jxA4CzinZfNq0f96S5j1kpkw9zLFDNm4=
+			BTLJuBJYSjZH711v0EDErTG9xWdUGSxoAfPYez12UhQ=
 			</data>
 		</dict>
 		<key>VRT_closeButton.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VzktbbT4Cjyl27lgxvHv4Y+aVFM=
-			</data>
 			<key>hash2</key>
 			<data>
 			dJBk1iWlCn4rkemmLRrs739fnlHDLMYU1oKxmHOztk0=
@@ -336,21 +186,13 @@
 		</dict>
 		<key>mraid.js</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IGAzQ9NSGa9hKTIxiol6Yp4BOAs=
-			</data>
 			<key>hash2</key>
 			<data>
-			wFA3tnL8p5/aVv6cPsGuqnx1CWdziJb1MdtAbQ+1sxY=
+			hEX//BkMCbGlB8pGJX17L8ScWSBmGOelpH/Z8ZBo9KA=
 			</data>
 		</dict>
 		<key>omsdk-v1.js</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jgLkcClUGvewmk9r2spe6iygcGM=
-			</data>
 			<key>hash2</key>
 			<data>
 			38kcP/ClUyV8G1f4zDKvyWfikJDAQ775pWDe4e2q3D4=
