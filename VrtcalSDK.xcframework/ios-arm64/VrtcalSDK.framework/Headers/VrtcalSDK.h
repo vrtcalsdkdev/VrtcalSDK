@@ -5,10 +5,6 @@
 //  Copyright © 2023 VRTCAL. All rights reserved.
 //
 
-//@import OMIDVrtcalSDK
-
-//#import <OMSDK/OMIDImports.h>
-
 #import "OMIDAdEvents.h"
 #import "OMIDAdSession.h"
 #import "OMIDAdSessionConfiguration.h"

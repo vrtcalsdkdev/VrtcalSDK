@@ -6,11 +6,7 @@
 	<dict>
 		<key>Backup_Info.plist</key>
 		<data>
-		f4EFZCVtdkRTCFSkV23l0caqpno=
-		</data>
-		<key>Frameworks/libAppVerificationLibrary.a</key>
-		<data>
-		qv69hbQDqZC+mcL6QTiaSesrpHU=
+		gsqRl7BNQufg49gNeAFstU9ELbc=
 		</data>
 		<key>Headers/VrtcalSDK-Swift.h</key>
 		<data>
@@ -18,11 +14,11 @@
 		</data>
 		<key>Headers/VrtcalSDK.h</key>
 		<data>
-		5zcCn1/Pa6fYDFuXBnd+pFq1jTk=
+		G9XP96cGjOsMIDx/F4ZIPvXt6g0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		f4EFZCVtdkRTCFSkV23l0caqpno=
+		gsqRl7BNQufg49gNeAFstU9ELbc=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -87,14 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hCbt9LzLi6bg5hHFW3GoXVaiM7kEdTK9708vZm1QgSQ=
-			</data>
-		</dict>
-		<key>Frameworks/libAppVerificationLibrary.a</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			W6bmoxNctyo76zlP9oVckL+vswRmNjl+OzOki9NWPWI=
+			iACcfZdUYnHY0RSe9ECacoVgte1vt13BgnZJJzOeSj4=
 			</data>
 		</dict>
 		<key>Headers/VrtcalSDK-Swift.h</key>
@@ -108,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VTAtQzBNfg2oJjkiVe7vWJcIwniCvpsJ+5YhhEa+vcI=
+			X8m1sKF8iQmdCZZlPJotpUX3ELCyF7NITG+UpKPqE/A=
 			</data>
 		</dict>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
