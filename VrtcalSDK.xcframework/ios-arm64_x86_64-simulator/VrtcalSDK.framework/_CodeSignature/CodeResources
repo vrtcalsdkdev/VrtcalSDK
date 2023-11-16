@@ -6,7 +6,7 @@
 	<dict>
 		<key>Backup_Info.plist</key>
 		<data>
-		pxp+rN5uHS9oHryAkrSxaHDoQYw=
+		fRitPFR8HoiBiBiGJeXbySys5dM=
 		</data>
 		<key>Frameworks/OMSDK_Vrtcal.framework/Info.plist</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pxp+rN5uHS9oHryAkrSxaHDoQYw=
+		fRitPFR8HoiBiBiGJeXbySys5dM=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -95,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xglRwqr1dqrsDrZIRo4Z5Q75KA15FQLtru9Atk5mnJc=
+			726H0OeY5nXHTSxeQoS5ktuzLIYsAgSAd0iBG4HysIM=
 			</data>
 		</dict>
 		<key>Frameworks/OMSDK_Vrtcal.framework/Info.plist</key>
