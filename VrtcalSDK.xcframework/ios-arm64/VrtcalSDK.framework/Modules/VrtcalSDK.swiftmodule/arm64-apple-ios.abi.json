@@ -57,8 +57,8 @@
       },
       {
         "kind": "Import",
-        "name": "VrtcalSDK.VrtcalSDK_Private",
-        "printedName": "VrtcalSDK.VrtcalSDK_Private",
+        "name": "OMSDK_Vrtcal",
+        "printedName": "OMSDK_Vrtcal",
         "declKind": "Import",
         "moduleName": "VrtcalSDK"
       },
@@ -1526,6 +1526,13 @@
         "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "OMSDK_Vrtcal",
+        "printedName": "OMSDK_Vrtcal",
         "declKind": "Import",
         "moduleName": "VrtcalSDK"
       },
@@ -8567,28 +8574,28 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementManager.swift",
       "kind": "StringLiteral",
-      "offset": 384,
+      "offset": 369,
       "length": 20,
       "value": "\"com.vrtcal.omid_js\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementManager.swift",
       "kind": "StringLiteral",
-      "offset": 447,
+      "offset": 432,
       "length": 24,
       "value": "\"com.vrtcal.omid_js_url\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementManager.swift",
       "kind": "StringLiteral",
-      "offset": 509,
+      "offset": 494,
       "length": 58,
       "value": "\"https:\/\/ui.vrtcal.com\/om\/omsdk-plus-session-client-v1.js\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementManager.swift",
       "kind": "StringLiteral",
-      "offset": 602,
+      "offset": 587,
       "length": 13,
       "value": "\"omsdk-v1.js\""
     },
@@ -8945,217 +8952,217 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 406,
+      "offset": 426,
       "length": 7,
       "value": "\"start\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 439,
+      "offset": 459,
       "length": 15,
       "value": "\"firstQuartile\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 475,
+      "offset": 495,
       "length": 10,
       "value": "\"midpoint\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 511,
+      "offset": 531,
       "length": 15,
       "value": "\"thirdQuartile\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 547,
+      "offset": 567,
       "length": 10,
       "value": "\"complete\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 575,
+      "offset": 595,
       "length": 7,
       "value": "\"pause\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 601,
+      "offset": 621,
       "length": 8,
       "value": "\"resume\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 626,
+      "offset": 646,
       "length": 6,
       "value": "\"skip\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 653,
+      "offset": 673,
       "length": 10,
       "value": "\"collapse\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 682,
+      "offset": 702,
       "length": 8,
       "value": "\"expand\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 713,
+      "offset": 733,
       "length": 12,
       "value": "\"fullscreen\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 752,
+      "offset": 772,
       "length": 16,
       "value": "\"exitFullscreen\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 786,
+      "offset": 806,
       "length": 7,
       "value": "\"click\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 810,
+      "offset": 830,
       "length": 6,
       "value": "\"mute\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 835,
+      "offset": 855,
       "length": 8,
       "value": "\"unmute\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 406,
+      "offset": 426,
       "length": 7,
       "value": "\"start\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 439,
+      "offset": 459,
       "length": 15,
       "value": "\"firstQuartile\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 475,
+      "offset": 495,
       "length": 10,
       "value": "\"midpoint\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 511,
+      "offset": 531,
       "length": 15,
       "value": "\"thirdQuartile\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 547,
+      "offset": 567,
       "length": 10,
       "value": "\"complete\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 575,
+      "offset": 595,
       "length": 7,
       "value": "\"pause\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 601,
+      "offset": 621,
       "length": 8,
       "value": "\"resume\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 626,
+      "offset": 646,
       "length": 6,
       "value": "\"skip\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 653,
+      "offset": 673,
       "length": 10,
       "value": "\"collapse\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 682,
+      "offset": 702,
       "length": 8,
       "value": "\"expand\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 713,
+      "offset": 733,
       "length": 12,
       "value": "\"fullscreen\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 752,
+      "offset": 772,
       "length": 16,
       "value": "\"exitFullscreen\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 786,
+      "offset": 806,
       "length": 7,
       "value": "\"click\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 810,
+      "offset": 830,
       "length": 6,
       "value": "\"mute\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
-      "offset": 835,
+      "offset": 855,
       "length": 8,
       "value": "\"unmute\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 915,
+      "offset": 935,
       "length": 5,
       "value": "false"
     },

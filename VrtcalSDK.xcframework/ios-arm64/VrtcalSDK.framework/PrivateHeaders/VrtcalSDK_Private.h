@@ -5,11 +5,11 @@
 //  Copyright © 2023 VRTCAL. All rights reserved.
 //
 
-#import "OMIDAdEvents.h"
-#import "OMIDAdSession.h"
-#import "OMIDAdSessionConfiguration.h"
-#import "OMIDAdSessionContext.h"
-#import "OMIDPartner.h"
-#import "OMIDSDK.h"
-#import "OMIDScriptInjector.h"
+//#import <OMSDK_Vrtcal/OMIDAdEvents.h>
+//#import <OMSDK_Vrtcal/OMIDAdSession.h>
+//#import <OMSDK_Vrtcal/OMIDAdSessionConfiguration.h>
+//#import <OMSDK_Vrtcal/OMIDAdSessionContext.h>
+//#import <OMSDK_Vrtcal/OMIDPartner.h>
+//#import <OMSDK_Vrtcal/OMIDSDK.h>
+//#import <OMSDK_Vrtcal/OMIDScriptInjector.h>
 
