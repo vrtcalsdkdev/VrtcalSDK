@@ -1,16 +1,8 @@
-
-
 framework module VrtcalSDK {
-   umbrella header "VrtcalSDK.h"
-   export *
-   module * { export * }
-   
-   // C library
-   explicit module VrtcalSDK_Private {
-      header "VrtcalSDK_Private.h"
-      link "LinearAlgebra"
-      export *
-  }
+  umbrella header "VrtcalSDK.h"
+  export *
+
+  module * { export * }
 }
 
 module VrtcalSDK.Swift {
