@@ -101,7 +101,7 @@ extension CoreLocation.CLAuthorizationStatus : Swift.CustomStringConvertible {
     get
   }
 }
-open class VRTAbstractCustomEvent {
+@objc open class VRTAbstractCustomEvent : ObjectiveC.NSObject {
   final public let customEventConfig: VRTCustomEventConfig
   weak public var viewControllerDelegate: (any ViewControllerDelegate)?
   weak public var customEventLoadDelegate: (any VRTCustomEventLoadDelegate)?
@@ -142,7 +142,7 @@ extension Swift.Result where Failure == VRTError {
   }
   @objc deinit
 }
-@_inheritsConvenienceInitializers open class VRTAbstractBannerCustomEvent : VRTAbstractCustomEvent {
+@objc @_inheritsConvenienceInitializers open class VRTAbstractBannerCustomEvent : VRTAbstractCustomEvent {
   open func loadBannerAd()
   open func getView() -> UIKit.UIView?
   required public init(customEventConfig: VRTCustomEventConfig, viewControllerDelegate: (any ViewControllerDelegate)?)
@@ -151,7 +151,7 @@ extension Swift.Result where Failure == VRTError {
 @objc public protocol ViewControllerDelegate {
   @objc func vrtViewControllerForModalPresentation() -> UIKit.UIViewController?
 }
-@_inheritsConvenienceInitializers open class VRTAbstractInterstitialCustomEvent : VRTAbstractCustomEvent {
+@objc @_inheritsConvenienceInitializers open class VRTAbstractInterstitialCustomEvent : VRTAbstractCustomEvent {
   open func loadInterstitialAd()
   open func showInterstitialAd()
   required public init(customEventConfig: VRTCustomEventConfig, viewControllerDelegate: (any ViewControllerDelegate)?)

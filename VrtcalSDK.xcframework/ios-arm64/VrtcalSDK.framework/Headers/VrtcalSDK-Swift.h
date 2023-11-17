@@ -304,6 +304,29 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
+/// Abstract interface for all custom events.
+/// Must be NSObject for ClassFinder to be able to find subclasses of it.
+/// ClassFinder can find non-NSObject classes declared in cocoapods so long as it is implemented as code in the main app.
+/// Sadly, once it’s inside of an xcframework binary, it can only seem to find NSObject subclasses.
+SWIFT_CLASS("_TtC9VrtcalSDK22VRTAbstractCustomEvent")
+@interface VRTAbstractCustomEvent : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+/// Interface for banner custom events.
+SWIFT_CLASS("_TtC9VrtcalSDK28VRTAbstractBannerCustomEvent")
+@interface VRTAbstractBannerCustomEvent : VRTAbstractCustomEvent
+@end
+
+
+
+SWIFT_CLASS("_TtC9VrtcalSDK34VRTAbstractInterstitialCustomEvent")
+@interface VRTAbstractInterstitialCustomEvent : VRTAbstractCustomEvent
+@end
+
 @protocol VRTBannerDelegate;
 @class NSCoder;
 

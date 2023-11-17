@@ -2133,10 +2133,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "VrtcalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VrtcalSDK"
       },
       {
         "kind": "TypeDecl",
@@ -2509,7 +2506,7 @@
                 "kind": "TypeNominal",
                 "name": "VRTAbstractCustomEvent",
                 "printedName": "VrtcalSDK.VRTAbstractCustomEvent",
-                "usr": "s:9VrtcalSDK22VRTAbstractCustomEventC"
+                "usr": "c:@M@VrtcalSDK@objc(cs)VRTAbstractCustomEvent"
               },
               {
                 "kind": "TypeNominal",
@@ -2541,16 +2538,98 @@
               "Required"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VRTAbstractCustomEvent",
+                "printedName": "VrtcalSDK.VRTAbstractCustomEvent",
+                "usr": "c:@M@VrtcalSDK@objc(cs)VRTAbstractCustomEvent"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VrtcalSDK@objc(cs)VRTAbstractCustomEvent(im)init",
+            "mangledName": "$s9VrtcalSDK22VRTAbstractCustomEventCACycfc",
+            "moduleName": "VrtcalSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "s:9VrtcalSDK22VRTAbstractCustomEventC",
+        "usr": "c:@M@VrtcalSDK@objc(cs)VRTAbstractCustomEvent",
         "mangledName": "$s9VrtcalSDK22VRTAbstractCustomEventC",
         "moduleName": "VrtcalSDK",
         "isOpen": true,
         "declAttributes": [
           "AccessControl",
-          "RawDocComment"
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {
@@ -2704,6 +2783,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "VrtcalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -3255,6 +3344,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3402,16 +3501,6 @@
         "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "VrtcalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "VrtcalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -4054,7 +4143,7 @@
                 "kind": "TypeNominal",
                 "name": "VRTAbstractBannerCustomEvent",
                 "printedName": "VrtcalSDK.VRTAbstractBannerCustomEvent",
-                "usr": "s:9VrtcalSDK28VRTAbstractBannerCustomEventC"
+                "usr": "c:@M@VrtcalSDK@objc(cs)VRTAbstractBannerCustomEvent"
               },
               {
                 "kind": "TypeNominal",
@@ -4090,18 +4179,71 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:9VrtcalSDK28VRTAbstractBannerCustomEventC",
+        "usr": "c:@M@VrtcalSDK@objc(cs)VRTAbstractBannerCustomEvent",
         "mangledName": "$s9VrtcalSDK28VRTAbstractBannerCustomEventC",
         "moduleName": "VrtcalSDK",
         "isOpen": true,
         "declAttributes": [
           "AccessControl",
-          "RawDocComment"
+          "RawDocComment",
+          "ObjC"
         ],
-        "superclassUsr": "s:9VrtcalSDK22VRTAbstractCustomEventC",
+        "superclassUsr": "c:@M@VrtcalSDK@objc(cs)VRTAbstractCustomEvent",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "VrtcalSDK.VRTAbstractCustomEvent"
+          "VrtcalSDK.VRTAbstractCustomEvent",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {
@@ -4268,7 +4410,7 @@
                 "kind": "TypeNominal",
                 "name": "VRTAbstractInterstitialCustomEvent",
                 "printedName": "VrtcalSDK.VRTAbstractInterstitialCustomEvent",
-                "usr": "s:9VrtcalSDK34VRTAbstractInterstitialCustomEventC"
+                "usr": "c:@M@VrtcalSDK@objc(cs)VRTAbstractInterstitialCustomEvent"
               },
               {
                 "kind": "TypeNominal",
@@ -4304,17 +4446,70 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:9VrtcalSDK34VRTAbstractInterstitialCustomEventC",
+        "usr": "c:@M@VrtcalSDK@objc(cs)VRTAbstractInterstitialCustomEvent",
         "mangledName": "$s9VrtcalSDK34VRTAbstractInterstitialCustomEventC",
         "moduleName": "VrtcalSDK",
         "isOpen": true,
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
         ],
-        "superclassUsr": "s:9VrtcalSDK22VRTAbstractCustomEventC",
+        "superclassUsr": "c:@M@VrtcalSDK@objc(cs)VRTAbstractCustomEvent",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "VrtcalSDK.VRTAbstractCustomEvent"
+          "VrtcalSDK.VRTAbstractCustomEvent",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {
@@ -9363,6 +9558,13 @@
       "value": "\"addismissed\""
     },
     {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/VRTAbstractCustomEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 372,
+      "length": 22,
+      "value": "\"VrtcalSDK.VRTAbstractCustomEvent\""
+    },
+    {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/PubFacing\/VRTInterstitialAdController.swift",
       "kind": "StringLiteral",
       "offset": 151,
@@ -9909,41 +10111,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/SubclassFinder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 325,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/SubclassFinder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 361,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/SubclassFinder.swift",
-      "kind": "Array",
-      "offset": 389,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/SubclassFinder.swift",
-      "kind": "Array",
-      "offset": 753,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/SubclassFinder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 869,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/NativeDataModel.swift",
       "kind": "StringLiteral",
       "offset": 884,
@@ -10463,92 +10630,78 @@
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
-      "kind": "StringLiteral",
-      "offset": 287,
-      "length": 28,
-      "value": "\"new value: \""
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
-      "kind": "StringLiteral",
-      "offset": 314,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "FloatLiteral",
-      "offset": 660,
+      "offset": 577,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 792,
+      "offset": 709,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 973,
+      "offset": 890,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1117,
+      "offset": 1034,
       "length": 3,
       "value": "900"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1267,
+      "offset": 1184,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1388,
+      "offset": 1305,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1508,
+      "offset": 1425,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "Array",
-      "offset": 1649,
+      "offset": 1566,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "Array",
-      "offset": 1719,
+      "offset": 1636,
       "length": 40,
       "value": "[\"adid\", \"lat\", \"long\", \"carrier\", \"ua\"]"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1808,
+      "offset": 1725,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "StringLiteral",
-      "offset": 1873,
+      "offset": 1790,
       "length": 31,
       "value": "\"https:\/\/adplatform.vrtcal.com\""
     },
