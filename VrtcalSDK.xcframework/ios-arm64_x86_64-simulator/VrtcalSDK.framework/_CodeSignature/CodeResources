@@ -6,19 +6,7 @@
 	<dict>
 		<key>Backup_Info.plist</key>
 		<data>
-		9CpL/uVAuCPuwgVP5eJLFmGtH+I=
-		</data>
-		<key>Frameworks/OMSDK_Vrtcal.framework/Info.plist</key>
-		<data>
-		lMDYYChthkEsf0MxhxMWnOD5N34=
-		</data>
-		<key>Frameworks/OMSDK_Vrtcal.framework/OMSDK_Vrtcal</key>
-		<data>
-		c7Am6BtTVhk17q0zldsjj1X9of0=
-		</data>
-		<key>Frameworks/OMSDK_Vrtcal.framework/_CodeSignature/CodeResources</key>
-		<data>
-		IEseDsRd3gXILnHp9eozQ+kOvm0=
+		ir3kAabQoQqVFPF2Tws+tPuPe28=
 		</data>
 		<key>Headers/VrtcalSDK-Swift.h</key>
 		<data>
@@ -30,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9CpL/uVAuCPuwgVP5eJLFmGtH+I=
+		ir3kAabQoQqVFPF2Tws+tPuPe28=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -95,28 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uuzt+eO0LQzzjIxev3Vh4g3bzzk/Gtm2Yv32/xGK5ps=
-			</data>
-		</dict>
-		<key>Frameworks/OMSDK_Vrtcal.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PAImdICI2hDJPxe72R6jqXFdyB4u30b5B10Jnd9T75c=
-			</data>
-		</dict>
-		<key>Frameworks/OMSDK_Vrtcal.framework/OMSDK_Vrtcal</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bzZmpnKh8IqJ2jgC0+Ai5SXNF4Tdj5k3/BcyzPikRcw=
-			</data>
-		</dict>
-		<key>Frameworks/OMSDK_Vrtcal.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UmdFKgvEoYURNgINj3qPmbp89k/5pddgwPQ4mm0JYXM=
+			3Hirtd0t9xCVAogxOCQ8njaRz/D/ZT3N3u1vLzHdF5A=
 			</data>
 		</dict>
 		<key>Headers/VrtcalSDK-Swift.h</key>
