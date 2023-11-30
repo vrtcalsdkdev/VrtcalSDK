@@ -1940,17 +1940,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
@@ -1968,8 +1960,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9VrtcalSDK20VRTCustomEventConfigV15thirdPartyWidth06customD12LoadDelegateSiSgAA0cdjK0_pSg_tF",
-            "mangledName": "$s9VrtcalSDK20VRTCustomEventConfigV15thirdPartyWidth06customD12LoadDelegateSiSgAA0cdjK0_pSg_tF",
+            "usr": "s:9VrtcalSDK20VRTCustomEventConfigV15thirdPartyWidth06customD12LoadDelegateSiAA0cdjK0_pSg_tF",
+            "mangledName": "$s9VrtcalSDK20VRTCustomEventConfigV15thirdPartyWidth06customD12LoadDelegateSiAA0cdjK0_pSg_tF",
             "moduleName": "VrtcalSDK",
             "declAttributes": [
               "AccessControl"
@@ -1984,17 +1976,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
@@ -2012,8 +1996,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9VrtcalSDK20VRTCustomEventConfigV16thirdPartyHeight06customD12LoadDelegateSiSgAA0cdjK0_pSg_tF",
-            "mangledName": "$s9VrtcalSDK20VRTCustomEventConfigV16thirdPartyHeight06customD12LoadDelegateSiSgAA0cdjK0_pSg_tF",
+            "usr": "s:9VrtcalSDK20VRTCustomEventConfigV16thirdPartyHeight06customD12LoadDelegateSiAA0cdjK0_pSg_tF",
+            "mangledName": "$s9VrtcalSDK20VRTCustomEventConfigV16thirdPartyHeight06customD12LoadDelegateSiAA0cdjK0_pSg_tF",
             "moduleName": "VrtcalSDK",
             "declAttributes": [
               "AccessControl"
@@ -9406,21 +9390,21 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/VRTCustomEventFactory.swift",
       "kind": "StringLiteral",
-      "offset": 371,
+      "offset": 431,
       "length": 23,
       "value": "\"VRTCustomEventFactory\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/VRTCustomEventFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 457,
+      "offset": 517,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/VRTCustomEventFactory.swift",
       "kind": "BooleanLiteral",
-      "offset": 487,
+      "offset": 547,
       "length": 5,
       "value": "false"
     },

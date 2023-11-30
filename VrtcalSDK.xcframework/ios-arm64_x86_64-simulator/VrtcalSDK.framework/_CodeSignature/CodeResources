@@ -6,7 +6,7 @@
 	<dict>
 		<key>Backup_Info.plist</key>
 		<data>
-		ir3kAabQoQqVFPF2Tws+tPuPe28=
+		v9eUvTVqnohKX5AXSsJtoabMJrE=
 		</data>
 		<key>Headers/VrtcalSDK-Swift.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ir3kAabQoQqVFPF2Tws+tPuPe28=
+		v9eUvTVqnohKX5AXSsJtoabMJrE=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		qutNLGyqTQdzrFH3ttE4Kdnv9wk=
+		xWiFO9Z+91flvcpo8TIxKObHuwg=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		VBII59Ly5NYP8aWsv32Gwq2wCIE=
+		0JL5gGko7MA8+g9N8mNcP7ZWRfo=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VBII59Ly5NYP8aWsv32Gwq2wCIE=
+		0JL5gGko7MA8+g9N8mNcP7ZWRfo=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3yWA6SwBh4gkJpoM2cTco0nq4R0=
+		8SJx7yvWc9FGSdOU0bU+jv2IHqI=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		qutNLGyqTQdzrFH3ttE4Kdnv9wk=
+		xWiFO9Z+91flvcpo8TIxKObHuwg=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		O5beIeTbuN0bo4Ups6QJhYMgYy8=
+		DRab3l8NTvEWMNm1s6bx5P7puC4=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		O5beIeTbuN0bo4Ups6QJhYMgYy8=
+		DRab3l8NTvEWMNm1s6bx5P7puC4=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Og5QFI8mq5SMb82Un2ro/woZU00=
+		8sMfoFNcVbc1ymiHLkers9uf5OQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Hirtd0t9xCVAogxOCQ8njaRz/D/ZT3N3u1vLzHdF5A=
+			o7PidJD2kfoWWDrW5VcQU6Ytm6JQvocf4dsIl1Wdedw=
 			</data>
 		</dict>
 		<key>Headers/VrtcalSDK-Swift.h</key>
@@ -104,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2fjubd+rh6HNAPNgd0ERzzDFfCk8F5QL2uXk/nTmrh4=
+			9zYqtkAsKsbiV/agdeIMsETkJLotfIbPnEwU7cIt8Go=
 			</data>
 		</dict>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IdsEvgf7oK5fI/UnlDblbEdjUhWY/voXjAPahamUkvE=
+			bLZVcVTb6wvJHObOm64Ip2lNs68KWbUV51TCsF6e6qY=
 			</data>
 		</dict>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -125,28 +125,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IdsEvgf7oK5fI/UnlDblbEdjUhWY/voXjAPahamUkvE=
+			bLZVcVTb6wvJHObOm64Ip2lNs68KWbUV51TCsF6e6qY=
 			</data>
 		</dict>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZLXyqF286ik9q7cn0vllKQ4nw4wYk18YvBWQv4rPyDU=
+			TxDWF+SPvbo9qoPa1HDayqOaauH00Bp8pzPEcDSfsJY=
 			</data>
 		</dict>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2fjubd+rh6HNAPNgd0ERzzDFfCk8F5QL2uXk/nTmrh4=
+			9zYqtkAsKsbiV/agdeIMsETkJLotfIbPnEwU7cIt8Go=
 			</data>
 		</dict>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Glij7VYZ8wUuVAIUkrxn/hstCgq4WuE2TAjVf583Nc=
+			kZTptm5X2rjDJFK+egObjkxJKVVmXWYCx1LhYXAXPog=
 			</data>
 		</dict>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -160,14 +160,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Glij7VYZ8wUuVAIUkrxn/hstCgq4WuE2TAjVf583Nc=
+			kZTptm5X2rjDJFK+egObjkxJKVVmXWYCx1LhYXAXPog=
 			</data>
 		</dict>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nKrIiX3egTMhfrn6TaBUlxwGPjr6YXJqm2UNvuL/kPQ=
+			gDd4TgNkOZ1eIbk+dnKPRb1Z2YQm0zUWJ8IZg7xhvr0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

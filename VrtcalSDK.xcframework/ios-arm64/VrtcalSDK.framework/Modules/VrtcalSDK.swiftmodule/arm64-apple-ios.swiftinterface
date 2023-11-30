@@ -90,8 +90,8 @@ public struct VRTCustomEventConfig {
 extension VRTCustomEventConfig {
   public func thirdPartyAppId(customEventLoadDelegate: (any VRTCustomEventLoadDelegate)?) -> Swift.String?
   public func thirdPartyAdUnitId(customEventLoadDelegate: (any VRTCustomEventLoadDelegate)?) -> Swift.String?
-  public func thirdPartyWidth(customEventLoadDelegate: (any VRTCustomEventLoadDelegate)?) -> Swift.Int?
-  public func thirdPartyHeight(customEventLoadDelegate: (any VRTCustomEventLoadDelegate)?) -> Swift.Int?
+  public func thirdPartyWidth(customEventLoadDelegate: (any VRTCustomEventLoadDelegate)?) -> Swift.Int
+  public func thirdPartyHeight(customEventLoadDelegate: (any VRTCustomEventLoadDelegate)?) -> Swift.Int
 }
 extension VRTCustomEventConfig : Swift.Equatable {
   public static func == (lhs: VRTCustomEventConfig, rhs: VRTCustomEventConfig) -> Swift.Bool
