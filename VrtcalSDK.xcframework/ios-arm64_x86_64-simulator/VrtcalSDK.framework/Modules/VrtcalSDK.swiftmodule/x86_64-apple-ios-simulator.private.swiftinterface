@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VrtcalSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name VrtcalSDK
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
@@ -108,6 +107,9 @@ extension CoreLocation.CLAuthorizationStatus : Swift.CustomStringConvertible {
   weak public var customEventShowDelegate: (any VRTCustomEventShowDelegate)?
   required public init(customEventConfig: VRTCustomEventConfig, viewControllerDelegate: (any ViewControllerDelegate)?)
   @objc deinit
+}
+extension Swift.Sequence {
+  public func mapToDict<Key, Value>(transform: (Self.Iterator.Element) -> (Key, Value)?) -> [Key : Value] where Key : Swift.Hashable
 }
 public func VRTLogInfo(_ message: Swift.String = "", file: Swift.StaticString = #file, line: Swift.UInt = #line, column: Swift.UInt = #column, function: Swift.StaticString = #function)
 public func VRTLogWarn(_ message: Swift.String = "", file: Swift.StaticString = #file, line: Swift.UInt = #line, column: Swift.UInt = #column, function: Swift.StaticString = #function)

@@ -132,12 +132,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(VrtcalSDK.JsonSerializationHelperError.Type) -> (Swift.Error) -> VrtcalSDK.JsonSerializationHelperError",
+                "printedName": "(VrtcalSDK.JsonSerializationHelperError.Type) -> (any Swift.Error) -> VrtcalSDK.JsonSerializationHelperError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> VrtcalSDK.JsonSerializationHelperError",
+                    "printedName": "(any Swift.Error) -> VrtcalSDK.JsonSerializationHelperError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -148,7 +148,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -1332,12 +1332,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -1368,12 +1368,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -1517,6 +1517,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1617,10 +1627,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "VrtcalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "VrtcalSDK"
       },
       {
         "kind": "Import",
@@ -1867,12 +1874,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "VrtcalSDK.VRTCustomEventLoadDelegate?",
+                "printedName": "(any VrtcalSDK.VRTCustomEventLoadDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "VRTCustomEventLoadDelegate",
-                    "printedName": "VrtcalSDK.VRTCustomEventLoadDelegate",
+                    "printedName": "any VrtcalSDK.VRTCustomEventLoadDelegate",
                     "usr": "s:9VrtcalSDK26VRTCustomEventLoadDelegateP"
                   }
                 ],
@@ -1911,12 +1918,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "VrtcalSDK.VRTCustomEventLoadDelegate?",
+                "printedName": "(any VrtcalSDK.VRTCustomEventLoadDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "VRTCustomEventLoadDelegate",
-                    "printedName": "VrtcalSDK.VRTCustomEventLoadDelegate",
+                    "printedName": "any VrtcalSDK.VRTCustomEventLoadDelegate",
                     "usr": "s:9VrtcalSDK26VRTCustomEventLoadDelegateP"
                   }
                 ],
@@ -1947,12 +1954,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "VrtcalSDK.VRTCustomEventLoadDelegate?",
+                "printedName": "(any VrtcalSDK.VRTCustomEventLoadDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "VRTCustomEventLoadDelegate",
-                    "printedName": "VrtcalSDK.VRTCustomEventLoadDelegate",
+                    "printedName": "any VrtcalSDK.VRTCustomEventLoadDelegate",
                     "usr": "s:9VrtcalSDK26VRTCustomEventLoadDelegateP"
                   }
                 ],
@@ -1983,12 +1990,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "VrtcalSDK.VRTCustomEventLoadDelegate?",
+                "printedName": "(any VrtcalSDK.VRTCustomEventLoadDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "VRTCustomEventLoadDelegate",
-                    "printedName": "VrtcalSDK.VRTCustomEventLoadDelegate",
+                    "printedName": "any VrtcalSDK.VRTCustomEventLoadDelegate",
                     "usr": "s:9VrtcalSDK26VRTCustomEventLoadDelegateP"
                   }
                 ],
@@ -2180,7 +2187,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "VrtcalSDK.ViewControllerDelegate?"
+                "printedName": "(any VrtcalSDK.ViewControllerDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -2204,12 +2211,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "VrtcalSDK.ViewControllerDelegate?",
+                    "printedName": "(any VrtcalSDK.ViewControllerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ViewControllerDelegate",
-                        "printedName": "VrtcalSDK.ViewControllerDelegate",
+                        "printedName": "any VrtcalSDK.ViewControllerDelegate",
                         "usr": "c:@M@VrtcalSDK@objc(pl)ViewControllerDelegate"
                       }
                     ],
@@ -2236,12 +2243,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "VrtcalSDK.ViewControllerDelegate?",
+                    "printedName": "(any VrtcalSDK.ViewControllerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ViewControllerDelegate",
-                        "printedName": "VrtcalSDK.ViewControllerDelegate",
+                        "printedName": "any VrtcalSDK.ViewControllerDelegate",
                         "usr": "c:@M@VrtcalSDK@objc(pl)ViewControllerDelegate"
                       }
                     ],
@@ -2283,7 +2290,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "VrtcalSDK.VRTCustomEventLoadDelegate?"
+                "printedName": "(any VrtcalSDK.VRTCustomEventLoadDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -2307,12 +2314,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "VrtcalSDK.VRTCustomEventLoadDelegate?",
+                    "printedName": "(any VrtcalSDK.VRTCustomEventLoadDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "VRTCustomEventLoadDelegate",
-                        "printedName": "VrtcalSDK.VRTCustomEventLoadDelegate",
+                        "printedName": "any VrtcalSDK.VRTCustomEventLoadDelegate",
                         "usr": "s:9VrtcalSDK26VRTCustomEventLoadDelegateP"
                       }
                     ],
@@ -2339,12 +2346,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "VrtcalSDK.VRTCustomEventLoadDelegate?",
+                    "printedName": "(any VrtcalSDK.VRTCustomEventLoadDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "VRTCustomEventLoadDelegate",
-                        "printedName": "VrtcalSDK.VRTCustomEventLoadDelegate",
+                        "printedName": "any VrtcalSDK.VRTCustomEventLoadDelegate",
                         "usr": "s:9VrtcalSDK26VRTCustomEventLoadDelegateP"
                       }
                     ],
@@ -2386,7 +2393,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "VrtcalSDK.VRTCustomEventShowDelegate?"
+                "printedName": "(any VrtcalSDK.VRTCustomEventShowDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -2410,12 +2417,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "VrtcalSDK.VRTCustomEventShowDelegate?",
+                    "printedName": "(any VrtcalSDK.VRTCustomEventShowDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "VRTCustomEventShowDelegate",
-                        "printedName": "VrtcalSDK.VRTCustomEventShowDelegate",
+                        "printedName": "any VrtcalSDK.VRTCustomEventShowDelegate",
                         "usr": "s:9VrtcalSDK26VRTCustomEventShowDelegateP"
                       }
                     ],
@@ -2442,12 +2449,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "VrtcalSDK.VRTCustomEventShowDelegate?",
+                    "printedName": "(any VrtcalSDK.VRTCustomEventShowDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "VRTCustomEventShowDelegate",
-                        "printedName": "VrtcalSDK.VRTCustomEventShowDelegate",
+                        "printedName": "any VrtcalSDK.VRTCustomEventShowDelegate",
                         "usr": "s:9VrtcalSDK26VRTCustomEventShowDelegateP"
                       }
                     ],
@@ -2501,12 +2508,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "VrtcalSDK.ViewControllerDelegate?",
+                "printedName": "(any VrtcalSDK.ViewControllerDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ViewControllerDelegate",
-                    "printedName": "VrtcalSDK.ViewControllerDelegate",
+                    "printedName": "any VrtcalSDK.ViewControllerDelegate",
                     "usr": "c:@M@VrtcalSDK@objc(pl)ViewControllerDelegate"
                   }
                 ],
@@ -2614,6 +2621,16 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -2767,6 +2784,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "VrtcalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -3546,7 +3573,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "VrtcalSDK.VRTInterstitialDelegate?"
+                "printedName": "(any VrtcalSDK.VRTInterstitialDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -3571,12 +3598,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "VrtcalSDK.VRTInterstitialDelegate?",
+                    "printedName": "(any VrtcalSDK.VRTInterstitialDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "VRTInterstitialDelegate",
-                        "printedName": "VrtcalSDK.VRTInterstitialDelegate",
+                        "printedName": "any VrtcalSDK.VRTInterstitialDelegate",
                         "usr": "c:@M@VrtcalSDK@objc(pl)VRTInterstitialDelegate"
                       }
                     ],
@@ -3606,12 +3633,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "VrtcalSDK.VRTInterstitialDelegate?",
+                    "printedName": "(any VrtcalSDK.VRTInterstitialDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "VRTInterstitialDelegate",
-                        "printedName": "VrtcalSDK.VRTInterstitialDelegate",
+                        "printedName": "any VrtcalSDK.VRTInterstitialDelegate",
                         "usr": "c:@M@VrtcalSDK@objc(pl)VRTInterstitialDelegate"
                       }
                     ],
@@ -3956,26 +3983,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "VrtcalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "VrtcalSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "StoreKit",
         "printedName": "StoreKit",
         "declKind": "Import",
@@ -4012,6 +4019,16 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "VrtcalSDK",
         "declAttributes": [
@@ -4138,12 +4155,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "VrtcalSDK.ViewControllerDelegate?",
+                "printedName": "(any VrtcalSDK.ViewControllerDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ViewControllerDelegate",
-                    "printedName": "VrtcalSDK.ViewControllerDelegate",
+                    "printedName": "any VrtcalSDK.ViewControllerDelegate",
                     "usr": "c:@M@VrtcalSDK@objc(pl)ViewControllerDelegate"
                   }
                 ],
@@ -4405,12 +4422,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "VrtcalSDK.ViewControllerDelegate?",
+                "printedName": "(any VrtcalSDK.ViewControllerDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ViewControllerDelegate",
-                    "printedName": "VrtcalSDK.ViewControllerDelegate",
+                    "printedName": "any VrtcalSDK.ViewControllerDelegate",
                     "usr": "c:@M@VrtcalSDK@objc(pl)ViewControllerDelegate"
                   }
                 ],
@@ -4740,12 +4757,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "VrtcalSDK.VrtcalSdkDelegate?",
+                "printedName": "(any VrtcalSDK.VrtcalSdkDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "VrtcalSdkDelegate",
-                    "printedName": "VrtcalSDK.VrtcalSdkDelegate",
+                    "printedName": "any VrtcalSDK.VrtcalSdkDelegate",
                     "usr": "c:@M@VrtcalSDK@objc(pl)VrtcalSdkDelegate"
                   }
                 ],
@@ -5022,7 +5039,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "VrtcalSDK.VRTBannerDelegate?"
+                "printedName": "(any VrtcalSDK.VRTBannerDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -5031,8 +5048,8 @@
             "moduleName": "VrtcalSDK",
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl",
               "ObjC",
@@ -5049,12 +5066,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "VrtcalSDK.VRTBannerDelegate?",
+                    "printedName": "(any VrtcalSDK.VRTBannerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "VRTBannerDelegate",
-                        "printedName": "VrtcalSDK.VRTBannerDelegate",
+                        "printedName": "any VrtcalSDK.VRTBannerDelegate",
                         "usr": "c:@M@VrtcalSDK@objc(pl)VRTBannerDelegate"
                       }
                     ],
@@ -5084,12 +5101,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "VrtcalSDK.VRTBannerDelegate?",
+                    "printedName": "(any VrtcalSDK.VRTBannerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "VRTBannerDelegate",
-                        "printedName": "VrtcalSDK.VRTBannerDelegate",
+                        "printedName": "any VrtcalSDK.VRTBannerDelegate",
                         "usr": "c:@M@VrtcalSDK@objc(pl)VRTBannerDelegate"
                       }
                     ],
@@ -5570,7 +5587,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -5636,12 +5653,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "VrtcalSDK.VRTNativeDelegate?",
+                "printedName": "(any VrtcalSDK.VRTNativeDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "VRTNativeDelegate",
-                    "printedName": "VrtcalSDK.VRTNativeDelegate",
+                    "printedName": "any VrtcalSDK.VRTNativeDelegate",
                     "usr": "c:@M@VrtcalSDK@objc(pl)VRTNativeDelegate"
                   }
                 ],
@@ -5668,12 +5685,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "VrtcalSDK.VRTNativeDelegate?",
+                    "printedName": "(any VrtcalSDK.VRTNativeDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "VRTNativeDelegate",
-                        "printedName": "VrtcalSDK.VRTNativeDelegate",
+                        "printedName": "any VrtcalSDK.VRTNativeDelegate",
                         "usr": "c:@M@VrtcalSDK@objc(pl)VRTNativeDelegate"
                       }
                     ],
@@ -5703,12 +5720,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "VrtcalSDK.VRTNativeDelegate?",
+                    "printedName": "(any VrtcalSDK.VRTNativeDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "VRTNativeDelegate",
-                        "printedName": "VrtcalSDK.VRTNativeDelegate",
+                        "printedName": "any VrtcalSDK.VRTNativeDelegate",
                         "usr": "c:@M@VrtcalSDK@objc(pl)VRTNativeDelegate"
                       }
                     ],
@@ -5909,6 +5926,16 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "VrtcalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "VrtcalSDK"
       },
       {
@@ -5979,7 +6006,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -7094,7 +7121,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -7433,7 +7460,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -7532,7 +7559,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -8419,6 +8446,96 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "Sequence",
+        "printedName": "Sequence",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "mapToDict",
+            "printedName": "mapToDict(transform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[τ_1_0 : τ_1_1]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_1"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0.Iterator.Element) -> (τ_1_0, τ_1_1)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(τ_1_0, τ_1_1)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(τ_1_0, τ_1_1)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_1_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_1_1"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Iterator.Element"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:ST9VrtcalSDKE9mapToDict9transformSDyqd__qd_0_Gqd___qd_0_tSg7ElementQzXE_tSHRd__r0_lF",
+            "mangledName": "$sST9VrtcalSDKE9mapToDict9transformSDyqd__qd_0_Gqd___qd_0_tSg7ElementQzXE_tSHRd__r0_lF",
+            "moduleName": "VrtcalSDK",
+            "genericSig": "<τ_0_0, τ_1_0, τ_1_1 where τ_0_0 : Swift.Sequence, τ_1_0 : Swift.Hashable>",
+            "sugared_genericSig": "<Self, Key, Value where Self : Swift.Sequence, Key : Swift.Hashable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:ST",
+        "mangledName": "$sST",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0.Element == τ_0_0.Iterator.Element, τ_0_0.Iterator : Swift.IteratorProtocol>",
+        "sugared_genericSig": "<Self.Element == Self.Iterator.Element, Self.Iterator : Swift.IteratorProtocol>",
+        "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
         "name": "Result",
         "printedName": "Result",
         "children": [
@@ -9129,6 +9246,13 @@
       "value": "\"Viewcontroller is nil\""
     },
     {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Caching\/CustomEventConfigList\/VRTCache.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 10,
+      "value": "\"VRTCache\""
+    },
+    {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementTracker.swift",
       "kind": "StringLiteral",
       "offset": 426,
@@ -9411,63 +9535,63 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/VRTCustomEventConfig.swift",
       "kind": "StringLiteral",
-      "offset": 307,
+      "offset": 97,
       "length": 8,
       "value": "\"vrtcal\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/VRTCustomEventConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 363,
+      "offset": 153,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/VRTCustomEventConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 388,
+      "offset": 178,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/VRTCustomEventConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 416,
+      "offset": 206,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/VRTCustomEventConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 462,
+      "offset": 252,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/VRTCustomEventConfig.swift",
       "kind": "StringLiteral",
-      "offset": 494,
+      "offset": 284,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/VRTCustomEventConfig.swift",
       "kind": "StringLiteral",
-      "offset": 640,
+      "offset": 430,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/VRTCustomEventConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 874,
+      "offset": 664,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/CustomEvent\/VRTCustomEventConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 919,
+      "offset": 709,
       "length": 3,
       "value": "0.0"
     },
@@ -9701,6 +9825,13 @@
       "offset": 2923,
       "length": 12,
       "value": "\"VRTLog.txt\""
+    },
+    {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTAdRequestThrottler.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 28,
+      "value": "\"VRTAdRequestThrottlerQueue\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTAdRendererWebViewDisplayVideo.swift",
@@ -9957,119 +10088,119 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 781,
+      "offset": 891,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 845,
+      "offset": 960,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1235,
+      "offset": 1349,
       "length": 37,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1271,
+      "offset": 1385,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "StringLiteral",
-      "offset": 980,
+      "offset": 1094,
       "length": 31,
       "value": "\"https:\/\/adplatform.vrtcal.com\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1577,
+      "offset": 1691,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1994,
+      "offset": 2108,
       "length": 19,
       "value": "\"Backup_Info.plist\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2106,
+      "offset": 2220,
       "length": 26,
       "value": "\"VERSION_UNKNOWN_NO_PLIST\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2193,
+      "offset": 2307,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2226,
+      "offset": 2340,
       "length": 32,
       "value": "\"MARKETING_VERSION_UNKNOWN_LIVE\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2295,
+      "offset": 2409,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2317,
+      "offset": 2431,
       "length": 27,
       "value": "\"BUILD_NUMBER_UNKNOWN_LIVE\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2360,
+      "offset": 2474,
       "length": 36,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2380,
+      "offset": 2494,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2395,
+      "offset": 2509,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2558,
+      "offset": 2672,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 2867,
+      "offset": 2981,
       "length": 4,
       "value": "10.0"
     },
@@ -10095,18 +10226,18 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTAdLoaderHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 24,
+      "value": "\"VRTAdLoaderHelperQueue\""
+    },
+    {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/NativeDataModel.swift",
       "kind": "StringLiteral",
       "offset": 884,
       "length": 20,
       "value": "\"VrtcalSDK.VRTNativeDomainModel\""
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTCacheServiceCustomEventConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4933,
-      "length": 2,
-      "value": "20"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/VRTAdRendererWebViewDisplay.swift",
@@ -10128,6 +10259,20 @@
       "offset": 644,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Caching\/CustomEventConfig\/VRTCacheQueue.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 15,
+      "value": "\"VRTCacheQueue\""
+    },
+    {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Caching\/CustomEventConfig\/VRTCacheQueue.swift",
+      "kind": "IntegerLiteral",
+      "offset": 602,
+      "length": 2,
+      "value": "20"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Enums\/VRTMraidConstants.swift",
@@ -10636,56 +10781,56 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1034,
+      "offset": 1025,
       "length": 3,
       "value": "900"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1184,
+      "offset": 1170,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1305,
+      "offset": 1291,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1425,
+      "offset": 1411,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "Array",
-      "offset": 1566,
+      "offset": 1552,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "Array",
-      "offset": 1636,
+      "offset": 1622,
       "length": 40,
       "value": "[\"adid\", \"lat\", \"long\", \"carrier\", \"ua\"]"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1725,
+      "offset": 1711,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "StringLiteral",
-      "offset": 1790,
+      "offset": 1776,
       "length": 31,
       "value": "\"https:\/\/adplatform.vrtcal.com\""
     },
@@ -10800,6 +10945,13 @@
       "offset": 473,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Caching\/CustomEventConfig\/VrtcalAdCachingHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1027,
+      "length": 39,
+      "value": "\"VRTCacheServiceCustomEventConfigQueue\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/VrtcalSDK-Dev\/VrtcalSDK\/Enums\/VRTModalType.swift",
