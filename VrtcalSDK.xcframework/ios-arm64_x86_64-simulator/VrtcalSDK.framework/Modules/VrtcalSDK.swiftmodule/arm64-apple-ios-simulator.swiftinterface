@@ -16,7 +16,6 @@ import ObjectiveC
 import StoreKit
 import Swift
 import UIKit
-@_exported import VrtcalSDK
 import WebKit
 import _Concurrency
 import _StringProcessing
@@ -117,7 +116,7 @@ public func VRTLogError(_ message: Swift.String = "", file: Swift.StaticString =
 public func VRTLogAlways(_ message: Swift.String = "", file: Swift.StaticString = #file, line: Swift.UInt = #line, column: Swift.UInt = #column, function: Swift.StaticString = #function)
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class VRTLog : ObjectiveC.NSObject {
   public static let singleton: VRTLog
-  public var writeToFile: Swift.Bool
+  public var debugMode: Swift.Bool
   public func getFileAsString() -> Swift.String
   public func clearFile()
   @objc deinit
