@@ -306,9 +306,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 /// Abstract interface for all custom events.
-/// Must be NSObject for ClassFinder to be able to find subclasses of it.
-/// ClassFinder can find non-NSObject classes declared in cocoapods so long as it is implemented as code in the main app.
-/// Sadly, once it’s inside of an xcframework binary, it can only seem to find NSObject subclasses.
+/// Must be NSObject for ObjcClassFinder to be able to find subclasses of it.
 SWIFT_CLASS("_TtC9VrtcalSDK22VRTAbstractCustomEvent")
 @interface VRTAbstractCustomEvent : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -476,13 +474,6 @@ SWIFT_PROTOCOL("_TtP9VrtcalSDK23VRTInterstitialDelegate_")
 /// \param vrtInterstitial Interstitial object used to load ad
 ///
 - (void)vrtInterstitialVideoCompleted:(VRTInterstitial * _Nonnull)vrtInterstitial;
-@end
-
-
-SWIFT_CLASS("_TtC9VrtcalSDK6VRTLog")
-@interface VRTLog : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 typedef SWIFT_ENUM(NSInteger, VRTModalType, open) {

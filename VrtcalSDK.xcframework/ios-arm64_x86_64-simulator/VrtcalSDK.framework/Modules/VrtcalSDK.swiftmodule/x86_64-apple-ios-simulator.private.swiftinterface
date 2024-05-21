@@ -114,7 +114,7 @@ public func VRTLogInfo(_ message: Swift.String = "", file: Swift.StaticString = 
 public func VRTLogWarn(_ message: Swift.String = "", file: Swift.StaticString = #file, line: Swift.UInt = #line, column: Swift.UInt = #column, function: Swift.StaticString = #function)
 public func VRTLogError(_ message: Swift.String = "", file: Swift.StaticString = #file, line: Swift.UInt = #line, column: Swift.UInt = #column, function: Swift.StaticString = #function)
 public func VRTLogAlways(_ message: Swift.String = "", file: Swift.StaticString = #file, line: Swift.UInt = #line, column: Swift.UInt = #column, function: Swift.StaticString = #function)
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class VRTLog : ObjectiveC.NSObject {
+@_hasMissingDesignatedInitializers public class VRTLog {
   public static let singleton: VRTLog
   public var debugMode: Swift.Bool
   public func getFileAsString() -> Swift.String

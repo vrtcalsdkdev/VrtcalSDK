@@ -2714,13 +2714,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "VrtcalSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3006,7 +2999,7 @@
                 "kind": "TypeNominal",
                 "name": "VRTLog",
                 "printedName": "VrtcalSDK.VRTLog",
-                "usr": "c:@M@VrtcalSDK@objc(cs)VRTLog"
+                "usr": "s:9VrtcalSDK6VRTLogC"
               }
             ],
             "declKind": "Var",
@@ -3032,7 +3025,7 @@
                     "kind": "TypeNominal",
                     "name": "VRTLog",
                     "printedName": "VrtcalSDK.VRTLog",
-                    "usr": "c:@M@VrtcalSDK@objc(cs)VRTLog"
+                    "usr": "s:9VrtcalSDK6VRTLogC"
                   }
                 ],
                 "declKind": "Accessor",
@@ -3180,70 +3173,13 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@VrtcalSDK@objc(cs)VRTLog",
+        "usr": "s:9VrtcalSDK6VRTLogC",
         "mangledName": "$s9VrtcalSDK6VRTLogC",
         "moduleName": "VrtcalSDK",
         "declAttributes": [
-          "AccessControl",
-          "ObjC"
+          "AccessControl"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -3574,7 +3510,8 @@
         "moduleName": "VrtcalSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "inheritsConvenienceInitializers": true,
@@ -8626,28 +8563,28 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementManager.swift",
       "kind": "StringLiteral",
-      "offset": 218,
+      "offset": 208,
       "length": 20,
       "value": "\"com.vrtcal.omid_js\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementManager.swift",
       "kind": "StringLiteral",
-      "offset": 281,
+      "offset": 271,
       "length": 24,
       "value": "\"com.vrtcal.omid_js_url\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementManager.swift",
       "kind": "StringLiteral",
-      "offset": 343,
+      "offset": 333,
       "length": 58,
       "value": "\"https:\/\/ui.vrtcal.com\/om\/omsdk-plus-session-client-v1.js\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/OpenMeasurement\/VRTOpenMeasurementManager.swift",
       "kind": "StringLiteral",
-      "offset": 436,
+      "offset": 426,
       "length": 13,
       "value": "\"omsdk-v1.js\""
     },
@@ -9270,28 +9207,28 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfo\/VRTLocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 433,
+      "offset": 486,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfo\/VRTLocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 540,
+      "offset": 593,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfo\/VRTLocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 580,
+      "offset": 633,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/CustomEvent\/VRTAbstractCustomEvent.swift",
       "kind": "StringLiteral",
-      "offset": 372,
+      "offset": 154,
       "length": 22,
       "value": "\"VrtcalSDK.VRTAbstractCustomEvent\""
     },
@@ -9347,7 +9284,7 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfo\/VRTUserAgentFetcher.swift",
       "kind": "BooleanLiteral",
-      "offset": 138,
+      "offset": 128,
       "length": 5,
       "value": "false"
     },
@@ -9480,14 +9417,14 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "BooleanLiteral",
-      "offset": 2730,
+      "offset": 2714,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "StringLiteral",
-      "offset": 2778,
+      "offset": 2762,
       "length": 12,
       "value": "\"VRTLog.txt\""
     },
@@ -9809,7 +9746,7 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Model\/NativeDataModel.swift",
       "kind": "StringLiteral",
-      "offset": 884,
+      "offset": 971,
       "length": 20,
       "value": "\"VrtcalSDK.VRTNativeDomainModel\""
     },
@@ -10411,7 +10348,7 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfo\/VRTMemoryUsage.swift",
       "kind": "IntegerLiteral",
-      "offset": 72,
+      "offset": 62,
       "length": 7,
       "value": "1048576"
     },
@@ -10663,14 +10600,14 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Modals\/VRTModalDisplayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 232,
+      "offset": 222,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Modals\/VRTModalDisplayManager.swift",
       "kind": "Array",
-      "offset": 289,
+      "offset": 279,
       "length": 2,
       "value": "[]"
     },
