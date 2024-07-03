@@ -6,23 +6,23 @@
 	<dict>
 		<key>Backup_Info.plist</key>
 		<data>
-		Jv8fdduXPM2Nz0KitlnqNnj9saI=
+		Ius5DpvRV64fOhdqgGE18rXKu78=
 		</data>
 		<key>Headers/VrtcalSDK-Swift.h</key>
 		<data>
-		jNy3yrH1PsaZCVf47/HWDfRaxT0=
+		LRtEy6sVPBdtLdZ32cQwC9CjNSY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Jv8fdduXPM2Nz0KitlnqNnj9saI=
+		Ius5DpvRV64fOhdqgGE18rXKu78=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		W8zToymYYfu+4LdzTyUp8IH+hfA=
+		LfPXhMpkcz6WqmWbyzki/rB4hvQ=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gO63YpIEsNZwWaM+h3uRmb4JK8k=
+		vJb3kc4W0pX6f4ZBIKzIzwmSjL8=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gO63YpIEsNZwWaM+h3uRmb4JK8k=
+		vJb3kc4W0pX6f4ZBIKzIzwmSjL8=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qQdVz1aJYs0CuXhql6HTKxR8k7c=
+		75vvGeCfizVC4Nk7Uztk90nnyMY=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		W8zToymYYfu+4LdzTyUp8IH+hfA=
+		LfPXhMpkcz6WqmWbyzki/rB4hvQ=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pu7uKUdCRQViRCvzaeQYhBZNEi8=
+		cUuBHIczeLbPrdvhOjyvyahmhzY=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pu7uKUdCRQViRCvzaeQYhBZNEi8=
+		cUuBHIczeLbPrdvhOjyvyahmhzY=
 		</data>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2qy9yyiXC7hAaMWN2NKodujhjVE=
+		ar18Gru5pwuUTYr8MbM8suIEA/I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,28 +79,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5abNmlOuuzb/Lu0v2KJx4RMSkSSTEAeeQsqzfsc8t9Q=
+			ozhgyP5uDymg5OV0UXfJbN2pADd3Wo3QFGSNidrlaYQ=
 			</data>
 		</dict>
 		<key>Headers/VrtcalSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eEC1uMp1ZABilLgUGiKnAg83CCQgcji8w5yog+d7mPE=
+			MACUChlRHFAyN61QLXD7j+12m3IiOtWTB+9pZfFPixM=
 			</data>
 		</dict>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yZv/43oCETzCXA5sVb4Nu4k3zADHnRdYRA4Vtka7r50=
+			pMK3fSK8OZZBQM5h0FCLOXcUEWm4iG6qEU5Xb/XnrUQ=
 			</data>
 		</dict>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZAGdRw5wxbWPhH8iIr7+FQ1/KnL7LRNQPyQWYgFXTK0=
+			qMQ+/rFbalGyXFSO4kGmULWf0FGC2TPxXS26pFYhd4o=
 			</data>
 		</dict>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -114,28 +114,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZAGdRw5wxbWPhH8iIr7+FQ1/KnL7LRNQPyQWYgFXTK0=
+			qMQ+/rFbalGyXFSO4kGmULWf0FGC2TPxXS26pFYhd4o=
 			</data>
 		</dict>
 		<key>Modules/VrtcalSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kTjL0+GKdlUvwjqFKAPB7oeTHdqS6/5k3JSpfDXq4pk=
+			+4puYt3MamYpmc1A1gxoAzuEOuD/BhPwNF6TqcIzdL0=
 			</data>
 		</dict>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yZv/43oCETzCXA5sVb4Nu4k3zADHnRdYRA4Vtka7r50=
+			pMK3fSK8OZZBQM5h0FCLOXcUEWm4iG6qEU5Xb/XnrUQ=
 			</data>
 		</dict>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6QOo5iUk194ze/XB8QNwi83XuXtGfwEBu07k4aclMZ0=
+			RS5AQ+d/MgJqm981gqsWBC0CptARP8tH4kUY59cPyaU=
 			</data>
 		</dict>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -149,14 +149,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6QOo5iUk194ze/XB8QNwi83XuXtGfwEBu07k4aclMZ0=
+			RS5AQ+d/MgJqm981gqsWBC0CptARP8tH4kUY59cPyaU=
 			</data>
 		</dict>
 		<key>Modules/VrtcalSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hAFxHq4xt84nx+Spbk/4iXCN8xYE7coAkNs/LRK2itg=
+			dTX03/88gL49Nko4Zh32poPtl8s6G0E3S4g7tF+dIwI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -3605,6 +3605,1986 @@
         "children": [
           {
             "kind": "Var",
+            "name": "adType",
+            "printedName": "adType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC6adTypeSSSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC6adTypeSSSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC6adTypeSSSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC6adTypeSSSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC6adTypeSSSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC6adTypeSSSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC6adTypeSSSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC6adTypeSSSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adClickLandingUrl",
+            "printedName": "adClickLandingUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC17adClickLandingUrlSSSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC17adClickLandingUrlSSSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC17adClickLandingUrlSSSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC17adClickLandingUrlSSSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC17adClickLandingUrlSSSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC17adClickLandingUrlSSSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC17adClickLandingUrlSSSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC17adClickLandingUrlSSSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adVideoUrl",
+            "printedName": "adVideoUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC10adVideoUrlSSSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC10adVideoUrlSSSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC10adVideoUrlSSSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC10adVideoUrlSSSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC10adVideoUrlSSSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC10adVideoUrlSSSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC10adVideoUrlSSSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC10adVideoUrlSSSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adVideoMime",
+            "printedName": "adVideoMime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC11adVideoMimeSSSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC11adVideoMimeSSSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC11adVideoMimeSSSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC11adVideoMimeSSSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC11adVideoMimeSSSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC11adVideoMimeSSSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC11adVideoMimeSSSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC11adVideoMimeSSSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adVideoWidth",
+            "printedName": "adVideoWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC12adVideoWidthSiSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC12adVideoWidthSiSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC12adVideoWidthSiSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC12adVideoWidthSiSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC12adVideoWidthSiSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC12adVideoWidthSiSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC12adVideoWidthSiSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC12adVideoWidthSiSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adVideoHeight",
+            "printedName": "adVideoHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC13adVideoHeightSiSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC13adVideoHeightSiSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC13adVideoHeightSiSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC13adVideoHeightSiSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC13adVideoHeightSiSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC13adVideoHeightSiSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC13adVideoHeightSiSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC13adVideoHeightSiSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adVideoTrackerImpression",
+            "printedName": "adVideoTrackerImpression",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC24adVideoTrackerImpressionSSSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC24adVideoTrackerImpressionSSSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC24adVideoTrackerImpressionSSSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC24adVideoTrackerImpressionSSSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC24adVideoTrackerImpressionSSSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC24adVideoTrackerImpressionSSSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC24adVideoTrackerImpressionSSSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC24adVideoTrackerImpressionSSSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adVideoTrackerQ1",
+            "printedName": "adVideoTrackerQ1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ1SSSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ1SSSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ1SSSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ1SSSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ1SSSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ1SSSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ1SSSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ1SSSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adVideoTrackerQ2",
+            "printedName": "adVideoTrackerQ2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ2SSSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ2SSSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ2SSSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ2SSSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ2SSSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ2SSSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ2SSSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ2SSSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adVideoTrackerQ3",
+            "printedName": "adVideoTrackerQ3",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ3SSSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ3SSSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ3SSSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ3SSSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ3SSSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ3SSSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ3SSSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC16adVideoTrackerQ3SSSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adVideoTrackerCompare",
+            "printedName": "adVideoTrackerCompare",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC21adVideoTrackerCompareSSSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC21adVideoTrackerCompareSSSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC21adVideoTrackerCompareSSSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC21adVideoTrackerCompareSSSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC21adVideoTrackerCompareSSSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC21adVideoTrackerCompareSSSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC21adVideoTrackerCompareSSSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC21adVideoTrackerCompareSSSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adImageUrl",
+            "printedName": "adImageUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC10adImageUrlSSSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC10adImageUrlSSSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC10adImageUrlSSSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC10adImageUrlSSSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC10adImageUrlSSSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC10adImageUrlSSSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC10adImageUrlSSSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC10adImageUrlSSSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adImageWidth",
+            "printedName": "adImageWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC12adImageWidthSiSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC12adImageWidthSiSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC12adImageWidthSiSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC12adImageWidthSiSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC12adImageWidthSiSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC12adImageWidthSiSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC12adImageWidthSiSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC12adImageWidthSiSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adImageHeight",
+            "printedName": "adImageHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC13adImageHeightSiSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC13adImageHeightSiSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC13adImageHeightSiSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC13adImageHeightSiSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC13adImageHeightSiSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC13adImageHeightSiSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC13adImageHeightSiSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC13adImageHeightSiSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adTitle",
+            "printedName": "adTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC7adTitleSSSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC7adTitleSSSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC7adTitleSSSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC7adTitleSSSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC7adTitleSSSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC7adTitleSSSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC7adTitleSSSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC7adTitleSSSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adDescription",
+            "printedName": "adDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC13adDescriptionSSSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC13adDescriptionSSSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC13adDescriptionSSSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC13adDescriptionSSSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC13adDescriptionSSSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC13adDescriptionSSSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC13adDescriptionSSSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC13adDescriptionSSSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adBrand",
+            "printedName": "adBrand",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC7adBrandSSSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC7adBrandSSSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC7adBrandSSSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC7adBrandSSSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC7adBrandSSSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC7adBrandSSSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC7adBrandSSSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC7adBrandSSSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adImpressionUrls",
+            "printedName": "adImpressionUrls",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTNativeDomainModelC16adImpressionUrlsSSSgvp",
+            "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC16adImpressionUrlsSSSgvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC16adImpressionUrlsSSSgvg",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC16adImpressionUrlsSSSgvg",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC16adImpressionUrlsSSSgvs",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC16adImpressionUrlsSSSgvs",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTNativeDomainModelC16adImpressionUrlsSSSgvM",
+                "mangledName": "$s9VrtcalSDK20VRTNativeDomainModelC16adImpressionUrlsSSSgvM",
+                "moduleName": "VrtcalSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "description",
             "printedName": "description",
             "children": [
@@ -5296,30 +7276,6 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "VRTBannerDelegate2",
-        "printedName": "VRTBannerDelegate2",
-        "declKind": "Protocol",
-        "usr": "c:@M@VrtcalSDK@objc(pl)VRTBannerDelegate2",
-        "mangledName": "$s9VrtcalSDK18VRTBannerDelegate2P",
-        "moduleName": "VrtcalSDK",
-        "genericSig": "<τ_0_0 : VrtcalSDK.ViewControllerDelegate>",
-        "sugared_genericSig": "<Self : VrtcalSDK.ViewControllerDelegate>",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "ViewControllerDelegate",
-            "printedName": "ViewControllerDelegate",
-            "usr": "c:@M@VrtcalSDK@objc(pl)ViewControllerDelegate",
-            "mangledName": "$s9VrtcalSDK22ViewControllerDelegateP"
-          }
         ]
       },
       {
@@ -9746,7 +11702,7 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Model\/NativeDataModel.swift",
       "kind": "StringLiteral",
-      "offset": 971,
+      "offset": 970,
       "length": 20,
       "value": "\"VrtcalSDK.VRTNativeDomainModel\""
     },

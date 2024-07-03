@@ -408,11 +408,6 @@ SWIFT_PROTOCOL("_TtP9VrtcalSDK17VRTBannerDelegate_")
 - (void)vrtBannerVideoCompleted:(VRTBanner * _Nonnull)vrtBanner;
 @end
 
-
-SWIFT_PROTOCOL("_TtP9VrtcalSDK18VRTBannerDelegate2_")
-@protocol VRTBannerDelegate2 <ViewControllerDelegate>
-@end
-
 @protocol VRTInterstitialDelegate;
 
 SWIFT_CLASS("_TtC9VrtcalSDK15VRTInterstitial")
@@ -962,11 +957,6 @@ SWIFT_PROTOCOL("_TtP9VrtcalSDK17VRTBannerDelegate_")
 /// \param vrtBanner Banner object used to load ad
 ///
 - (void)vrtBannerVideoCompleted:(VRTBanner * _Nonnull)vrtBanner;
-@end
-
-
-SWIFT_PROTOCOL("_TtP9VrtcalSDK18VRTBannerDelegate2_")
-@protocol VRTBannerDelegate2 <ViewControllerDelegate>
 @end
 
 @protocol VRTInterstitialDelegate;

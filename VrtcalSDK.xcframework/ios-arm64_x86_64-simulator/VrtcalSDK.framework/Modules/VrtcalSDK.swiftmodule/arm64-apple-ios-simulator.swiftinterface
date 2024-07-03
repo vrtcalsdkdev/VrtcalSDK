@@ -138,6 +138,24 @@ extension Swift.Result where Failure == VRTError {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class VRTNativeDomainModel : ObjectiveC.NSObject {
+  public var adType: Swift.String?
+  public var adClickLandingUrl: Swift.String?
+  public var adVideoUrl: Swift.String?
+  public var adVideoMime: Swift.String?
+  public var adVideoWidth: Swift.Int?
+  public var adVideoHeight: Swift.Int?
+  public var adVideoTrackerImpression: Swift.String?
+  public var adVideoTrackerQ1: Swift.String?
+  public var adVideoTrackerQ2: Swift.String?
+  public var adVideoTrackerQ3: Swift.String?
+  public var adVideoTrackerCompare: Swift.String?
+  public var adImageUrl: Swift.String?
+  public var adImageWidth: Swift.Int?
+  public var adImageHeight: Swift.Int?
+  public var adTitle: Swift.String?
+  public var adDescription: Swift.String?
+  public var adBrand: Swift.String?
+  public var adImpressionUrls: Swift.String?
   @objc override dynamic public var description: Swift.String {
     @objc get
   }
@@ -189,8 +207,6 @@ extension Swift.Result where Failure == VRTError {
 @objc public protocol VRTNativeDelegate {
   @objc func vrtNativeAdLoaded(vrtNative: VRTNative, vrtNativeDomainModel: VRTNativeDomainModel)
   @objc func vrtNativeAdFailedToLoad(vrtNative: VRTNative, error: any Swift.Error)
-}
-@objc public protocol VRTBannerDelegate2 : ViewControllerDelegate {
 }
 @_inheritsConvenienceInitializers @objc public class VRTNative : ObjectiveC.NSObject {
   @objc public var adDelegate: (any VRTNativeDelegate)?
