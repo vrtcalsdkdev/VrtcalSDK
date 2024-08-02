@@ -305,6 +305,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
+
+
+
 /// Abstract interface for all custom events.
 /// Must be NSObject for ObjcClassFinder to be able to find subclasses of it.
 SWIFT_CLASS("_TtC9VrtcalSDK22VRTAbstractCustomEvent")
@@ -851,6 +855,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+
+
+
 
 
 

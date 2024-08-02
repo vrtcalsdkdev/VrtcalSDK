@@ -30,7 +30,7 @@ public enum JsonSerializationHelper {
   public static func stringAnyDict(string: Swift.String) -> Swift.Result<[Swift.String : Any], JsonSerializationHelperError>
   public static func stringAnyDict(data: Foundation.Data) -> Swift.Result<[Swift.String : Any], JsonSerializationHelperError>
 }
-public enum VRTErrorCode : Swift.String {
+public enum VRTErrorCode : Swift.String, Swift.Equatable {
   case customEvent
   case internalSdk
   case invalidAdContent
@@ -47,10 +47,11 @@ public enum VRTErrorCode : Swift.String {
     get
   }
 }
-public struct VRTError : Swift.Error {
+public struct VRTError : Swift.Error, Swift.Equatable {
   public let vrtErrorCode: VRTErrorCode
   public let message: Swift.String
   public init(vrtErrorCode: VRTErrorCode, message: Swift.String)
+  public static func == (a: VRTError, b: VRTError) -> Swift.Bool
 }
 extension VRTError : Swift.CustomStringConvertible {
   public var description: Swift.String {
@@ -94,11 +95,6 @@ extension VRTCustomEventConfig {
 extension VRTCustomEventConfig : Swift.Equatable {
   public static func == (lhs: VRTCustomEventConfig, rhs: VRTCustomEventConfig) -> Swift.Bool
 }
-extension CoreLocation.CLAuthorizationStatus : Swift.CustomStringConvertible {
-  public var description: Swift.String {
-    get
-  }
-}
 @objc open class VRTAbstractCustomEvent : ObjectiveC.NSObject {
   final public let customEventConfig: VRTCustomEventConfig
   weak public var viewControllerDelegate: (any ViewControllerDelegate)?
@@ -127,8 +123,8 @@ extension Swift.Result where Success == () {
 extension Swift.Result {
   public func getError() -> Failure?
 }
-extension Swift.Result where Failure == VRTError {
-  public func getSuccess(failureHandler: (VRTError) -> ()) -> Success?
+extension Swift.Result {
+  public func getSuccess(failureHandler: (any Swift.Error) -> ()) -> Success?
 }
 @_inheritsConvenienceInitializers @objc public class VRTInterstitial : ObjectiveC.NSObject {
   @objc weak public var adDelegate: (any VRTInterstitialDelegate)?
@@ -136,6 +132,16 @@ extension Swift.Result where Failure == VRTError {
   @objc public func loadAd(_ zoneId: Swift.Int)
   @objc public func showAd()
   @objc deinit
+}
+extension CoreLocation.CLError.Code : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CoreLocation.CLAuthorizationStatus : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
 }
 @_hasMissingDesignatedInitializers @objc public class VRTNativeDomainModel : ObjectiveC.NSObject {
   public var adType: Swift.String?
@@ -281,7 +287,6 @@ public enum CodableHelperError : Swift.Error, Swift.CustomStringConvertible, Swi
   @objc func vrtInterstitialVideoStarted(_ vrtInterstitial: VRTInterstitial)
   @objc func vrtInterstitialVideoCompleted(_ vrtInterstitial: VRTInterstitial)
 }
-extension VRTErrorCode : Swift.Equatable {}
 extension VRTErrorCode : Swift.Hashable {}
 extension VRTErrorCode : Swift.RawRepresentable {}
 extension VRTModalType : Swift.Equatable {}

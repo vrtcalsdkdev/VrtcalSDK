@@ -65,6 +65,16 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "VrtcalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "VrtcalSDK"
       },
       {
@@ -862,13 +872,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -895,6 +898,13 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -1023,6 +1033,38 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VRTError",
+                "printedName": "VrtcalSDK.VRTError",
+                "usr": "s:9VrtcalSDK8VRTErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VRTError",
+                "printedName": "VrtcalSDK.VRTError",
+                "usr": "s:9VrtcalSDK8VRTErrorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9VrtcalSDK8VRTErrorV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9VrtcalSDK8VRTErrorV2eeoiySbAC_ACtFZ",
+            "moduleName": "VrtcalSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Var",
@@ -1440,6 +1482,13 @@
             "printedName": "Error",
             "usr": "s:s5ErrorP",
             "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -2035,13 +2084,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "VrtcalSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2581,20 +2623,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreMotion",
-        "printedName": "CoreMotion",
-        "declKind": "Import",
-        "moduleName": "VrtcalSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreTelephony",
-        "printedName": "CoreTelephony",
-        "declKind": "Import",
-        "moduleName": "VrtcalSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2690,6 +2718,16 @@
         "printedName": "StoreKit",
         "declKind": "Import",
         "moduleName": "VrtcalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -3295,6 +3333,13 @@
       },
       {
         "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3586,10 +3631,37 @@
       },
       {
         "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "VrtcalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -5743,6 +5815,16 @@
       },
       {
         "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -6059,7 +6141,10 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "VrtcalSDK"
+        "moduleName": "VrtcalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -6074,6 +6159,16 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "VrtcalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -6265,6 +6360,20 @@
         "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "VrtcalSDK"
       },
@@ -7525,6 +7634,16 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "VrtcalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -9438,6 +9557,27 @@
       },
       {
         "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VrtcalSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -9981,120 +10121,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "CLAuthorizationStatus",
-        "printedName": "CLAuthorizationStatus",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "description",
-            "printedName": "description",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:So21CLAuthorizationStatusV9VrtcalSDKE11descriptionSSvp",
-            "mangledName": "$sSo21CLAuthorizationStatusV9VrtcalSDKE11descriptionSSvp",
-            "moduleName": "VrtcalSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:So21CLAuthorizationStatusV9VrtcalSDKE11descriptionSSvg",
-                "mangledName": "$sSo21CLAuthorizationStatusV9VrtcalSDKE11descriptionSSvg",
-                "moduleName": "VrtcalSDK",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "c:@E@CLAuthorizationStatus",
-        "moduleName": "CoreLocation",
-        "objc_name": "CLAuthorizationStatus",
-        "declAttributes": [
-          "SynthesizedProtocol",
-          "ObjC",
-          "SynthesizedProtocol",
-          "Sendable",
-          "Dynamic"
-        ],
-        "enumRawTypeName": "Int32",
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int32",
-                    "printedName": "Swift.Int32",
-                    "usr": "s:s5Int32V"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "Sequence",
         "printedName": "Sequence",
         "children": [
@@ -10277,7 +10303,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(VrtcalSDK.VRTError) -> ()",
+                "printedName": "(any Swift.Error) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -10286,9 +10312,9 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "VRTError",
-                    "printedName": "VrtcalSDK.VRTError",
-                    "usr": "s:9VrtcalSDK8VRTErrorV"
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
                   }
                 ],
                 "typeAttributes": [
@@ -10297,11 +10323,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:s6ResultO9VrtcalSDKAC8VRTErrorVRs_rlE10getSuccess14failureHandlerxSgyAEXE_tF",
-            "mangledName": "$ss6ResultO9VrtcalSDKAC8VRTErrorVRs_rlE10getSuccess14failureHandlerxSgyAEXE_tF",
+            "usr": "s:s6ResultO9VrtcalSDKE10getSuccess14failureHandlerxSgys5Error_pXE_tF",
+            "mangledName": "$ss6ResultO9VrtcalSDKE10getSuccess14failureHandlerxSgys5Error_pXE_tF",
             "moduleName": "VrtcalSDK",
-            "genericSig": "<τ_0_0, τ_0_1 where τ_0_1 == VrtcalSDK.VRTError>",
-            "sugared_genericSig": "<Success, Failure where Failure == VrtcalSDK.VRTError>",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_1 : Swift.Error>",
+            "sugared_genericSig": "<Success, Failure where Failure : Swift.Error>",
             "declAttributes": [
               "AccessControl"
             ],
@@ -10341,6 +10367,411 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bundle",
+        "printedName": "Bundle",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSBundle",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSBundle",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CLLocationManager",
+        "printedName": "CLLocationManager",
+        "declKind": "Class",
+        "usr": "c:objc(cs)CLLocationManager",
+        "moduleName": "CoreLocation",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "CLLocationManager",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Code",
+        "printedName": "Code",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7CLErrorV9VrtcalSDKE11descriptionSSvp",
+            "mangledName": "$sSo7CLErrorV9VrtcalSDKE11descriptionSSvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7CLErrorV9VrtcalSDKE11descriptionSSvg",
+                "mangledName": "$sSo7CLErrorV9VrtcalSDKE11descriptionSSvg",
+                "moduleName": "VrtcalSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@E@CLError",
+        "moduleName": "CoreLocation",
+        "objc_name": "CLError",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
+          "Dynamic"
+        ],
+        "enumRawTypeName": "Int",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ErrorCodeProtocol",
+            "printedName": "_ErrorCodeProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ErrorType",
+                "printedName": "_ErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLError",
+                    "printedName": "CoreLocation.CLError",
+                    "usr": "s:SC7CLErrorLeV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_ErrorCodeProtocolP",
+            "mangledName": "$s10Foundation18_ErrorCodeProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CLAuthorizationStatus",
+        "printedName": "CLAuthorizationStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So21CLAuthorizationStatusV9VrtcalSDKE11descriptionSSvp",
+            "mangledName": "$sSo21CLAuthorizationStatusV9VrtcalSDKE11descriptionSSvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So21CLAuthorizationStatusV9VrtcalSDKE11descriptionSSvg",
+                "mangledName": "$sSo21CLAuthorizationStatusV9VrtcalSDKE11descriptionSSvg",
+                "moduleName": "VrtcalSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@E@CLAuthorizationStatus",
+        "moduleName": "CoreLocation",
+        "objc_name": "CLAuthorizationStatus",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
+          "Dynamic"
+        ],
+        "enumRawTypeName": "Int32",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
           }
         ]
       },
@@ -10547,231 +10978,231 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 115,
+      "offset": 126,
       "length": 14,
       "value": "\"CUSTOM_EVENT\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 212,
+      "offset": 223,
       "length": 14,
       "value": "\"INTERNAL_SDK\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 328,
+      "offset": 339,
       "length": 20,
       "value": "\"INVALID_AD_CONTENT\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 463,
+      "offset": 474,
       "length": 15,
       "value": "\"INVALID_STATE\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 596,
+      "offset": 607,
       "length": 15,
       "value": "\"INVALID_PARAM\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 697,
+      "offset": 708,
       "length": 9,
       "value": "\"NO_FILL\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 854,
+      "offset": 865,
       "length": 14,
       "value": "\"SERVER_ERROR\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 923,
+      "offset": 934,
       "length": 11,
       "value": "\"TIMED_OUT\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 1001,
+      "offset": 1012,
       "length": 11,
       "value": "\"THROTTLED\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 1085,
+      "offset": 1096,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 115,
+      "offset": 126,
       "length": 14,
       "value": "\"CUSTOM_EVENT\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 212,
+      "offset": 223,
       "length": 14,
       "value": "\"INTERNAL_SDK\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 328,
+      "offset": 339,
       "length": 20,
       "value": "\"INVALID_AD_CONTENT\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 463,
+      "offset": 474,
       "length": 15,
       "value": "\"INVALID_STATE\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 596,
+      "offset": 607,
       "length": 15,
       "value": "\"INVALID_PARAM\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 697,
+      "offset": 708,
       "length": 9,
       "value": "\"NO_FILL\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 854,
+      "offset": 865,
       "length": 14,
       "value": "\"SERVER_ERROR\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 923,
+      "offset": 934,
       "length": 11,
       "value": "\"TIMED_OUT\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 1001,
+      "offset": 1012,
       "length": 11,
       "value": "\"THROTTLED\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 1085,
+      "offset": 1096,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 2492,
+      "offset": 2514,
       "length": 35,
       "value": "\"Load has not been attempted on ad\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 2641,
+      "offset": 2663,
       "length": 39,
       "value": "\"Load has already been attempted on ad\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 2792,
+      "offset": 2814,
       "length": 24,
       "value": "\"Ad has not been loaded\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 2923,
+      "offset": 2945,
       "length": 23,
       "value": "\"Ad has not been shown\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 3061,
+      "offset": 3083,
       "length": 27,
       "value": "\"Ad has already been shown\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 3200,
+      "offset": 3222,
       "length": 23,
       "value": "\"Ad has already failed\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 3336,
+      "offset": 3358,
       "length": 24,
       "value": "\"No Custom Event Config\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 3463,
+      "offset": 3485,
       "length": 14,
       "value": "\"No WKWebView\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 3587,
+      "offset": 3609,
       "length": 20,
       "value": "\"No view controller\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 3710,
+      "offset": 3732,
       "length": 18,
       "value": "\"Failed to render\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 3840,
+      "offset": 3862,
       "length": 24,
       "value": "\"Custom event timed out\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 3960,
+      "offset": 3982,
       "length": 15,
       "value": "\"Unknown Error\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTError.swift",
       "kind": "StringLiteral",
-      "offset": 4103,
+      "offset": 4125,
       "length": 23,
       "value": "\"Viewcontroller is nil\""
     },
@@ -11161,27 +11592,6 @@
       "value": "\"VrtcalSDK.VRTModalViewController\""
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfo\/VRTLocationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 486,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfo\/VRTLocationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 593,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfo\/VRTLocationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 633,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/CustomEvent\/VRTAbstractCustomEvent.swift",
       "kind": "StringLiteral",
       "offset": 154,
@@ -11189,44 +11599,44 @@
       "value": "\"VrtcalSDK.VRTAbstractCustomEvent\""
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfo\/VRTDeviceInfo.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfoManager.swift",
       "kind": "StringLiteral",
-      "offset": 743,
+      "offset": 707,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfo\/VRTDeviceInfo.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfoManager.swift",
       "kind": "StringLiteral",
-      "offset": 791,
+      "offset": 762,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfo\/VRTDeviceInfo.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfoManager.swift",
       "kind": "StringLiteral",
-      "offset": 838,
+      "offset": 809,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfo\/VRTDeviceInfo.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfoManager.swift",
       "kind": "StringLiteral",
-      "offset": 878,
+      "offset": 849,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfo\/VRTDeviceInfo.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfoManager.swift",
       "kind": "StringLiteral",
-      "offset": 915,
+      "offset": 886,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfo\/VRTDeviceInfo.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfoManager.swift",
       "kind": "StringLiteral",
-      "offset": 959,
+      "offset": 930,
       "length": 2,
       "value": "\"\""
     },
@@ -11238,11 +11648,11 @@
       "value": "\"VrtcalSDK.VRTInterstitialAdController\""
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfo\/VRTUserAgentFetcher.swift",
-      "kind": "BooleanLiteral",
-      "offset": 128,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/StoppableService\/UserAgentService.swift",
+      "kind": "StringLiteral",
+      "offset": 204,
+      "length": 32,
+      "value": "\"Mozilla\/5.0 AppleWebKit Mobile\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/BindableGestureRecognizer.swift",
@@ -11261,133 +11671,133 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 124,
+      "offset": 134,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 210,
+      "offset": 220,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 324,
+      "offset": 334,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 406,
+      "offset": 416,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 124,
+      "offset": 134,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 210,
+      "offset": 220,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 324,
+      "offset": 334,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 406,
+      "offset": 416,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 124,
+      "offset": 134,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 210,
+      "offset": 220,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 324,
+      "offset": 334,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 406,
+      "offset": 416,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "StringLiteral",
-      "offset": 1335,
+      "offset": 1345,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "StringLiteral",
-      "offset": 1648,
+      "offset": 1658,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "StringLiteral",
-      "offset": 1958,
+      "offset": 1968,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "StringLiteral",
-      "offset": 2274,
+      "offset": 2284,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "BooleanLiteral",
-      "offset": 2714,
+      "offset": 2724,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTLog.swift",
       "kind": "StringLiteral",
-      "offset": 2762,
+      "offset": 2772,
       "length": 12,
       "value": "\"VRTLog.txt\""
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTAdRequestThrottler.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTAdRequestThrottlingManager.swift",
       "kind": "StringLiteral",
-      "offset": 145,
+      "offset": 161,
       "length": 28,
       "value": "\"VRTAdRequestThrottlerQueue\""
     },
@@ -11455,16 +11865,16 @@
       "value": "\"Saving image failed\""
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/StoreKit\/VRTSKAdNetworkManager.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/StoppableService\/SKAdNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 56,
+      "offset": 402,
       "length": 18,
       "value": "\"SKAdNetworkItems\""
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/StoreKit\/VRTSKAdNetworkManager.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/StoppableService\/SKAdNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 116,
+      "offset": 473,
       "length": 23,
       "value": "\"SKAdNetworkIdentifier\""
     },
@@ -11490,214 +11900,151 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 252,
+      "offset": 161,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 273,
+      "offset": 182,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 295,
+      "offset": 204,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 318,
+      "offset": 227,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 252,
+      "offset": 161,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 273,
+      "offset": 182,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 295,
+      "offset": 204,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 318,
+      "offset": 227,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 252,
+      "offset": 161,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 273,
+      "offset": 182,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 295,
+      "offset": 204,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 318,
+      "offset": 227,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
-      "kind": "FloatLiteral",
-      "offset": 797,
-      "length": 4,
-      "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 866,
+      "offset": 967,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 1255,
-      "length": 37,
-      "value": "\"https:\/\/\""
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 1291,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 1000,
-      "length": 31,
-      "value": "\"https:\/\/adplatform.vrtcal.com\""
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 1597,
+      "offset": 1246,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2014,
-      "length": 19,
-      "value": "\"Backup_Info.plist\""
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2126,
-      "length": 26,
-      "value": "\"VERSION_UNKNOWN_NO_PLIST\""
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2213,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2246,
-      "length": 32,
-      "value": "\"MARKETING_VERSION_UNKNOWN_LIVE\""
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2315,
-      "length": 17,
-      "value": "\"CFBundleVersion\""
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2337,
-      "length": 27,
-      "value": "\"BUILD_NUMBER_UNKNOWN_LIVE\""
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2380,
-      "length": 36,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2400,
-      "length": 1,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2415,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2578,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTConfig.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
       "kind": "FloatLiteral",
-      "offset": 2887,
+      "offset": 1385,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTAdLoaderHelper.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1539,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SdkConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 261,
+      "offset": 2277,
+      "length": 27,
+      "value": "\"Entering Low Memory State\""
+    },
+    {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTAdLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
       "length": 24,
       "value": "\"VRTAdLoaderHelperQueue\""
+    },
+    {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/LocationManagerTask.swift",
+      "kind": "FloatLiteral",
+      "offset": 2392,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/LocationManagerTask.swift",
+      "kind": "FloatLiteral",
+      "offset": 3714,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/LocationManagerTask.swift",
+      "kind": "StringLiteral",
+      "offset": 3125,
+      "length": 19,
+      "value": "\"VrtcalSDK.LocationManagerTask\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Model\/NativeDataModel.swift",
@@ -11726,6 +12073,13 @@
       "offset": 569,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/SessionIdHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 19,
+      "value": "\"vrtcal_session_id\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Caching\/CustomEventConfig\/VRTCacheQueue.swift",
@@ -12227,84 +12581,77 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "FloatLiteral",
-      "offset": 433,
+      "offset": 455,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 565,
+      "offset": 587,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 746,
+      "offset": 768,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 881,
+      "offset": 903,
       "length": 3,
       "value": "900"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1026,
+      "offset": 1048,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1147,
+      "offset": 1169,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1267,
+      "offset": 1289,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "Array",
-      "offset": 1408,
+      "offset": 1430,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "Array",
-      "offset": 1478,
+      "offset": 1502,
       "length": 40,
       "value": "[\"adid\", \"lat\", \"long\", \"carrier\", \"ua\"]"
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1567,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Model\/SDKConfigDomainModel.swift",
       "kind": "StringLiteral",
-      "offset": 1632,
+      "offset": 1612,
       "length": 31,
       "value": "\"https:\/\/adplatform.vrtcal.com\""
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/DeviceInfo\/VRTMemoryUsage.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/StoppableService\/MemoryUsageService.swift",
       "kind": "IntegerLiteral",
-      "offset": 62,
+      "offset": 439,
       "length": 7,
       "value": "1048576"
     },
@@ -12353,7 +12700,7 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/VRTHttpJsonGetter.swift",
       "kind": "FloatLiteral",
-      "offset": 6160,
+      "offset": 6148,
       "length": 3,
       "value": "3.0"
     },
@@ -12463,9 +12810,9 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Caching\/CustomEventConfig\/VrtcalAdCachingHelper.swift",
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Caching\/CustomEventConfig\/VrtcalAdCachingManager.swift",
       "kind": "StringLiteral",
-      "offset": 918,
+      "offset": 929,
       "length": 39,
       "value": "\"VRTCacheServiceCustomEventConfigQueue\""
     },
@@ -12566,6 +12913,48 @@
       "offset": 279,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/StoppableService\/CoreMotionService.swift",
+      "kind": "StringLiteral",
+      "offset": 99,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/StoppableService\/CoreMotionService.swift",
+      "kind": "StringLiteral",
+      "offset": 127,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/StoppableService\/CoreMotionService.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/StoppableService\/CoreMotionService.swift",
+      "kind": "StringLiteral",
+      "offset": 174,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/StoppableService\/CoreMotionService.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/StoppableService\/CoreMotionService.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Modals\/VRTModalDisplayProperties.swift",
