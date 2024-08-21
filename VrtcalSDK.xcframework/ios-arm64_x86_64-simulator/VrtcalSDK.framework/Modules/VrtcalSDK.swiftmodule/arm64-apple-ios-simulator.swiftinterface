@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name VrtcalSDK
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name VrtcalSDK
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
@@ -86,11 +86,17 @@ public struct VRTCustomEventConfig {
   public var thirdPartyCustomEventData: [Swift.String : Any]
   public var adSize: CoreFoundation.CGSize
 }
+public enum ThirdPartyCustomEventKey {
+  case appId
+  case adUnitId
+  case custom(Swift.String)
+}
 extension VRTCustomEventConfig {
-  public func thirdPartyAppId(customEventLoadDelegate: (any VRTCustomEventLoadDelegate)?) -> Swift.String?
-  public func thirdPartyAdUnitId(customEventLoadDelegate: (any VRTCustomEventLoadDelegate)?) -> Swift.String?
-  public func thirdPartyWidth(customEventLoadDelegate: (any VRTCustomEventLoadDelegate)?) -> Swift.Int
-  public func thirdPartyHeight(customEventLoadDelegate: (any VRTCustomEventLoadDelegate)?) -> Swift.Int
+  public var thirdPartyBannerSize: CoreFoundation.CGSize {
+    get
+  }
+  public func thirdPartyCustomEventDataValue(thirdPartyCustomEventKey: ThirdPartyCustomEventKey) -> Swift.Result<Swift.String, VRTError>
+  public func thirdPartyCustomEventDataValueOrFailToLoad(thirdPartyCustomEventKey: ThirdPartyCustomEventKey, customEventLoadDelegate: (any VRTCustomEventLoadDelegate)?) -> Swift.String?
 }
 extension VRTCustomEventConfig : Swift.Equatable {
   public static func == (lhs: VRTCustomEventConfig, rhs: VRTCustomEventConfig) -> Swift.Bool
@@ -121,10 +127,13 @@ extension Swift.Result where Success == () {
   public static func success() -> Swift.Result<Success, Failure>
 }
 extension Swift.Result {
-  public func getError() -> Failure?
-}
-extension Swift.Result {
-  public func getSuccess(failureHandler: (any Swift.Error) -> ()) -> Success?
+  public var isSuccessful: Swift.Bool {
+    get
+  }
+  public var error: Failure? {
+    get
+  }
+  public func getSuccess(failureHandler: (Failure) -> ()) -> Success?
 }
 @_inheritsConvenienceInitializers @objc public class VRTInterstitial : ObjectiveC.NSObject {
   @objc weak public var adDelegate: (any VRTInterstitialDelegate)?

@@ -1814,9 +1814,95 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "thirdPartyBannerSize",
+            "printedName": "thirdPartyBannerSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9VrtcalSDK20VRTCustomEventConfigV20thirdPartyBannerSizeSo6CGSizeVvp",
+            "mangledName": "$s9VrtcalSDK20VRTCustomEventConfigV20thirdPartyBannerSizeSo6CGSizeVvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9VrtcalSDK20VRTCustomEventConfigV20thirdPartyBannerSizeSo6CGSizeVvg",
+                "mangledName": "$s9VrtcalSDK20VRTCustomEventConfigV20thirdPartyBannerSizeSo6CGSizeVvg",
+                "moduleName": "VrtcalSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
-            "name": "thirdPartyAppId",
-            "printedName": "thirdPartyAppId(customEventLoadDelegate:)",
+            "name": "thirdPartyCustomEventDataValue",
+            "printedName": "thirdPartyCustomEventDataValue(thirdPartyCustomEventKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<Swift.String, VrtcalSDK.VRTError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VRTError",
+                    "printedName": "VrtcalSDK.VRTError",
+                    "usr": "s:9VrtcalSDK8VRTErrorV"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ThirdPartyCustomEventKey",
+                "printedName": "VrtcalSDK.ThirdPartyCustomEventKey",
+                "usr": "s:9VrtcalSDK24ThirdPartyCustomEventKeyO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9VrtcalSDK20VRTCustomEventConfigV016thirdPartyCustomD9DataValue0fghD3Keys6ResultOySSAA8VRTErrorVGAA05ThirdghdK0O_tF",
+            "mangledName": "$s9VrtcalSDK20VRTCustomEventConfigV016thirdPartyCustomD9DataValue0fghD3Keys6ResultOySSAA8VRTErrorVGAA05ThirdghdK0O_tF",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "thirdPartyCustomEventDataValueOrFailToLoad",
+            "printedName": "thirdPartyCustomEventDataValueOrFailToLoad(thirdPartyCustomEventKey:customEventLoadDelegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1834,47 +1920,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any VrtcalSDK.VRTCustomEventLoadDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VRTCustomEventLoadDelegate",
-                    "printedName": "any VrtcalSDK.VRTCustomEventLoadDelegate",
-                    "usr": "s:9VrtcalSDK26VRTCustomEventLoadDelegateP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9VrtcalSDK20VRTCustomEventConfigV15thirdPartyAppId06customD12LoadDelegateSSSgAA0cdkL0_pSg_tF",
-            "mangledName": "$s9VrtcalSDK20VRTCustomEventConfigV15thirdPartyAppId06customD12LoadDelegateSSSgAA0cdkL0_pSg_tF",
-            "moduleName": "VrtcalSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "thirdPartyAdUnitId",
-            "printedName": "thirdPartyAdUnitId(customEventLoadDelegate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "ThirdPartyCustomEventKey",
+                "printedName": "VrtcalSDK.ThirdPartyCustomEventKey",
+                "usr": "s:9VrtcalSDK24ThirdPartyCustomEventKeyO"
               },
               {
                 "kind": "TypeNominal",
@@ -1892,83 +1940,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9VrtcalSDK20VRTCustomEventConfigV18thirdPartyAdUnitId06customD12LoadDelegateSSSgAA0cdlM0_pSg_tF",
-            "mangledName": "$s9VrtcalSDK20VRTCustomEventConfigV18thirdPartyAdUnitId06customD12LoadDelegateSSSgAA0cdlM0_pSg_tF",
+            "usr": "s:9VrtcalSDK20VRTCustomEventConfigV016thirdPartyCustomD21DataValueOrFailToLoad0fghD3Key06customdN8DelegateSSSgAA05ThirdghdO0O_AA0cdnQ0_pSgtF",
+            "mangledName": "$s9VrtcalSDK20VRTCustomEventConfigV016thirdPartyCustomD21DataValueOrFailToLoad0fghD3Key06customdN8DelegateSSSgAA05ThirdghdO0O_AA0cdnQ0_pSgtF",
             "moduleName": "VrtcalSDK",
             "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "thirdPartyWidth",
-            "printedName": "thirdPartyWidth(customEventLoadDelegate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any VrtcalSDK.VRTCustomEventLoadDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VRTCustomEventLoadDelegate",
-                    "printedName": "any VrtcalSDK.VRTCustomEventLoadDelegate",
-                    "usr": "s:9VrtcalSDK26VRTCustomEventLoadDelegateP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9VrtcalSDK20VRTCustomEventConfigV15thirdPartyWidth06customD12LoadDelegateSiAA0cdjK0_pSg_tF",
-            "mangledName": "$s9VrtcalSDK20VRTCustomEventConfigV15thirdPartyWidth06customD12LoadDelegateSiAA0cdjK0_pSg_tF",
-            "moduleName": "VrtcalSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "thirdPartyHeight",
-            "printedName": "thirdPartyHeight(customEventLoadDelegate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any VrtcalSDK.VRTCustomEventLoadDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VRTCustomEventLoadDelegate",
-                    "printedName": "any VrtcalSDK.VRTCustomEventLoadDelegate",
-                    "usr": "s:9VrtcalSDK26VRTCustomEventLoadDelegateP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9VrtcalSDK20VRTCustomEventConfigV16thirdPartyHeight06customD12LoadDelegateSiAA0cdjK0_pSg_tF",
-            "mangledName": "$s9VrtcalSDK20VRTCustomEventConfigV16thirdPartyHeight06customD12LoadDelegateSiAA0cdjK0_pSg_tF",
-            "moduleName": "VrtcalSDK",
-            "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2024,6 +2001,144 @@
             "usr": "s:SQ",
             "mangledName": "$sSQ"
           }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ThirdPartyCustomEventKey",
+        "printedName": "ThirdPartyCustomEventKey",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appId",
+            "printedName": "appId",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VrtcalSDK.ThirdPartyCustomEventKey.Type) -> VrtcalSDK.ThirdPartyCustomEventKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThirdPartyCustomEventKey",
+                    "printedName": "VrtcalSDK.ThirdPartyCustomEventKey",
+                    "usr": "s:9VrtcalSDK24ThirdPartyCustomEventKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VrtcalSDK.ThirdPartyCustomEventKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ThirdPartyCustomEventKey",
+                        "printedName": "VrtcalSDK.ThirdPartyCustomEventKey",
+                        "usr": "s:9VrtcalSDK24ThirdPartyCustomEventKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9VrtcalSDK24ThirdPartyCustomEventKeyO5appIdyA2CmF",
+            "mangledName": "$s9VrtcalSDK24ThirdPartyCustomEventKeyO5appIdyA2CmF",
+            "moduleName": "VrtcalSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "adUnitId",
+            "printedName": "adUnitId",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VrtcalSDK.ThirdPartyCustomEventKey.Type) -> VrtcalSDK.ThirdPartyCustomEventKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThirdPartyCustomEventKey",
+                    "printedName": "VrtcalSDK.ThirdPartyCustomEventKey",
+                    "usr": "s:9VrtcalSDK24ThirdPartyCustomEventKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VrtcalSDK.ThirdPartyCustomEventKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ThirdPartyCustomEventKey",
+                        "printedName": "VrtcalSDK.ThirdPartyCustomEventKey",
+                        "usr": "s:9VrtcalSDK24ThirdPartyCustomEventKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9VrtcalSDK24ThirdPartyCustomEventKeyO8adUnitIdyA2CmF",
+            "mangledName": "$s9VrtcalSDK24ThirdPartyCustomEventKeyO8adUnitIdyA2CmF",
+            "moduleName": "VrtcalSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VrtcalSDK.ThirdPartyCustomEventKey.Type) -> (Swift.String) -> VrtcalSDK.ThirdPartyCustomEventKey",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> VrtcalSDK.ThirdPartyCustomEventKey",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ThirdPartyCustomEventKey",
+                        "printedName": "VrtcalSDK.ThirdPartyCustomEventKey",
+                        "usr": "s:9VrtcalSDK24ThirdPartyCustomEventKeyO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VrtcalSDK.ThirdPartyCustomEventKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ThirdPartyCustomEventKey",
+                        "printedName": "VrtcalSDK.ThirdPartyCustomEventKey",
+                        "usr": "s:9VrtcalSDK24ThirdPartyCustomEventKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9VrtcalSDK24ThirdPartyCustomEventKeyO6customyACSScACmF",
+            "mangledName": "$s9VrtcalSDK24ThirdPartyCustomEventKeyO6customyACSScACmF",
+            "moduleName": "VrtcalSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9VrtcalSDK24ThirdPartyCustomEventKeyO",
+        "mangledName": "$s9VrtcalSDK24ThirdPartyCustomEventKeyO",
+        "moduleName": "VrtcalSDK",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -10252,9 +10367,53 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Function",
-            "name": "getError",
-            "printedName": "getError()",
+            "kind": "Var",
+            "name": "isSuccessful",
+            "printedName": "isSuccessful",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:s6ResultO9VrtcalSDKE12isSuccessfulSbvp",
+            "mangledName": "$ss6ResultO9VrtcalSDKE12isSuccessfulSbvp",
+            "moduleName": "VrtcalSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:s6ResultO9VrtcalSDKE12isSuccessfulSbvg",
+                "mangledName": "$ss6ResultO9VrtcalSDKE12isSuccessfulSbvg",
+                "moduleName": "VrtcalSDK",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_1 : Swift.Error>",
+                "sugared_genericSig": "<Success, Failure where Failure : Swift.Error>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10270,17 +10429,44 @@
                 "usr": "s:Sq"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:s6ResultO9VrtcalSDKE8getErrorq_SgyF",
-            "mangledName": "$ss6ResultO9VrtcalSDKE8getErrorq_SgyF",
+            "declKind": "Var",
+            "usr": "s:s6ResultO9VrtcalSDKE5errorq_Sgvp",
+            "mangledName": "$ss6ResultO9VrtcalSDKE5errorq_Sgvp",
             "moduleName": "VrtcalSDK",
-            "genericSig": "<τ_0_0, τ_0_1 where τ_0_1 : Swift.Error>",
-            "sugared_genericSig": "<Success, Failure where Failure : Swift.Error>",
             "declAttributes": [
               "AccessControl"
             ],
             "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_1?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:s6ResultO9VrtcalSDKE5errorq_Sgvg",
+                "mangledName": "$ss6ResultO9VrtcalSDKE5errorq_Sgvg",
+                "moduleName": "VrtcalSDK",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_1 : Swift.Error>",
+                "sugared_genericSig": "<Success, Failure where Failure : Swift.Error>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -10303,7 +10489,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(any Swift.Error) -> ()",
+                "printedName": "(τ_0_1) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -10312,9 +10498,8 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
                   }
                 ],
                 "typeAttributes": [
@@ -10323,8 +10508,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:s6ResultO9VrtcalSDKE10getSuccess14failureHandlerxSgys5Error_pXE_tF",
-            "mangledName": "$ss6ResultO9VrtcalSDKE10getSuccess14failureHandlerxSgys5Error_pXE_tF",
+            "usr": "s:s6ResultO9VrtcalSDKE10getSuccess14failureHandlerxSgyq_XE_tF",
+            "mangledName": "$ss6ResultO9VrtcalSDKE10getSuccess14failureHandlerxSgyq_XE_tF",
             "moduleName": "VrtcalSDK",
             "genericSig": "<τ_0_0, τ_0_1 where τ_0_1 : Swift.Error>",
             "sugared_genericSig": "<Success, Failure where Failure : Swift.Error>",
@@ -11804,7 +11989,7 @@
     {
       "filePath": "\/Users\/scottmccoy\/Documents\/XcodeProjects\/ios-sdk\/VrtcalSDK\/Extensions\/Result.swift",
       "kind": "StringLiteral",
-      "offset": 948,
+      "offset": 1024,
       "length": 9,
       "value": "\"Error: \""
     },
